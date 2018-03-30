@@ -1,0 +1,4 @@
+﻿design form : duy anh , cong thoai , tien dat
+dat : màn hình chính , about uswww
+duy anh : Phòng , thanh toán 
+Công Thoại : Thống kê , Cập Nhật 
