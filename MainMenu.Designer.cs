@@ -211,7 +211,7 @@
             // 
             // button2
             // 
-            this.button2.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.Webp_net_resizeimage__1_;
+            
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button2.Location = new System.Drawing.Point(836, 18);
             this.button2.Name = "button2";
@@ -232,7 +232,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp4.Properties.Resources.Webp_net_resizeimage__1_;
+            
             this.pictureBox1.Location = new System.Drawing.Point(12, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(99, 92);

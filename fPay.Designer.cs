@@ -31,33 +31,28 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -87,6 +82,24 @@
             this.panel2.Size = new System.Drawing.Size(858, 322);
             this.panel2.TabIndex = 1;
             // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.dataGridView1);
+            this.panel4.Location = new System.Drawing.Point(247, 7);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(603, 312);
+            this.panel4.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(597, 306);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.panel7);
@@ -97,40 +110,32 @@
             this.panel3.Size = new System.Drawing.Size(231, 315);
             this.panel3.TabIndex = 0;
             // 
-            // panel4
+            // panel7
             // 
-            this.panel4.Controls.Add(this.dataGridView1);
-            this.panel4.Location = new System.Drawing.Point(247, 7);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(603, 312);
-            this.panel4.TabIndex = 0;
+            this.panel7.Controls.Add(this.textBox3);
+            this.panel7.Controls.Add(this.label4);
+            this.panel7.Location = new System.Drawing.Point(6, 217);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(225, 77);
+            this.panel7.TabIndex = 0;
             // 
-            // panel5
+            // textBox3
             // 
-            this.panel5.Controls.Add(this.textBox1);
-            this.panel5.Controls.Add(this.label2);
-            this.panel5.Location = new System.Drawing.Point(6, 6);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(225, 77);
-            this.panel5.TabIndex = 0;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(7, 34);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(193, 29);
+            this.textBox3.TabIndex = 1;
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(178, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Khách hàng / Cơ quan : ";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(7, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(193, 29);
-            this.textBox1.TabIndex = 1;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(3, 11);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(63, 20);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Trị giá : ";
             // 
             // panel6
             // 
@@ -160,78 +165,32 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Địa chỉ :";
             // 
-            // panel7
+            // panel5
             // 
-            this.panel7.Controls.Add(this.textBox3);
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Location = new System.Drawing.Point(6, 217);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(225, 77);
-            this.panel7.TabIndex = 0;
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Location = new System.Drawing.Point(6, 6);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(225, 77);
+            this.panel5.TabIndex = 0;
             // 
-            // textBox3
+            // textBox1
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(7, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(193, 29);
-            this.textBox3.TabIndex = 1;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(7, 34);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(193, 29);
+            this.textBox1.TabIndex = 1;
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 11);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Trị giá : ";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(597, 306);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "STT";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Phòng";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Số Ngày Thuê";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Đơn Giá";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Thành Tiền";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(178, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Khách hàng / Cơ quan : ";
             // 
             // button1
             // 
@@ -270,15 +229,15 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -300,11 +259,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }

@@ -31,28 +31,23 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnCancel = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
             this.btnRent = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,6 +77,13 @@
             this.panel2.Size = new System.Drawing.Size(903, 54);
             this.panel2.TabIndex = 1;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(19, 8);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(316, 32);
+            this.dateTimePicker1.TabIndex = 0;
+            // 
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -105,46 +107,16 @@
             this.panel3.Size = new System.Drawing.Size(903, 61);
             this.panel3.TabIndex = 1;
             // 
-            // panel4
+            // btnRent
             // 
-            this.panel4.Controls.Add(this.dataGridView1);
-            this.panel4.Location = new System.Drawing.Point(15, 108);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(897, 366);
-            this.panel4.TabIndex = 1;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Location = new System.Drawing.Point(19, 3);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(119, 49);
-            this.btnSearch.TabIndex = 0;
-            this.btnSearch.Text = "Tra cứu";
-            this.btnSearch.UseVisualStyleBackColor = false;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Location = new System.Drawing.Point(214, 3);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(119, 49);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = false;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Location = new System.Drawing.Point(394, 3);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(119, 49);
-            this.btnDelete.TabIndex = 0;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnRent.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnRent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRent.Location = new System.Drawing.Point(757, 3);
+            this.btnRent.Name = "btnRent";
+            this.btnRent.Size = new System.Drawing.Size(119, 49);
+            this.btnRent.TabIndex = 0;
+            this.btnRent.Text = "Thuê";
+            this.btnRent.UseVisualStyleBackColor = false;
             // 
             // btnEdit
             // 
@@ -157,23 +129,57 @@
             this.btnEdit.Text = "Sửa";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 
-            // btnRent
+            // btnDelete
             // 
-            this.btnRent.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnRent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRent.Location = new System.Drawing.Point(757, 3);
-            this.btnRent.Name = "btnRent";
-            this.btnRent.Size = new System.Drawing.Size(119, 49);
-            this.btnRent.TabIndex = 0;
-            this.btnRent.Text = "Thuê";
-            this.btnRent.UseVisualStyleBackColor = false;
+            this.btnDelete.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Location = new System.Drawing.Point(394, 3);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(119, 49);
+            this.btnDelete.TabIndex = 0;
+            this.btnDelete.Text = "Xóa";
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker1
+            // btnAdd
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(19, 8);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(316, 32);
-            this.dateTimePicker1.TabIndex = 0;
+            this.btnAdd.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Location = new System.Drawing.Point(214, 3);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(119, 49);
+            this.btnAdd.TabIndex = 0;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Location = new System.Drawing.Point(19, 3);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(119, 49);
+            this.btnSearch.TabIndex = 0;
+            this.btnSearch.Text = "Tra cứu";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.dataGridView1);
+            this.panel4.Location = new System.Drawing.Point(15, 108);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(897, 366);
+            this.panel4.TabIndex = 1;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(891, 360);
+            this.dataGridView1.TabIndex = 0;
             // 
             // panel5
             // 
@@ -185,53 +191,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(924, 547);
             this.panel5.TabIndex = 2;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(891, 360);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "STT";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Mã Phòng";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Loại Phòng";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Đơn Giá";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Ghi Chú";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
             // 
             // fRoom
             // 
@@ -252,8 +211,8 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -273,11 +232,6 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Panel panel5;
     }
 }
