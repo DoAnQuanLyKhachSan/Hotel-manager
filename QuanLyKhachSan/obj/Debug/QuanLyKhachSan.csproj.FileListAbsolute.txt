@@ -17,3 +17,22 @@ C:\Users\danhy\Documents\Visual Studio 2015\Projects\QuanLyKhachSan\QuanLyKhachS
 C:\Users\danhy\Documents\Visual Studio 2015\Projects\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
 C:\Users\danhy\Documents\Visual Studio 2015\Projects\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
 C:\Users\danhy\Documents\Visual Studio 2015\Projects\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
