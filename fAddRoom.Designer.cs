@@ -114,7 +114,7 @@
             this.comboBox2.Location = new System.Drawing.Point(107, 6);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(155, 21);
-            this.comboBox2.TabIndex = 1;
+            this.comboBox2.TabIndex = 3;
             // 
             // label4
             // 
@@ -140,7 +140,7 @@
             this.comboBox1.Location = new System.Drawing.Point(107, 6);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(155, 21);
-            this.comboBox1.TabIndex = 1;
+            this.comboBox1.TabIndex = 2;
             // 
             // label3
             // 
@@ -167,6 +167,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(155, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -197,6 +198,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "fAddRoom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm phòng";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

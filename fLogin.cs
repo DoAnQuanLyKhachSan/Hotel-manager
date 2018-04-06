@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyKhachSan;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,9 +34,10 @@ namespace QuanLyKhachSan
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            fHotelManager _fHotelManager = new fHotelManager();
+            
             this.Hide();
-            _fHotelManager.ShowDialog();
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.ShowDialog();
             this.Show();
         }
     }

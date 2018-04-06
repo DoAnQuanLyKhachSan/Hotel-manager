@@ -220,6 +220,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Name = "fEditRoom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sửa thông tin phòng";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

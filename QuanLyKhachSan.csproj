@@ -67,6 +67,7 @@
     <Compile Include="AboutUs.Designer.cs">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\DataProvide.cs" />
     <Compile Include="fAddRoom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +197,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTO\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

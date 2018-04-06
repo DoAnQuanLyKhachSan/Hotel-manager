@@ -15,6 +15,7 @@ namespace QuanLyKhachSan
         public fAddRoom()
         {
             InitializeComponent();
+            
         }
     }
 }
