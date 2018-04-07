@@ -68,6 +68,8 @@
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
     <Compile Include="DAO\DataProvide.cs" />
+    <Compile Include="DAO\RoomDAO.cs" />
+    <Compile Include="DAO\SearchRoomDAO.cs" />
     <Compile Include="fAddRoom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,12 +112,6 @@
     <Compile Include="fRent.Designer.cs">
       <DependentUpon>fRent.cs</DependentUpon>
     </Compile>
-    <Compile Include="fReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fReport.Designer.cs">
-      <DependentUpon>fReport.cs</DependentUpon>
-    </Compile>
     <Compile Include="fRoom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,12 +130,8 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="System\Windows\Forms\DataVisualization.cs" />
     <EmbeddedResource Include="AboutUs.resx">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,9 +156,6 @@
     <EmbeddedResource Include="fRent.resx">
       <DependentUpon>fRent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fReport.resx">
-      <DependentUpon>fReport.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fRoom.resx">
       <DependentUpon>fRoom.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,18 +165,6 @@
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fAddRoom.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fDeleteRoom.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fEditRoom.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fLogin.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fPay.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fPayView.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fRent.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fRoom.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.fSearch.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.MainMenu.resources" />
-    <EmbeddedResource Include="obj\Debug\QuanLyKhachSan.Properties.Resources.resources" />
-    <EmbeddedResource Include="obj\Debug\WindowsFormsApp5.Form1.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -201,10 +178,6 @@
     <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.config" />
     <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.manifest" />
     <None Include="ClassDiagram1.cd" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache" />
-    <None Include="obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -233,15 +206,11 @@
   <ItemGroup>
     <Folder Include="bin\Release\" />
     <Folder Include="DTO\" />
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\QuanLyKhachSan.exe" />
     <Content Include="bin\Debug\QuanLyKhachSan.pdb" />
     <Content Include="bin\Debug\QuanLyKhachSan.vshost.exe" />
-    <Content Include="obj\Debug\QuanLyKhachSan.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\QuanLyKhachSan.exe" />
-    <Content Include="obj\Debug\QuanLyKhachSan.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

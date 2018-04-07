@@ -14,21 +14,23 @@ namespace QuanLyKhachSan
 {
     public partial class fSearch : Form
     {
-        string _loaiPhong, _trangThai;
+        public string _loaiPhong, _trangThai;
+
+
         public fSearch()
         {
             InitializeComponent();
             setDataStyleRoom();
             setDataRoomStatus();
+            
         }
+        #region method
 
-
-
-        private void button2_Click(object sender, EventArgs e)
+        #region SetDataFromDataBase
+        public string getCodeRoom()
         {
-            this.Close();
+             return txbRoom.Text.ToString();
         }
-
         private void setDataStyleRoom() //value combo box theo ma loai phong
         {
             string setDataStyleRoomQuery = "select MaLoaiPhong,TenLoaiPhong From dbo.LOAI_PHONG";
@@ -44,12 +46,14 @@ namespace QuanLyKhachSan
             cbxRoomStatus.ValueMember = "TinhTrangPhong";
             cbxRoomStatus.DataSource = DataProvide.Instance.ExecuteQuery(setDataRoomStatusQuery);
         }
+        #endregion
 
-        private string getCodeRoom()
-        {
-            return txbRoom.Text.ToString();
-        }
-        private void cbxStyleRoom_SelectedIndexChanged(object sender, EventArgs e)
+        #endregion
+
+        #region events
+
+        #region EventsSelectIndexFromComboBox
+        public void cbxStyleRoom_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbxStyleRoom.SelectedItem != null)
             {
@@ -57,7 +61,7 @@ namespace QuanLyKhachSan
                 _loaiPhong = cbxStyleRoom.SelectedValue.ToString();
             }
         }
-        private void cbxRoomStatus_SelectedIndexChanged(object sender, EventArgs e)
+        public void cbxRoomStatus_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbxRoomStatus.SelectedItem != null)
             {
@@ -65,35 +69,33 @@ namespace QuanLyKhachSan
                 _trangThai = cbxRoomStatus.SelectedValue.ToString();
             }
         }
+        #endregion
 
-       
-        
+        #region EventsButton
         private void codeRoomSearch_Click(object sender, EventArgs e)
         {
             try
             {
-                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.MaPhong = " + getCodeRoom();
-                dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
+                dtgvDataRoom.DataSource = SearchRoomDAO.Instance.ExecuteQuerySearchCodeRoom(getCodeRoom());
             }catch(Exception )
             {
                 MessageBox.Show("Mã phòng không hợp lệ");
             }
         }
-
         private void styleRoomSearch_Click_1(object sender, EventArgs e)
         {
-                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.MaLoaiPhong = " + _loaiPhong;
-                dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
+            dtgvDataRoom.DataSource = SearchRoomDAO.Instance.ExecuteQuerySearchStyleRoom(_loaiPhong);
         }
-
         private void statusRoomSearch_Click(object sender, EventArgs e)
         {
-            string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.TinhTrangPhong = " + _trangThai;
-            dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
+            dtgvDataRoom.DataSource = SearchRoomDAO.Instance.ExecuteQuerySearchStatusRoom(_trangThai);
         }
-    
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        #endregion
 
-
-
+        #endregion
     }
 }
