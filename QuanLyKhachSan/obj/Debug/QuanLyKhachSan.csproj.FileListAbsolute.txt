@@ -36,3 +36,4 @@ D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.
 D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
 D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
 D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\GITHUB\NM CNPM\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources

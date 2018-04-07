@@ -35,7 +35,6 @@
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnChartReport = new System.Windows.Forms.Panel();
-            this.chReport = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pnTime = new System.Windows.Forms.Panel();
             this.btViewReport = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -47,15 +46,16 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.chReport = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1.SuspendLayout();
             this.pnChartReport.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chReport)).BeginInit();
             this.pnTime.SuspendLayout();
             this.pnTitles.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chReport)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,30 +75,6 @@
             this.pnChartReport.Name = "pnChartReport";
             this.pnChartReport.Size = new System.Drawing.Size(358, 141);
             this.pnChartReport.TabIndex = 3;
-            // 
-            // chReport
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chReport.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chReport.Legends.Add(legend1);
-            this.chReport.Location = new System.Drawing.Point(16, 10);
-            this.chReport.Name = "chReport";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Phòng loại A";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Phòng loại B";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Phòng loại C";
-            this.chReport.Series.Add(series1);
-            this.chReport.Series.Add(series2);
-            this.chReport.Series.Add(series3);
-            this.chReport.Size = new System.Drawing.Size(334, 117);
-            this.chReport.TabIndex = 0;
-            this.chReport.Text = "chart1";
             // 
             // pnTime
             // 
@@ -199,6 +175,30 @@
             this.dataGridView1.Size = new System.Drawing.Size(739, 245);
             this.dataGridView1.TabIndex = 0;
             // 
+            // chReport
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chReport.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chReport.Legends.Add(legend1);
+            this.chReport.Location = new System.Drawing.Point(12, 12);
+            this.chReport.Name = "chReport";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Phòng loại A";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Phòng loại B";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Phòng loại C";
+            this.chReport.Series.Add(series1);
+            this.chReport.Series.Add(series2);
+            this.chReport.Series.Add(series3);
+            this.chReport.Size = new System.Drawing.Size(334, 117);
+            this.chReport.TabIndex = 1;
+            this.chReport.Text = "chart1";
+            // 
             // fReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,7 +210,6 @@
             this.Text = "Báo Cáo Doanh Thu";
             this.panel1.ResumeLayout(false);
             this.pnChartReport.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chReport)).EndInit();
             this.pnTime.ResumeLayout(false);
             this.pnTitles.ResumeLayout(false);
             this.pnTitles.PerformLayout();
@@ -218,6 +217,7 @@
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chReport)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -231,13 +231,14 @@
         private System.Windows.Forms.Panel pnTime;
         private System.Windows.Forms.Button btViewReport;
         private System.Windows.Forms.Panel pnChartReport;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chReport;
+       
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chReport;
     }
 }
 
