@@ -19,6 +19,7 @@ namespace QuanLyKhachSan
         public fSearch()
         {
             InitializeComponent();
+          
             setDataStyleRoom();
             setDataRoomStatus();
         }
@@ -30,22 +31,23 @@ namespace QuanLyKhachSan
             this.Close();
         }
 
+        #region set
         private void setDataStyleRoom() //value combo box theo ma loai phong
         {
-            string setDataStyleRoomQuery = "select MaLoaiPhong,TenLoaiPhong From dbo.LOAI_PHONG";
             cbxStyleRoom.DisplayMember = "TenLoaiPhong";
             cbxStyleRoom.ValueMember = "MaLoaiPhong";
-            cbxStyleRoom.DataSource = DataProvide.Instance.ExecuteQuery(setDataStyleRoomQuery);
+            cbxStyleRoom.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataStyleRoomQuery());
         }
 
         private void setDataRoomStatus()//value combo box theo ma loai phong
         {
-            string setDataRoomStatusQuery = "select MaTrangThai,TenTrangThai from dbo.TRANG_THAI_PHONG";
             cbxRoomStatus.DisplayMember = "TenTrangThai";
             cbxRoomStatus.ValueMember = "MaTrangThai";
-            cbxRoomStatus.DataSource = DataProvide.Instance.ExecuteQuery(setDataRoomStatusQuery);
+            cbxRoomStatus.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataRoomStatusQuery());
         }
+        #endregion
 
+        #region get
         private RoomDTO getCodeRoom()
         {
             _room.RoomCode = int.Parse(txbRoom.Text.ToString());
@@ -67,14 +69,14 @@ namespace QuanLyKhachSan
                 _room.RoomStatus = int.Parse(cbxRoomStatus.SelectedValue.ToString());
             }
         }
+        #endregion
 
-       
-        
+        #region event
         private void codeRoomSearch_Click(object sender, EventArgs e)
         {
             try
             {
-                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.MaTrangThai = p.TinhTrangPhong where p.MaPhong = " + getCodeRoom();
+                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.MaTrangThai = p.TinhTrangPhong where p.MaPhong = " + getCodeRoom().RoomCode.ToString();
                 dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
             }catch(Exception )
             {
@@ -93,7 +95,7 @@ namespace QuanLyKhachSan
             string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.MaTrangThai = p.TinhTrangPhong where p.TinhTrangPhong = " + _room.RoomStatus;
             dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
         }
-    
+        #endregion
 
 
 

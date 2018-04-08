@@ -33,30 +33,30 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.txbNote = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.txbPrice = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.cbxStyleRoom = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txbRoomName = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.txbRoomCode = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txbPrice = new System.Windows.Forms.TextBox();
-            this.txbNote = new System.Windows.Forms.TextBox();
-            this.txbRoomName = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -110,6 +110,31 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.txbNote);
+            this.panel8.Controls.Add(this.label6);
+            this.panel8.Location = new System.Drawing.Point(11, 169);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(265, 33);
+            this.panel8.TabIndex = 0;
+            // 
+            // txbNote
+            // 
+            this.txbNote.Location = new System.Drawing.Point(107, 6);
+            this.txbNote.Name = "txbNote";
+            this.txbNote.Size = new System.Drawing.Size(155, 20);
+            this.txbNote.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Ghi Chú ";
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.txbPrice);
@@ -118,6 +143,14 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(265, 33);
             this.panel6.TabIndex = 0;
+            // 
+            // txbPrice
+            // 
+            this.txbPrice.Location = new System.Drawing.Point(107, 9);
+            this.txbPrice.Name = "txbPrice";
+            this.txbPrice.ReadOnly = true;
+            this.txbPrice.Size = new System.Drawing.Size(155, 20);
+            this.txbPrice.TabIndex = 1;
             // 
             // label4
             // 
@@ -153,6 +186,31 @@
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Loại Phòng";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.txbRoomName);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Location = new System.Drawing.Point(11, 50);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(265, 33);
+            this.panel3.TabIndex = 0;
+            // 
+            // txbRoomName
+            // 
+            this.txbRoomName.Location = new System.Drawing.Point(107, 9);
+            this.txbRoomName.Name = "txbRoomName";
+            this.txbRoomName.Size = new System.Drawing.Size(155, 20);
+            this.txbRoomName.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Tên Phòng";
             // 
             // panel7
             // 
@@ -192,64 +250,6 @@
             this.button2.Text = "Trở về";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.txbRoomName);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Location = new System.Drawing.Point(11, 50);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(265, 33);
-            this.panel3.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Tên Phòng";
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.txbNote);
-            this.panel8.Controls.Add(this.label6);
-            this.panel8.Location = new System.Drawing.Point(11, 169);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(265, 33);
-            this.panel8.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Ghi Chú ";
-            // 
-            // txbPrice
-            // 
-            this.txbPrice.Location = new System.Drawing.Point(107, 9);
-            this.txbPrice.Name = "txbPrice";
-            this.txbPrice.ReadOnly = true;
-            this.txbPrice.Size = new System.Drawing.Size(155, 20);
-            this.txbPrice.TabIndex = 1;
-            // 
-            // txbNote
-            // 
-            this.txbNote.Location = new System.Drawing.Point(107, 6);
-            this.txbNote.Name = "txbNote";
-            this.txbNote.Size = new System.Drawing.Size(155, 20);
-            this.txbNote.TabIndex = 1;
-            // 
-            // txbRoomName
-            // 
-            this.txbRoomName.Location = new System.Drawing.Point(107, 9);
-            this.txbRoomName.Name = "txbRoomName";
-            this.txbRoomName.Size = new System.Drawing.Size(155, 20);
-            this.txbRoomName.TabIndex = 1;
-            // 
             // fAddRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -265,16 +265,16 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }

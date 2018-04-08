@@ -68,11 +68,10 @@
     <Compile Include="AboutUs.Designer.cs">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
-    <Compile Include="DAO\AddRoom.cs" />
     <Compile Include="DAO\DataProvide.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
-    <Compile Include="DAO\SearchRoomDAO.cs" />
     <Compile Include="DTO\RoomDTO.cs" />
+    <Compile Include="DTO\RoomStyleDTO.cs" />
     <Compile Include="fAddRoom.cs">
       <SubType>Form</SubType>
     </Compile>

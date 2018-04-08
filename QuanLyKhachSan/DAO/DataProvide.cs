@@ -26,7 +26,7 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-        private string connectionStr = @"Data Source=MEREDITH;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
+        public string connectionStr = @"Data Source=MEREDITH;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
@@ -80,7 +80,7 @@ namespace QuanLyKhachSan.DAO
             return data;
         }
 
-        public object ExecuteNonScalar(string query, object[] parameter = null)
+        public object ExecuteScalar(string query, object[] parameter = null)
         {
             object data = 0;
             using (SqlConnection connection = new SqlConnection(connectionStr))
@@ -101,6 +101,22 @@ namespace QuanLyKhachSan.DAO
                     }
                 }
                 data = command.ExecuteScalar();
+                connection.Close();
+            }
+            return data;
+        }
+        
+        public string ExecuteReader(string query)
+        {
+            string data = null;
+            using (SqlConnection connection = new SqlConnection(connectionStr)) {
+                SqlCommand Comm1 = new SqlCommand(query, connection);
+                connection.Open();
+                 SqlDataReader DR1 = Comm1.ExecuteReader();
+                if (DR1.Read())
+                {
+                     data = DR1.GetValue(0).ToString();
+                }
                 connection.Close();
             }
             return data;
