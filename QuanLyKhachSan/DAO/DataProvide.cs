@@ -27,7 +27,7 @@ namespace QuanLyKhachSan.DAO
         }
 
         private string connectionStr = @"Data Source=MEREDITH;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
-        public DataTable ExecuteQuery(string query,object [] parameter=null)
+        public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
             using (SqlConnection connection = new SqlConnection(connectionStr))
@@ -36,16 +36,16 @@ namespace QuanLyKhachSan.DAO
                 SqlCommand command = new SqlCommand(query, connection);
                 if (parameter != null)
                 {
-                    string[] _listPara = query.Split(' ');
+                    string[] listPara = query.Split(' ');
                     int i = 0;
-                    foreach(string _item in _listPara)
+                    foreach (string item in listPara)
                     {
-                        if(_item.Contains('@'))
+                        if (item.Contains('@'))
                         {
-                            command.Parameters.AddWithValue(_item, parameter[i]);
+                            command.Parameters.AddWithValue(item, parameter[i]);
                             i++;
                         }
-                    } 
+                    }
                 }
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 adapter.Fill(data);
@@ -54,7 +54,7 @@ namespace QuanLyKhachSan.DAO
             return data;
         }
 
-        public int ExecuteNonQuery(string query, object[] parameter = null)
+        public int ExecuteNonQuery(string query,object [] parameter=null)
         {
             int data = 0;
             using (SqlConnection connection = new SqlConnection(connectionStr))
@@ -63,13 +63,13 @@ namespace QuanLyKhachSan.DAO
                 SqlCommand command = new SqlCommand(query, connection);
                 if (parameter != null)
                 {
-                    string[] _listPara = query.Split(' ');
+                    string[] listPara = query.Split(' ');
                     int i = 0;
-                    foreach (string _item in _listPara)
+                    foreach(string item in listPara)
                     {
-                        if (_item.Contains('@'))
+                        if(item.Contains('@'))
                         {
-                            command.Parameters.AddWithValue(_item, parameter[i]);
+                            command.Parameters.AddWithValue(item, parameter[i]);
                             i++;
                         }
                     }
@@ -80,7 +80,7 @@ namespace QuanLyKhachSan.DAO
             return data;
         }
 
-        public object ExecuteScalar(string query, object[] parameter = null)
+        public object ExecuteNonScalar(string query, object[] parameter = null)
         {
             object data = 0;
             using (SqlConnection connection = new SqlConnection(connectionStr))
@@ -89,18 +89,18 @@ namespace QuanLyKhachSan.DAO
                 SqlCommand command = new SqlCommand(query, connection);
                 if (parameter != null)
                 {
-                    string[] _listPara = query.Split(' ');
+                    string[] listPara = query.Split(' ');
                     int i = 0;
-                    foreach (string _item in _listPara)
+                    foreach (string item in listPara)
                     {
-                        if (_item.Contains('@'))
+                        if (item.Contains('@'))
                         {
-                            command.Parameters.AddWithValue(_item, parameter[i]);
+                            command.Parameters.AddWithValue(item, parameter[i]);
                             i++;
                         }
                     }
                 }
-                data = command.ExecuteScalar();                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                data = command.ExecuteScalar();
                 connection.Close();
             }
             return data;
