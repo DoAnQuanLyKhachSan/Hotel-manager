@@ -15,14 +15,11 @@ namespace QuanLyKhachSan
 {
     public partial class fRoom : Form
     {
-        
-
         public fRoom()
         {
             InitializeComponent();
             LoadRoomList();
             
-
         }
 
         private void fRoom_Load(object sender, EventArgs e)
