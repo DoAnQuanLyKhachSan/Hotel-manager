@@ -39,9 +39,9 @@ namespace QuanLyKhachSan
 
         private void setDataRoomStatus()//value combo box theo ma loai phong
         {
-            string setDataRoomStatusQuery = "select TenTrangThai,TinhTrangPhong from dbo.TRANG_THAI_PHONG";
+            string setDataRoomStatusQuery = "select MaTrangThai,TenTrangThai from dbo.TRANG_THAI_PHONG";
             cbxRoomStatus.DisplayMember = "TenTrangThai";
-            cbxRoomStatus.ValueMember = "TinhTrangPhong";
+            cbxRoomStatus.ValueMember = "MaTrangThai";
             cbxRoomStatus.DataSource = DataProvide.Instance.ExecuteQuery(setDataRoomStatusQuery);
         }
 
@@ -72,7 +72,7 @@ namespace QuanLyKhachSan
         {
             try
             {
-                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.MaPhong = " + getCodeRoom();
+                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.MaTrangThai = p.TinhTrangPhong where p.MaPhong = " + getCodeRoom();
                 dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
             }catch(Exception )
             {
@@ -82,13 +82,13 @@ namespace QuanLyKhachSan
 
         private void styleRoomSearch_Click_1(object sender, EventArgs e)
         {
-                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.MaLoaiPhong = " + _loaiPhong;
+                string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.MaTrangThai = p.TinhTrangPhong where p.MaLoaiPhong = " + _loaiPhong;
                 dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
         }
 
         private void statusRoomSearch_Click(object sender, EventArgs e)
         {
-            string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.TinhTrangPhong = " + _trangThai;
+            string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.MaTrangThai = p.TinhTrangPhong where p.TinhTrangPhong = " + _trangThai;
             dtgvDataRoom.DataSource = DataProvide.Instance.ExecuteQuery(query);
         }
     

@@ -17,3 +17,4 @@ C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\
 C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
