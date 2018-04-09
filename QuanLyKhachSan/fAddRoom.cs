@@ -15,15 +15,17 @@ namespace QuanLyKhachSan
 {
     public partial class fAddRoom : Form
     {
-        RoomDTO _room = new RoomDTO();
-        public fAddRoom()
+        private fRoom _fRoom;
+      
+        RoomDTO _room = new RoomDTO(); 
+        public fAddRoom(fRoom form)
         {
             InitializeComponent();
-        
+            _fRoom = form;
+            txbRoomCode.Select(); // focus cusor in textbox : CodeName
             setDataStyleRoom();
-        
         }
-
+        
         #region set
         private void setDataStyleRoom() 
         {
@@ -32,12 +34,17 @@ namespace QuanLyKhachSan
             cbxStyleRoom.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataStyleRoomQuery());
         }
 
-        private void setDataPriceRoom(string _codeStyleRoom) 
+      
+        private void cbxStyleRoom_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string query = "select DonGia from dbo.LOAI_PHONG where MaLoaiPhong = " + _codeStyleRoom;
-            txbPrice.Text = DataProvide.Instance.ExecuteReader(query);
+            if (cbxStyleRoom.SelectedItem != null)
+            {
+                DataRowView drv = cbxStyleRoom.SelectedItem as DataRowView;
+                _room.RoomStyle = int.Parse(cbxStyleRoom.SelectedValue.ToString());
+                string query = RoomDAO.Instance.cbxstyleRoom_SelectIndexQuery() + _room.RoomStyle;
+                txbPrice.Text = DataProvide.Instance.ExecuteReader(query); // hien thi don gia theo StyleRoom
+            }
         }
-
         #endregion
 
         #region get
@@ -51,28 +58,42 @@ namespace QuanLyKhachSan
             _room.RoomName = txbRoomName.Text.ToString();
             return _room;
         }
-        private void cbxStyleRoom_SelectedIndexChanged(object sender, EventArgs e)
+       
+        private RoomDTO getNoteRoom()
         {
-            if (cbxStyleRoom.SelectedItem != null)
-            {
-                DataRowView drv = cbxStyleRoom.SelectedItem as DataRowView;
-                _room.RoomStyle = int.Parse(cbxStyleRoom.SelectedValue.ToString());
-                setDataPriceRoom(cbxStyleRoom.SelectedValue.ToString());
-            }
-        }
-        private RoomDTO getPriceRoom()
-        {
-            
+            _room.RoomNote = txbNote.Text.ToString();
             return _room;
         }
         #endregion
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e) // button add
         {
-           
+            
+            try
+            {
+                //return data ( int ) < 0 is success 
+                int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.addRoomDatabaseQuery(),new object[] {getCodeRoom().RoomCode,getNameRoom().RoomName,_room.RoomStyle,getNoteRoom().RoomNote});
+                if (data < 0)
+                {
+                    MessageBox.Show("Thêm phòng thành công");
+                    _fRoom.LoadRoomList();
+                }
+            }
+            catch(Exception)
+            {
+                string queryExists = "IF NOT EXISTS ( SELECT MaPhong FROM dbo.PHONG WHERE MaPhong= " + getCodeRoom().RoomCode + ") select *from PHONG";
+                if (DataProvide.Instance.ExecuteNonQuery(queryExists) < 0) MessageBox.Show("Tồn tại mã phòng,thử lại");
+            }
         }
 
-    
-    
+       
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+   
     }
 }

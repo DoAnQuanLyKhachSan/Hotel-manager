@@ -105,7 +105,7 @@
             this.button1.Location = new System.Drawing.Point(322, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 94);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -124,7 +124,7 @@
             this.txbNote.Location = new System.Drawing.Point(107, 6);
             this.txbNote.Name = "txbNote";
             this.txbNote.Size = new System.Drawing.Size(155, 20);
-            this.txbNote.TabIndex = 1;
+            this.txbNote.TabIndex = 4;
             // 
             // label6
             // 
@@ -176,7 +176,8 @@
             this.cbxStyleRoom.Location = new System.Drawing.Point(107, 6);
             this.cbxStyleRoom.Name = "cbxStyleRoom";
             this.cbxStyleRoom.Size = new System.Drawing.Size(155, 21);
-            this.cbxStyleRoom.TabIndex = 2;
+            this.cbxStyleRoom.TabIndex = 3;
+            this.cbxStyleRoom.SelectedIndexChanged += new System.EventHandler(this.cbxStyleRoom_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -201,7 +202,7 @@
             this.txbRoomName.Location = new System.Drawing.Point(107, 9);
             this.txbRoomName.Name = "txbRoomName";
             this.txbRoomName.Size = new System.Drawing.Size(155, 20);
-            this.txbRoomName.TabIndex = 1;
+            this.txbRoomName.TabIndex = 2;
             // 
             // label5
             // 
@@ -246,9 +247,10 @@
             this.button2.Location = new System.Drawing.Point(334, 296);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 37);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 6;
             this.button2.Text = "Trở về";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // fAddRoom
             // 

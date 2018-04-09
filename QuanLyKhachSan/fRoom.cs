@@ -21,12 +21,12 @@ namespace QuanLyKhachSan
             LoadRoomList();
             
         }
-
+        
         private void fRoom_Load(object sender, EventArgs e)
         {
 
         }
-        void LoadRoomList()
+        public void LoadRoomList()
         {
             
             dtgvPhong.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.ExecuteLoadInforRoomQuery());
@@ -45,21 +45,26 @@ namespace QuanLyKhachSan
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            fAddRoom _addRoom = new fAddRoom();
+            fAddRoom _addRoom = new fAddRoom(this);
+          
             _addRoom.Show();
+           
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            fDeleteRoom _deleteRoom = new fDeleteRoom();
-            _deleteRoom.Show();
+            fDeleteRoom _deleteRoom = new fDeleteRoom(this);
+            this.Hide();
+            _deleteRoom.ShowDialog();
+            this.Show();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            fEditRoom _editRoom = new fEditRoom();
-            _editRoom.Show();
-
+            fEditRoom _editRoom = new fEditRoom(this);
+            this.Hide();
+            _editRoom.ShowDialog();
+            this.Show();
         }
 
         private void btnRent_Click(object sender, EventArgs e)
@@ -67,5 +72,6 @@ namespace QuanLyKhachSan
             fRent _rentRoom = new fRent();
             _rentRoom.Show();
         }
+        
     }
 }

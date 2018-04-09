@@ -31,12 +31,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgvPhong = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvPhong)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -59,20 +59,24 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.dtgvPhong);
             this.panel2.Location = new System.Drawing.Point(5, 70);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(828, 296);
             this.panel2.TabIndex = 0;
             // 
-            // dataGridView1
+            // dtgvPhong
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(822, 290);
-            this.dataGridView1.TabIndex = 1;
+            this.dtgvPhong.AllowUserToAddRows = false;
+            this.dtgvPhong.AllowUserToDeleteRows = false;
+            this.dtgvPhong.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvPhong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvPhong.Location = new System.Drawing.Point(3, 3);
+            this.dtgvPhong.Name = "dtgvPhong";
+            this.dtgvPhong.ReadOnly = true;
+            this.dtgvPhong.Size = new System.Drawing.Size(822, 290);
+            this.dtgvPhong.TabIndex = 1;
+            this.dtgvPhong.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvPhong_CellClick);
             // 
             // button1
             // 
@@ -84,6 +88,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Xóa";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -95,6 +100,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Trở về";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // fDeleteRoom
             // 
@@ -111,7 +117,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvPhong)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -121,7 +127,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgvPhong;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
