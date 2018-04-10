@@ -68,8 +68,11 @@
     <Compile Include="AboutUs.Designer.cs">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\CustomerDAO.cs" />
     <Compile Include="DAO\DataProvide.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\CustomerStyleDTO.cs" />
     <Compile Include="DTO\RoomDTO.cs" />
     <Compile Include="DTO\RoomStyleDTO.cs" />
     <Compile Include="fAddRoom.cs">
@@ -178,13 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="bin\Debug\QuanLyKhachSan.exe.config" />
     <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.config" />
     <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.manifest" />
@@ -193,6 +192,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -221,6 +225,10 @@
     <Content Include="bin\Debug\QuanLyKhachSan.exe" />
     <Content Include="bin\Debug\QuanLyKhachSan.pdb" />
     <Content Include="bin\Debug\QuanLyKhachSan.vshost.exe" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\room3.png" />
+    <None Include="Resources\room2.png" />
+    <None Include="Resources\room11.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

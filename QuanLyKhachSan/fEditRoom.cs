@@ -92,17 +92,22 @@ namespace QuanLyKhachSan
             {
                 //return data ( int ) < 0 is success 
                 int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.UpdateRoomDatabaseQuery(), new object[] { getCodeRoomNew().RoomCode, getNameRoomNew().RoomName, _room.RoomStyle, getNoteRoomNew().RoomNote ,_room.RoomStatus,getRoomCodeOld()});
-                if (data > 0)
+                if (data < 0)
                 {
-                    MessageBox.Show("Thêm phòng thành công");
+                    MessageBox.Show("Sửa phòng thành công");
                     _fRoom.LoadRoomList();
                     loadRoomList(); 
                 }
             }
-            catch (SystemException ee)
+            catch (Exception)
             {
-                MessageBox.Show(ee.ToString());
+                MessageBox.Show("Sửa phòng thất bại");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

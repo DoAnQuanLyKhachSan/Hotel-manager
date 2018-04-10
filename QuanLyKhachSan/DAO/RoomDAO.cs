@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyKhachSan.DTO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -10,6 +11,8 @@ namespace QuanLyKhachSan.DAO
     public class RoomDAO
     {
         private RoomDAO() { }
+        public static int RoomWidth=80;
+        public static int RoomHeigh=80;
         private static RoomDAO instance;
         public static RoomDAO Instance
         {
@@ -25,7 +28,17 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-        
+        public List<RoomDTO> LoadRoomList()
+        {
+            List<RoomDTO> RoomList = new List<RoomDTO>();
+            DataTable data = DataProvide.Instance.ExecuteQuery("Select * from dbo.Phong");
+            foreach (DataRow item in data.Rows)
+            {
+                RoomDTO roomDTO = new RoomDTO(item);
+                RoomList.Add(roomDTO);
+            }
+            return RoomList;
+        } 
         public DataTable ExecuteQuerySearchCodeRoom(string _str)
         {
             string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.MaPhong = " + _str;

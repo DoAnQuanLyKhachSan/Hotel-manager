@@ -1,4 +1,4 @@
-SET ANSI_NULLS ON
+﻿SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
@@ -38,7 +38,21 @@ BEGIN
 		WHERE MaPhong = @RoomCodeOld 
   END 
 END
-GO
+Go
+
+
+
+insert into KHACHHANG(MaKhachHang,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi) values (1,'Duy',1,123456789,'HCM')
+insert into KHACHHANG(MaKhachHang,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi) values (2,'Anh',2,2323232,'HN')
+insert into KHACHHANG(MaKhachHang,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi) values (3,'Vũ',2,99999999,'VT')
+
+
+ 
+
+
+
+use HOTEL_MANAGER
+
 
 
 

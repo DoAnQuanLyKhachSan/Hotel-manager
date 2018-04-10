@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -75,6 +76,7 @@ namespace QuanLyKhachSan.DTO
         private int _roomStyle;
         private string _roomNote;
         private int _roomStatus;
+        
         public RoomDTO(int _roomCode, string _roomName ,int _roomStyle, string _roomNote=null,int _roomStatus = 1)
         {
             this._roomCode = _roomCode;
@@ -82,6 +84,14 @@ namespace QuanLyKhachSan.DTO
             this._roomStyle = _roomStyle;
             this._roomNote = _roomNote;
             this._roomStatus = _roomStatus;
+        }
+        public RoomDTO(DataRow row)
+        {
+            this._roomCode = (int)row["MaPhong"];
+            this._roomName = row["TenPhong"].ToString();
+            this._roomStyle = (int)row["MaLoaiPhong"];
+            this._roomNote = row["GhiChu"].ToString();
+            this._roomStatus = (int)row["TinhTrangPhong"];
         }
     }
 }
