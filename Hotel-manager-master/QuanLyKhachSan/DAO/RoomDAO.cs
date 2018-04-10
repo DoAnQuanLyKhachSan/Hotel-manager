@@ -1,4 +1,8 @@
+<<<<<<< HEAD:QuanLyKhachSan/DAO/RoomDAO.cs
 ﻿using QuanLyKhachSan.DTO;
+=======
+﻿using QuanLyKhachSan.DTO;
+>>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/DAO/RoomDAO.cs
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -28,6 +32,7 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
+<<<<<<< HEAD:QuanLyKhachSan/DAO/RoomDAO.cs
         public List<RoomDTO> LoadRoomList()
         {
             List<RoomDTO> RoomList = new List<RoomDTO>();
@@ -38,6 +43,18 @@ namespace QuanLyKhachSan.DAO
                 RoomList.Add(roomDTO);
             }
             return RoomList;
+=======
+        public List<RoomDTO> LoadRoomList()
+        {
+            List<RoomDTO> RoomList = new List<RoomDTO>();
+            DataTable data = DataProvide.Instance.ExecuteQuery("Select * from dbo.Phong");
+            foreach (DataRow item in data.Rows)
+            {
+                RoomDTO roomDTO = new RoomDTO(item);
+                RoomList.Add(roomDTO);
+            }
+            return RoomList;
+>>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/DAO/RoomDAO.cs
         } 
         public DataTable ExecuteQuerySearchCodeRoom(string _str)
         {

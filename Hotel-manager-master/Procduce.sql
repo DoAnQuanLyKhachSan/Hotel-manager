@@ -54,5 +54,6 @@ insert into KHACHHANG(MaKhachHang,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi) valu
 use HOTEL_MANAGER
 
 
+use HOTEL_MANAGER
 
 

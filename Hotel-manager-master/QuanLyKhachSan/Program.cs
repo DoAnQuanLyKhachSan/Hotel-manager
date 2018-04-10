@@ -16,7 +16,11 @@ namespace QuanLyKhachSan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD:QuanLyKhachSan/Program.cs
             Application.Run(new fRent());
+=======
+            Application.Run(new MainMenu());
+>>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/Program.cs
         }
     }
 }
