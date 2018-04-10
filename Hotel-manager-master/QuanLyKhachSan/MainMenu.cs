@@ -22,6 +22,7 @@ namespace QuanLyKhachSan
             InitializeComponent();
             LoadRoom();
             LoadStatusOfRooms();
+            LoadListRoom();
         }
         #region Method
         public void LoadRoom()
@@ -113,6 +114,12 @@ namespace QuanLyKhachSan
             flpStatus.Controls.Add(btnIU);
             flpStatus.Controls.Add(btnMT);
         }
+        public void LoadListRoom()
+        {
+            string query = "select PHONG.MaPhong from PHONG";
+            string[] data = DataProvide.Instance.ExecuteReader(query).Split(' ');
+            this.textBox1.AutoCompleteCustomSource.AddRange(data);
+        }
         #endregion
         #region Events
 
@@ -131,9 +138,7 @@ namespace QuanLyKhachSan
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string query = "select PHONG.MaPhong from PHONG";
-            string[] data = DataProvide.Instance.ExecuteReader(query).Split(' ');
-            this.textBox1.AutoCompleteCustomSource.AddRange(data);
+            
         }
 
 
@@ -180,7 +185,7 @@ namespace QuanLyKhachSan
         {
 
         }
-        #endregion
+        
 
         private void flpRoom_Paint(object sender, PaintEventArgs e)
         {
@@ -194,6 +199,7 @@ namespace QuanLyKhachSan
             _room.ShowDialog();
             this.Show();
         }
+        #endregion
     }
 }
 
