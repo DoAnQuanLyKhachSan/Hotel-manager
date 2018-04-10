@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD:QuanLyKhachSan/DTO/RoomDTO.cs
 using System.Data;
-=======
-using System.Data;
->>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/DTO/RoomDTO.cs
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -89,7 +85,6 @@ namespace QuanLyKhachSan.DTO
             this._roomNote = _roomNote;
             this._roomStatus = _roomStatus;
         }
-<<<<<<< HEAD:QuanLyKhachSan/DTO/RoomDTO.cs
         public RoomDTO(DataRow row)
         {
             this._roomCode = (int)row["MaPhong"];
@@ -97,15 +92,6 @@ namespace QuanLyKhachSan.DTO
             this._roomStyle = (int)row["MaLoaiPhong"];
             this._roomNote = row["GhiChu"].ToString();
             this._roomStatus = (int)row["TinhTrangPhong"];
-=======
-        public RoomDTO(DataRow row)
-        {
-            this._roomCode = (int)row["MaPhong"];
-            this._roomName = row["TenPhong"].ToString();
-            this._roomStyle = (int)row["MaLoaiPhong"];
-            this._roomNote = row["GhiChu"].ToString();
-            this._roomStatus = (int)row["TinhTrangPhong"];
->>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/DTO/RoomDTO.cs
         }
     }
 }

@@ -1,8 +1,4 @@
-<<<<<<< HEAD:QuanLyKhachSan/DAO/RoomDAO.cs
 ﻿using QuanLyKhachSan.DTO;
-=======
-﻿using QuanLyKhachSan.DTO;
->>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/DAO/RoomDAO.cs
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -32,7 +28,6 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-<<<<<<< HEAD:QuanLyKhachSan/DAO/RoomDAO.cs
         public List<RoomDTO> LoadRoomList()
         {
             List<RoomDTO> RoomList = new List<RoomDTO>();
@@ -43,8 +38,8 @@ namespace QuanLyKhachSan.DAO
                 RoomList.Add(roomDTO);
             }
             return RoomList;
-=======
-        public List<RoomDTO> LoadRoomList()
+        }
+        public List<RoomDTO> LoadStatusRoomList()
         {
             List<RoomDTO> RoomList = new List<RoomDTO>();
             DataTable data = DataProvide.Instance.ExecuteQuery("Select * from dbo.Phong");
@@ -54,8 +49,7 @@ namespace QuanLyKhachSan.DAO
                 RoomList.Add(roomDTO);
             }
             return RoomList;
->>>>>>> 11939da90c98399bdf04bb7de3b59ec7b83e9959:Hotel-manager-master/QuanLyKhachSan/DAO/RoomDAO.cs
-        } 
+        }
         public DataTable ExecuteQuerySearchCodeRoom(string _str)
         {
             string query = "select  p.MaPhong as 'Mã Phòng',p.TenPhong as 'Tên Phòng',lp.TenLoaiPhong as 'Loại Phòng',p.GhiChu as 'Ghi Chú',tt.TenTrangThai as 'Trạng Thái' from LOAI_PHONG lp inner join PHONG p on lp.MaLoaiPhong = p.MaLoaiPhong inner join TRANG_THAI_PHONG tt on tt.TinhTrangPhong = p.TinhTrangPhong where p.MaPhong = " + _str;
