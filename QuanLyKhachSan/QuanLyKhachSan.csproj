@@ -68,8 +68,11 @@
     <Compile Include="AboutUs.Designer.cs">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\CustomerDAO.cs" />
     <Compile Include="DAO\DataProvide.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\CustomerStyleDTO.cs" />
     <Compile Include="DTO\RoomDTO.cs" />
     <Compile Include="DTO\RoomStyleDTO.cs" />
     <Compile Include="fAddRoom.cs">
@@ -181,6 +184,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include=".vs\QuanLyKhachSan\v15\.suo" />
     <None Include="bin\Debug\QuanLyKhachSan.exe.config" />
     <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.config" />
     <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.manifest" />

@@ -99,9 +99,9 @@ namespace QuanLyKhachSan
                     loadRoomList(); 
                 }
             }
-            catch (SystemException ee)
+            catch (Exception)
             {
-                MessageBox.Show(ee.ToString());
+                MessageBox.Show("Nhập thông tin cần sửa");
             }
         }
     }
