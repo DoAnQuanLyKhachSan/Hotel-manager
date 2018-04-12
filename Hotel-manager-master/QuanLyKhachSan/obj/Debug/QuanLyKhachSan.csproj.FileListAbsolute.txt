@@ -102,6 +102,7 @@ C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKha
 C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
 C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+<<<<<<< HEAD:QuanLyKhachSan/obj/Debug/QuanLyKhachSan.csproj.FileListAbsolute.txt
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
@@ -130,3 +131,5 @@ C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.P
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+=======
+>>>>>>> 7acd4410be6c11482c2300ea0f545db64467a833:Hotel-manager-master/QuanLyKhachSan/obj/Debug/QuanLyKhachSan.csproj.FileListAbsolute.txt

@@ -70,7 +70,10 @@
     </Compile>
     <Compile Include="DAO\BillDAO.cs" />
     <Compile Include="DAO\BillInfoDAO.cs" />
+<<<<<<< HEAD:QuanLyKhachSan/QuanLyKhachSan.csproj
     <Compile Include="DAO\ChangeRegulationDAO.cs" />
+=======
+>>>>>>> 7acd4410be6c11482c2300ea0f545db64467a833:Hotel-manager-master/QuanLyKhachSan/QuanLyKhachSan.csproj
     <Compile Include="DAO\CustomerDAO.cs" />
     <Compile Include="DAO\DataProvide.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
@@ -140,12 +143,15 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD:QuanLyKhachSan/QuanLyKhachSan.csproj
     <Compile Include="fUpdateRoomPrice.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fUpdateRoomPrice.Designer.cs">
       <DependentUpon>fUpdateRoomPrice.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 7acd4410be6c11482c2300ea0f545db64467a833:Hotel-manager-master/QuanLyKhachSan/QuanLyKhachSan.csproj
     <Compile Include="fViewRoom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,9 +253,12 @@
     <EmbeddedResource Include="fSearch.resx">
       <DependentUpon>fSearch.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD:QuanLyKhachSan/QuanLyKhachSan.csproj
     <EmbeddedResource Include="fUpdateRoomPrice.resx">
       <DependentUpon>fUpdateRoomPrice.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 7acd4410be6c11482c2300ea0f545db64467a833:Hotel-manager-master/QuanLyKhachSan/QuanLyKhachSan.csproj
     <EmbeddedResource Include="fViewRoom.resx">
       <DependentUpon>fViewRoom.cs</DependentUpon>
     </EmbeddedResource>

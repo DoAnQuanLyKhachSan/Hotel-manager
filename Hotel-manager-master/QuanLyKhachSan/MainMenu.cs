@@ -258,10 +258,13 @@ namespace QuanLyKhachSan
         {
             panel1.Height = ChangeRegulationButton.Height;
             panel1.Height = ChangeRegulationButton.Top;
+<<<<<<< HEAD:QuanLyKhachSan/MainMenu.cs
             fChangeRegulations f = new fChangeRegulations();
             this.Hide();
             f.ShowDialog();
             this.Show();
+=======
+>>>>>>> 7acd4410be6c11482c2300ea0f545db64467a833:Hotel-manager-master/QuanLyKhachSan/MainMenu.cs
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
