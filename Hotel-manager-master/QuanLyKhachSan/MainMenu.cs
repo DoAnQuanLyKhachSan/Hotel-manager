@@ -110,21 +110,29 @@ namespace QuanLyKhachSan
             btnAll.Text = "Tất Cả " + Total.ToString();
             btnAll.BackColor = Color.White;
             btnAll.Click += new EventHandler(btnAll_Click);
+            btnAll.Width = 125;
+            btnAll.Height = 50;
             //Available
             Button btnAv = new Button() { Width = 100, Height = 25 };
             btnAv.Text = "Có Thể Thuê " + available.ToString();
             btnAv.BackColor = Color.SeaGreen;
             btnAv.Click += new EventHandler(btnAv_Click);
+            btnAv.Width = 125;
+            btnAv.Height = 50;
             //Inused
             Button btnIU = new Button() { Width = 100, Height = 25 };
             btnIU.Text = "Đã Thuê " + inused.ToString();
             btnIU.BackColor = Color.PaleVioletRed;
             btnIU.Click += new EventHandler(btnIU_Click);
+            btnIU.Width = 125;
+            btnIU.Height = 50;
             //Undermaintainance
             Button btnMT = new Button() { Width = 100, Height = 25 };
             btnMT.Text = "Đang Sửa Chữa " + undermaintainance.ToString();
             btnMT.BackColor = Color.Yellow;
             btnMT.Click += new EventHandler(btnMT_Click);
+            btnMT.Width = 125;
+            btnMT.Height = 50;
             flpStatus.Controls.Add(btnAll);
             flpStatus.Controls.Add(btnAv);
             flpStatus.Controls.Add(btnIU);
@@ -166,6 +174,8 @@ namespace QuanLyKhachSan
 
         private void button3_Click(object sender, EventArgs e)
         {
+            panel1.Height = RoomButton.Height;
+            panel1.Top = RoomButton.Top;
             this.Hide();
             fRoom _room = new fRoom();
             _room.ShowDialog();
@@ -190,6 +200,8 @@ namespace QuanLyKhachSan
 
         private void button4_Click(object sender, EventArgs e)
         {
+            panel1.Height = PayButton.Height;
+            panel1.Top = PayButton.Top;
             this.Hide();
             fPay _room = new fPay();
             _room.ShowDialog();
@@ -198,6 +210,8 @@ namespace QuanLyKhachSan
 
         private void button6_Click(object sender, EventArgs e)
         {
+            panel1.Height = ReportButton.Height;
+            panel1.Top = ReportButton.Height;
             this.Hide();
             fReport _room = new fReport();
             _room.ShowDialog();
@@ -206,6 +220,8 @@ namespace QuanLyKhachSan
 
         private void button7_Click(object sender, EventArgs e)
         {
+            panel1.Height = AboutUsButton.Height;
+            panel1.Height = AboutUsButton.Top;
             this.Hide();
             WindowsFormsApp5.Form1 _room = new WindowsFormsApp5.Form1();
             _room.ShowDialog();
@@ -232,10 +248,28 @@ namespace QuanLyKhachSan
         {
             this.Hide();
             fLogin _room = new fLogin();
-            _room.ShowDialog();
             this.Show();
+            _room.ShowDialog();
+
         }
         #endregion
+
+        private void ChangeRegulationButton_Click(object sender, EventArgs e)
+        {
+            panel1.Height = ChangeRegulationButton.Height;
+            panel1.Height = ChangeRegulationButton.Top;
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
 

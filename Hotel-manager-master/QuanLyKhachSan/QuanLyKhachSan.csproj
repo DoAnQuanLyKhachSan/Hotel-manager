@@ -239,6 +239,14 @@
     <Content Include="bin\Debug\QuanLyKhachSan.exe" />
     <Content Include="bin\Debug\QuanLyKhachSan.pdb" />
     <Content Include="bin\Debug\QuanLyKhachSan.vshost.exe" />
+    <None Include="Resources\search.gif" />
+    <None Include="Resources\RoomButton.png" />
+    <None Include="Resources\AboutUsButton.png" />
+    <None Include="Resources\ChangeRegulationButton.png" />
+    <None Include="Resources\ExitButton.png" />
+    <None Include="Resources\PayButton.png" />
+    <None Include="Resources\ReportButton.png" />
+    <None Include="Resources\Loggin.png" />
     <Content Include="Resources\room1.png" />
     <None Include="Resources\icon.png" />
     <None Include="Resources\room3.png" />
