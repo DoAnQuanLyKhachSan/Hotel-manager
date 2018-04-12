@@ -12,7 +12,7 @@ CREATE TABLE LOAI_PHONG (
 GO
 
 CREATE TABLE TRANG_THAI_PHONG (
-	MaTrangThai INT NOT NULL PRIMARY KEY DEFAULT 1,
+	MaTrangThai INT NOT NULL PRIMARY KEY,
 	TenTrangThai NVARCHAR(50) NOT NULL
 )
 GO
@@ -26,7 +26,7 @@ CREATE TABLE PHONG (
 	TenPhong NVARCHAR(30) NOT NULL DEFAULT N'chua dat ten',
 	MaLoaiPhong INT NOT NULL,
 	GhiChu NVARCHAR(100) DEFAULT N'chua co ghi chu',
-	TinhTrangPhong INT NOT NULL, -- 1: Có thể cho thuê || 0: Có ng thuê, đang sửa chữa
+	TinhTrangPhong INT NOT NULL DEFAULT 1, -- 1: Có thể cho thuê || 0: Có ng thuê, đang sửa chữa
 
 	FOREIGN KEY (MaLoaiPhong) REFERENCES dbo.LOAI_PHONG(MaLoaiPhong),
 	FOREIGN KEY (TinhTrangPhong) REFERENCES dbo.TRANG_THAI_PHONG(MaTrangThai)

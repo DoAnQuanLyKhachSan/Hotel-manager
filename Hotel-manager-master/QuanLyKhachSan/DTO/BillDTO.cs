@@ -13,12 +13,12 @@ namespace QuanLyKhachSan.DTO
         public BillDTO(int roomcode,DateTime daycheckin)
         {
             this.RoomCode1 = roomcode;
-            this.DayCheckIn = daycheckin;
+            this.DayCheckIn1 = daycheckin;
         }
         public BillDTO(DataRow row)
         {
             this.RoomCode1 = (int)row["MaPhong"];
-            this.DayCheckIn = (DateTime)row["NgayBatDau"];
+            this.DayCheckIn1 = (DateTime)row["NgayBatDau"];
         }
 
         private String CustomerName;
@@ -36,11 +36,44 @@ namespace QuanLyKhachSan.DTO
             }
         }
 
+        public DateTime DayCheckIn1
+        {
+            get
+            {
+                return DayCheckIn;
+            }
 
-        public DateTime DayCheckIn1 { get => DayCheckIn; set => DayCheckIn = value; }
+            set
+            {
+                DayCheckIn = value;
+            }
+        }
 
-        public int RoomType1 { get => RoomType; set => RoomType = value; }
-        public int RoomCode1 { get => RoomCode; set => RoomCode = value; }
+        public int RoomCode1
+        {
+            get
+            {
+                return RoomCode;
+            }
+
+            set
+            {
+                RoomCode = value;
+            }
+        }
+
+        public int RoomType1
+        {
+            get
+            {
+                return RoomType;
+            }
+
+            set
+            {
+                RoomType = value;
+            }
+        }
 
         private DateTime DayCheckIn;
 

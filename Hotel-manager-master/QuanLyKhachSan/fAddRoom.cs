@@ -69,26 +69,26 @@ namespace QuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e) // button add
         {
-            
+
             try
             {
-                //return data ( int ) < 0 is success 
-                int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.addRoomDatabaseQuery(),new object[] {getCodeRoom().RoomCode,getNameRoom().RoomName,_room.RoomStyle,getNoteRoom().RoomNote});
+               int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.addRoomDatabaseQuery(), new object[] { getCodeRoom().RoomCode, getNameRoom().RoomName, _room.RoomStyle, getNoteRoom().RoomNote });
                 if (data < 0)
                 {
                     MessageBox.Show("Thêm phòng thành công");
                     _fRoom.LoadRoomList();
                 }
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-                string queryExists = "IF NOT EXISTS ( SELECT MaPhong FROM dbo.PHONG WHERE MaPhong= " + getCodeRoom().RoomCode + ") select *from PHONG";
-                if (DataProvide.Instance.ExecuteNonQuery(queryExists) < 0) MessageBox.Show("Tồn tại mã phòng,thử lại");
+                if(ex is SqlException)
+                {
+                    MessageBox.Show("Mã phòng đã tồn tại , nhập lại");
+                }
             }
+            
+           
         }
-
-       
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

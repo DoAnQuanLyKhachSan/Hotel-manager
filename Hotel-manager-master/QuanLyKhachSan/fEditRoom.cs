@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -88,21 +89,32 @@ namespace QuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             try
             {
-                //return data ( int ) < 0 is success 
-                int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.UpdateRoomDatabaseQuery(), new object[] { getCodeRoomNew().RoomCode, getNameRoomNew().RoomName, _room.RoomStyle, getNoteRoomNew().RoomNote ,_room.RoomStatus,getRoomCodeOld()});
-                if (data > 0)
+                string queryExits = "if EXISTS(SELECT * FROM PHONG Where MaPhong = "+getRoomCodeOld()+") select 1";
+                DataTable rs  = DataProvide.Instance.ExecuteQuery(queryExits);
+                if (rs.Rows.Count>0)
                 {
-                    MessageBox.Show("Thêm phòng thành công");
-                    _fRoom.LoadRoomList();
-                    loadRoomList(); 
+                    //return data ( int ) < 0 is success 
+                    int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.UpdateRoomDatabaseQuery(), new object[] { getCodeRoomNew().RoomCode, getNameRoomNew().RoomName, _room.RoomStyle, getNoteRoomNew().RoomNote, _room.RoomStatus, getRoomCodeOld() });
+                    if (data < 0)
+                    {
+                        MessageBox.Show("Sửa phòng thành công");
+                        _fRoom.LoadRoomList();
+                        loadRoomList();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Mã phòng cần sửa không tồn tại");
                 }
             }
-            catch (Exception)
+            catch 
             {
-                MessageBox.Show("Nhập thông tin cần sửa");
+               MessageBox.Show("Nhập thông tin cần sửa");
+            }
             }
         }
     }
-}
+
