@@ -57,22 +57,30 @@ namespace QuanLyKhachSan
             // 
             this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Location = new System.Drawing.Point(254, 19);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(479, 33);
+            this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // flpRoom
             // 
-            resources.ApplyResources(this.flpRoom, "flpRoom");
+            this.flpRoom.AutoScroll = true;
             this.flpRoom.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.flpRoom.Location = new System.Drawing.Point(251, 132);
             this.flpRoom.Name = "flpRoom";
+            this.flpRoom.Size = new System.Drawing.Size(658, 367);
+            this.flpRoom.TabIndex = 5;
             this.flpRoom.Paint += new System.Windows.Forms.PaintEventHandler(this.flpRoom_Paint);
             // 
             // flpStatus
             // 
             this.flpStatus.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            resources.ApplyResources(this.flpStatus, "flpStatus");
+            this.flpStatus.Location = new System.Drawing.Point(251, 75);
             this.flpStatus.Name = "flpStatus";
+            this.flpStatus.Size = new System.Drawing.Size(658, 60);
+            this.flpStatus.TabIndex = 14;
             // 
             // panel2
             // 
@@ -85,15 +93,17 @@ namespace QuanLyKhachSan
             this.panel2.Controls.Add(this.ReportButton);
             this.panel2.Controls.Add(this.PayButton);
             this.panel2.Controls.Add(this.RoomButton);
-            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(248, 501);
+            this.panel2.TabIndex = 16;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // ExitButton
             // 
             this.ExitButton.FlatAppearance.BorderSize = 0;
             this.ExitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.ForeColor = System.Drawing.Color.Black;
@@ -107,25 +117,6 @@ namespace QuanLyKhachSan
             this.ExitButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.button8_Click);
-=======
-            resources.ApplyResources(this.ExitButton, "ExitButton");
-            this.ExitButton.ForeColor = System.Drawing.Color.Black;
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.UseVisualStyleBackColor = true;
-            this.ExitButton.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Yellow;
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             // 
             // panel1
             // 
@@ -147,9 +138,17 @@ namespace QuanLyKhachSan
             // 
             this.AboutUsButton.FlatAppearance.BorderSize = 0;
             this.AboutUsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.AboutUsButton, "AboutUsButton");
+            this.AboutUsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AboutUsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutUsButton.ForeColor = System.Drawing.Color.Black;
+            this.AboutUsButton.Image = ((System.Drawing.Image)(resources.GetObject("AboutUsButton.Image")));
+            this.AboutUsButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.AboutUsButton.Location = new System.Drawing.Point(3, 365);
             this.AboutUsButton.Name = "AboutUsButton";
+            this.AboutUsButton.Size = new System.Drawing.Size(242, 64);
+            this.AboutUsButton.TabIndex = 9;
+            this.AboutUsButton.Text = "Về Chúng Tôi";
+            this.AboutUsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.AboutUsButton.UseVisualStyleBackColor = true;
             this.AboutUsButton.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -157,9 +156,17 @@ namespace QuanLyKhachSan
             // 
             this.ChangeRegulationButton.FlatAppearance.BorderSize = 0;
             this.ChangeRegulationButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.ChangeRegulationButton, "ChangeRegulationButton");
+            this.ChangeRegulationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChangeRegulationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChangeRegulationButton.ForeColor = System.Drawing.Color.Black;
+            this.ChangeRegulationButton.Image = ((System.Drawing.Image)(resources.GetObject("ChangeRegulationButton.Image")));
+            this.ChangeRegulationButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ChangeRegulationButton.Location = new System.Drawing.Point(3, 295);
             this.ChangeRegulationButton.Name = "ChangeRegulationButton";
+            this.ChangeRegulationButton.Size = new System.Drawing.Size(242, 64);
+            this.ChangeRegulationButton.TabIndex = 7;
+            this.ChangeRegulationButton.Text = "Thay Đổi Quy Định";
+            this.ChangeRegulationButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ChangeRegulationButton.UseVisualStyleBackColor = true;
             this.ChangeRegulationButton.Click += new System.EventHandler(this.ChangeRegulationButton_Click);
             // 
@@ -167,9 +174,17 @@ namespace QuanLyKhachSan
             // 
             this.ReportButton.FlatAppearance.BorderSize = 0;
             this.ReportButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.ReportButton, "ReportButton");
+            this.ReportButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReportButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReportButton.ForeColor = System.Drawing.Color.Black;
+            this.ReportButton.Image = ((System.Drawing.Image)(resources.GetObject("ReportButton.Image")));
+            this.ReportButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ReportButton.Location = new System.Drawing.Point(3, 225);
             this.ReportButton.Name = "ReportButton";
+            this.ReportButton.Size = new System.Drawing.Size(242, 64);
+            this.ReportButton.TabIndex = 6;
+            this.ReportButton.Text = "Thống Kê";
+            this.ReportButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ReportButton.UseVisualStyleBackColor = true;
             this.ReportButton.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -177,9 +192,17 @@ namespace QuanLyKhachSan
             // 
             this.PayButton.FlatAppearance.BorderSize = 0;
             this.PayButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.PayButton, "PayButton");
+            this.PayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PayButton.ForeColor = System.Drawing.Color.Black;
+            this.PayButton.Image = ((System.Drawing.Image)(resources.GetObject("PayButton.Image")));
+            this.PayButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.PayButton.Location = new System.Drawing.Point(3, 155);
             this.PayButton.Name = "PayButton";
+            this.PayButton.Size = new System.Drawing.Size(242, 64);
+            this.PayButton.TabIndex = 5;
+            this.PayButton.Text = "Thanh Toán";
+            this.PayButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.PayButton.UseVisualStyleBackColor = true;
             this.PayButton.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -187,9 +210,17 @@ namespace QuanLyKhachSan
             // 
             this.RoomButton.FlatAppearance.BorderSize = 0;
             this.RoomButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.RoomButton, "RoomButton");
+            this.RoomButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RoomButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomButton.ForeColor = System.Drawing.Color.Black;
+            this.RoomButton.Image = ((System.Drawing.Image)(resources.GetObject("RoomButton.Image")));
+            this.RoomButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.RoomButton.Location = new System.Drawing.Point(3, 85);
             this.RoomButton.Name = "RoomButton";
+            this.RoomButton.Size = new System.Drawing.Size(245, 64);
+            this.RoomButton.TabIndex = 4;
+            this.RoomButton.Text = "Phòng";
+            this.RoomButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.RoomButton.UseVisualStyleBackColor = true;
             this.RoomButton.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -201,15 +232,10 @@ namespace QuanLyKhachSan
             this.panel4.Controls.Add(this.button1);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.textBox1);
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(909, 69);
             this.panel4.TabIndex = 17;
-=======
-            resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.Name = "panel4";
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             // 
             // button2
             // 
@@ -217,7 +243,6 @@ namespace QuanLyKhachSan
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
             this.button2.Image = global::QuanLyKhachSan.Properties.Resources.Loggin;
@@ -225,18 +250,11 @@ namespace QuanLyKhachSan
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 49);
             this.button2.TabIndex = 13;
-=======
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(38)))), ((int)(((byte)(47)))));
-            this.button2.Image = global::QuanLyKhachSan.Properties.Resources.Loggin;
-            this.button2.Name = "button2";
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Yellow;
             this.label1.Font = new System.Drawing.Font("Brush Script MT", 24.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -245,17 +263,11 @@ namespace QuanLyKhachSan
             this.label1.Size = new System.Drawing.Size(74, 40);
             this.label1.TabIndex = 14;
             this.label1.Text = "Hotel";
-=======
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.BackColor = System.Drawing.Color.Yellow;
-            this.label1.Name = "label1";
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.BackgroundImage = global::QuanLyKhachSan.Properties.Resources.search;
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -263,45 +275,32 @@ namespace QuanLyKhachSan
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(33, 33);
             this.button1.TabIndex = 2;
-=======
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Name = "button1";
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.pictureBox1.Location = new System.Drawing.Point(56, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(135, 45);
             this.pictureBox1.TabIndex = 1;
-=======
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MainMenu
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            resources.ApplyResources(this, "$this");
+            this.ClientSize = new System.Drawing.Size(908, 501);
             this.Controls.Add(this.flpStatus);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flpRoom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
-<<<<<<< HEAD:Hotel-manager/QuanLyKhachSan/MainMenu.Designer.cs
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";
-=======
->>>>>>> ca3baa77843a09358b67ad67fef370571b65be9f:Hotel-manager-master/QuanLyKhachSan/MainMenu.Designer.cs
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

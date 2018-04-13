@@ -30,28 +30,24 @@ namespace QuanLyKhachSan
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label9);
@@ -67,104 +63,8 @@ namespace QuanLyKhachSan
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(776, 385);
+            this.panel1.Size = new System.Drawing.Size(776, 322);
             this.panel1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(481, 329);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 39);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Thoát";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(123, 329);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 39);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Thuê Phòng";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Visible = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Location = new System.Drawing.Point(353, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 31);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "label1";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(222, 284);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(236, 27);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Hiện Chưa Có Dữ Liệu";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(222, 241);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(236, 27);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Hiện Chưa Có Dữ Liệu";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(222, 195);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(236, 27);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Hiện Chưa Có Dữ Liệu";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(222, 149);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(236, 27);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "Hiện Chưa Có Dữ Liệu";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(221, 101);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(236, 27);
-            this.label12.TabIndex = 8;
-            this.label12.Text = "Hiện Chưa Có Dữ Liệu";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(221, 57);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(236, 27);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "Hiện Chưa Có Dữ Liệu";
             // 
             // label6
             // 
@@ -226,11 +126,82 @@ namespace QuanLyKhachSan
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên Khách Hàng";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(222, 284);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(236, 27);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Hiện Chưa Có Dữ Liệu";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(222, 241);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(236, 27);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Hiện Chưa Có Dữ Liệu";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(222, 195);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(236, 27);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "Hiện Chưa Có Dữ Liệu";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(222, 149);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(236, 27);
+            this.label11.TabIndex = 9;
+            this.label11.Text = "Hiện Chưa Có Dữ Liệu";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(221, 101);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(236, 27);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "Hiện Chưa Có Dữ Liệu";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(221, 57);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(236, 27);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Hiện Chưa Có Dữ Liệu";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.Location = new System.Drawing.Point(353, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 31);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "label1";
+            // 
             // fViewRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 409);
+            this.ClientSize = new System.Drawing.Size(800, 345);
             this.Controls.Add(this.panel1);
             this.Name = "fViewRoom";
             this.Text = "Danh Mục Phòng Loại 1 ";
@@ -256,7 +227,5 @@ namespace QuanLyKhachSan
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
     }
 }

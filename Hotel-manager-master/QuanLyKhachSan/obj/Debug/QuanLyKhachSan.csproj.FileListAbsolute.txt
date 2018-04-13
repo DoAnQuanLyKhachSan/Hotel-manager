@@ -130,10 +130,3 @@ C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.P
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources

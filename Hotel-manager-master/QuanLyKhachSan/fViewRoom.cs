@@ -13,7 +13,7 @@ namespace QuanLyKhachSan
 {
     public partial class fViewRoom : Form
     {
-        public fViewRoom(List<BillInfoDTO> ListBillInfo,int roomcode,int roomstatus)
+        public fViewRoom(List<BillInfoDTO> ListBillInfo,int roomcode)
         {
             InitializeComponent();
             this.label1.Text = "Phòng " + roomcode.ToString();
@@ -26,20 +26,6 @@ namespace QuanLyKhachSan
                         this.label9.Text = item.RoomType1.ToString();
                         this.label8.Text = item.RoomNote1;
                 }
-            if (roomstatus == 2)
-                this.button1.Visible = true;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            fRent _room = new fRent(label1.Text);
-            _room.ShowDialog();
-            this.Show();
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

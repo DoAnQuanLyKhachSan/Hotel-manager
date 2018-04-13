@@ -15,16 +15,13 @@ namespace QuanLyKhachSan
     public partial class fRent : Form
     {
         CustomerDTO[]  _customer = new CustomerDTO[5];
+       
 
 
         public fRent()
         {
             InitializeComponent();
-        }
-        public fRent(string roomname)
-        {
-            InitializeComponent();
-            this.txbRoomName.Text = roomname;
+
         }
 
         public void getInforCustomer()
@@ -46,6 +43,8 @@ namespace QuanLyKhachSan
                 }
             }
         }
+
+
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
