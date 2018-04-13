@@ -22,7 +22,7 @@ namespace QuanLyKhachSan
             InitializeComponent();
             LoadRoom();
             LoadStatusOfRooms();
-            LoadListRoom();
+            LoadItemOfSearchBox();
         }
         #region Method
         public void LoadRoom()
@@ -75,8 +75,9 @@ namespace QuanLyKhachSan
         private void btn_Click(object sender, EventArgs e)
         {
             int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
+            int RoomStatus = ((sender as Button).Tag as RoomDTO).RoomStatus;
             this.Hide();
-            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),RoomCode);
+            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),RoomCode,RoomStatus);
             fView.ShowDialog();
             this.Show();
         }
@@ -138,11 +139,14 @@ namespace QuanLyKhachSan
             flpStatus.Controls.Add(btnIU);
             flpStatus.Controls.Add(btnMT);
         }
-        public void LoadListRoom()
+        public void LoadItemOfSearchBox()
         {
-            string query = "select PHONG.MaPhong from PHONG";
-            string[] data = DataProvide.Instance.ExecuteReader(query).Split(' ');
-            this.textBox1.AutoCompleteCustomSource.AddRange(data);
+            string roomquery = "select MaPhong from PHONG";
+            string namequery = "select TenKhachHang from CHITIET_PHIEUTHUE join KHACHHANG on CHITIET_PHIEUTHUE.MaKhachHang=KHACHHANG.MaKhachHang";
+            string[] dataRoom = DataProvide.Instance.ExecuteReader(roomquery).Split('.');
+            string[] dataName = DataProvide.Instance.ExecuteReader(namequery).Split('.');
+            this.textBox1.AutoCompleteCustomSource.AddRange(dataName);
+            this.textBox1.AutoCompleteCustomSource.AddRange(dataRoom);
         }
         #endregion
         #region Events
@@ -248,9 +252,8 @@ namespace QuanLyKhachSan
         {
             this.Hide();
             fLogin _room = new fLogin();
-            this.Show();
             _room.ShowDialog();
-
+            this.Show();
         }
         #endregion
 
