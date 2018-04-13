@@ -16,5 +16,13 @@ namespace QuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fPay f = new fPay();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

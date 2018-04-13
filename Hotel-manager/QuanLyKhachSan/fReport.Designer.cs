@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnChartReport = new System.Windows.Forms.Panel();
             this.chReport = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -78,27 +78,28 @@
             // 
             // chReport
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chReport.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chReport.Legends.Add(legend3);
+            chartArea2.Name = "ChartArea1";
+            this.chReport.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chReport.Legends.Add(legend2);
             this.chReport.Location = new System.Drawing.Point(16, 10);
             this.chReport.Name = "chReport";
-            series7.ChartArea = "ChartArea1";
-            series7.Legend = "Legend1";
-            series7.Name = "Phòng loại A";
-            series8.ChartArea = "ChartArea1";
-            series8.Legend = "Legend1";
-            series8.Name = "Phòng loại B";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "Phòng loại C";
-            this.chReport.Series.Add(series7);
-            this.chReport.Series.Add(series8);
-            this.chReport.Series.Add(series9);
-            this.chReport.Size = new System.Drawing.Size(334, 117);
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Phòng loại A";
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Phòng loại B";
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Phòng loại C";
+            this.chReport.Series.Add(series4);
+            this.chReport.Series.Add(series5);
+            this.chReport.Series.Add(series6);
+            this.chReport.Size = new System.Drawing.Size(329, 117);
             this.chReport.TabIndex = 0;
             this.chReport.Text = "chart1";
+            this.chReport.Click += new System.EventHandler(this.chReport_Click);
             // 
             // pnTime
             // 
@@ -205,7 +206,9 @@
             this.ClientSize = new System.Drawing.Size(812, 570);
             this.Controls.Add(this.panel2);
             this.Name = "fReport";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fReport";
+            this.Activated += new System.EventHandler(this.fReport_Activated);
             this.panel1.ResumeLayout(false);
             this.pnChartReport.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chReport)).EndInit();

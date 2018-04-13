@@ -26,18 +26,25 @@ namespace QuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(txtBox1.Text.Length != 0)
+            try
             {
-                ChangeRegulationDAO.Instance.UpdateRate1(float.Parse(txtBox1.Text));
-                LoadListRate();
-                txtBox1.Text = string.Empty;
-            }
+                if (txtBox1.Text.Length != 0)
+                {
+                    ChangeRegulationDAO.Instance.UpdateRate1(float.Parse(txtBox1.Text));
+                    LoadListRate();
+                    txtBox1.Text = string.Empty;
+                }
 
-            if (txtBox2.Text.Length != 0)
+                if (txtBox2.Text.Length != 0)
+                {
+                    ChangeRegulationDAO.Instance.UpdateRate2(float.Parse(txtBox2.Text));
+                    LoadListRate();
+                    txtBox2.Text = string.Empty;
+                }
+            }
+            catch (Exception)
             {
-                ChangeRegulationDAO.Instance.UpdateRate2(float.Parse(txtBox2.Text));
-                LoadListRate();
-                txtBox2.Text = string.Empty;
+                MessageBox.Show("Nhập sai kiểu dữ liệu");
             }
         }
 

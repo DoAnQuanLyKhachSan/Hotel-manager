@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyKhachSan.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace QuanLyKhachSan
         public fReport()
         {
             InitializeComponent();
+        }
+
+        private void chReport_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void fReport_Activated(object sender, EventArgs e)
+        {
+            chReport.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataRoomStatusQuery());
         }
     }
 }

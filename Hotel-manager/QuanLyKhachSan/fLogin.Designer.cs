@@ -63,7 +63,7 @@
             this.panel5.Location = new System.Drawing.Point(8, 121);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(170, 40);
-            this.panel5.TabIndex = 1;
+            this.panel5.TabIndex = 2;
             // 
             // btnLogin
             // 
@@ -81,7 +81,7 @@
             this.panel4.Location = new System.Drawing.Point(223, 121);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(170, 40);
-            this.panel4.TabIndex = 1;
+            this.panel4.TabIndex = 3;
             // 
             // btnExit
             // 
@@ -100,7 +100,7 @@
             this.panel3.Location = new System.Drawing.Point(8, 66);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(386, 49);
-            this.panel3.TabIndex = 0;
+            this.panel3.TabIndex = 1;
             // 
             // txbPass
             // 

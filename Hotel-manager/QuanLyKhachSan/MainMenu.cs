@@ -203,7 +203,7 @@ namespace QuanLyKhachSan
             panel1.Height = PayButton.Height;
             panel1.Top = PayButton.Top;
             this.Hide();
-            fPay _room = new fPay();
+            fPayView _room = new fPayView();
             _room.ShowDialog();
             this.Show();
         }

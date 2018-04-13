@@ -74,7 +74,8 @@ GO
 CREATE TABLE HOADON (
 	MaHD INT NOT NULL PRIMARY KEY,
 	TenKhachHang NVARCHAR(50) DEFAULT N'chua ghi ten',
-	TriGia FLOAT
+	TriGia money,
+	
 )
 GO
 
@@ -105,7 +106,7 @@ CREATE TABLE DOANHTHU (
 GO
 
 CREATE TABLE THAMSO (
-	TenThamSo NVARCHAR(20),
+	TenThamSo NVARCHAR(20) not null primary key,
 	GiaTri FLOAT,
 	--Các Record THAMSO(TenThamSo, GiaTri)
 
@@ -125,14 +126,14 @@ INSERT INTO dbo.LOAI_PHONG ( MaLoaiPhong, TenLoaiPhong, DonGia )VALUES(2,'B', 17
 INSERT INTO dbo.LOAI_PHONG ( MaLoaiPhong, TenLoaiPhong, DonGia )VALUES(3,'C', 200000)
 GO
 
-INSERT INTO dbo.LOAI_KHACHHANG( MaLoaiKhachHang ,TenLoaiKhachHang)VALUES  ( 1,'Nôi địa' )
-INSERT INTO dbo.LOAI_KHACHHANG( MaLoaiKhachHang ,TenLoaiKhachHang)VALUES  ( 2,'Nươc ngoài' )
+INSERT INTO dbo.LOAI_KHACHHANG( MaLoaiKhachHang ,TenLoaiKhachHang)VALUES  ( 1,N'Nôi địa' )
+INSERT INTO dbo.LOAI_KHACHHANG( MaLoaiKhachHang ,TenLoaiKhachHang)VALUES  ( 2,N'Nươc ngoài' )
 GO
 
-INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(1,'Phòng 1', 1, 'note 1', 1)
-INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(2,'Phòng 2', 2, 'note 2', 1)
-INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(3,'Phòng 3', 1, 'note 3', 2)
-INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(4,'Phòng 4', 3, 'note 4', 1)
+INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(1,N'Phòng 1', 1, 'note 1', 1)
+INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(2,N'Phòng 2', 2, 'note 2', 1)
+INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(3,N'Phòng 3', 1, 'note 3', 2)
+INSERT INTO dbo.PHONG( MaPhong,TenPhong,MaLoaiPhong,GhiChu,TinhTrangPhong)VALUES(4,N'Phòng 4', 3, 'note 4', 1)
 GO
 
 SET ANSI_NULLS ON
