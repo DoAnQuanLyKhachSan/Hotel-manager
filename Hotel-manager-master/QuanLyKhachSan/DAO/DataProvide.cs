@@ -26,7 +26,7 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-        public string connectionStr = @"Data Source=MEREDITH;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
+        public string connectionStr = @"Data Source=DESKTOP-OAVL1J3;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
@@ -109,13 +109,14 @@ namespace QuanLyKhachSan.DAO
         public string ExecuteReader(string query)
         {
             string data = null;
-            using (SqlConnection connection = new SqlConnection(connectionStr)) {
+            using (SqlConnection connection = new SqlConnection(connectionStr))
+            {
                 SqlCommand Comm1 = new SqlCommand(query, connection);
                 connection.Open();
-                 SqlDataReader DR1 = Comm1.ExecuteReader();
-                if (DR1.Read())
+                SqlDataReader DR1 = Comm1.ExecuteReader();
+                while (DR1.Read())
                 {
-                     data = DR1.GetValue(0).ToString();
+                    data += DR1.GetValue(0).ToString()+".";
                 }
                 connection.Close();
             }
