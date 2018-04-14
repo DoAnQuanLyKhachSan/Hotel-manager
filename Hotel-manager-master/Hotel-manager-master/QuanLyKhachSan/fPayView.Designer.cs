@@ -33,10 +33,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.txbCusName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btPayView = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.txbAdress = new System.Windows.Forms.TextBox();
+            this.cbAddress = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -46,10 +46,10 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(884, 48);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 4;
             // 
             // label1
             // 
@@ -65,76 +65,78 @@
             // 
             this.panel2.Controls.Add(this.txbCusName);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(3, 57);
+            this.panel2.Location = new System.Drawing.Point(12, 66);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(505, 48);
-            this.panel2.TabIndex = 0;
+            this.panel2.Size = new System.Drawing.Size(517, 48);
+            this.panel2.TabIndex = 3;
             // 
             // txbCusName
             // 
             this.txbCusName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCusName.Location = new System.Drawing.Point(188, 8);
+            this.txbCusName.Location = new System.Drawing.Point(232, 8);
             this.txbCusName.Name = "txbCusName";
-            this.txbCusName.Size = new System.Drawing.Size(305, 26);
+            this.txbCusName.Size = new System.Drawing.Size(282, 26);
             this.txbCusName.TabIndex = 0;
+            this.txbCusName.TextChanged += new System.EventHandler(this.txbCusName_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 11);
+            this.label2.Location = new System.Drawing.Point(3, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 20);
+            this.label2.Size = new System.Drawing.Size(237, 20);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Nhập tên khách hàng : ";
+            this.label2.Text = "Nhập tên khách hàng/Cơ quan : ";
+            // 
+            // btPayView
+            // 
+            this.btPayView.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btPayView.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPayView.Location = new System.Drawing.Point(278, 135);
+            this.btPayView.Name = "btPayView";
+            this.btPayView.Size = new System.Drawing.Size(150, 40);
+            this.btPayView.TabIndex = 5;
+            this.btPayView.Text = "Chi tiết thanh toán";
+            this.btPayView.UseVisualStyleBackColor = false;
+            this.btPayView.Click += new System.EventHandler(this.btPayView_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(640, 126);
+            this.button2.Location = new System.Drawing.Point(658, 135);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 40);
-            this.button2.TabIndex = 2;
+            this.button2.Size = new System.Drawing.Size(134, 40);
+            this.button2.TabIndex = 7;
             this.button2.Text = "Trở về";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(175, 126);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 40);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Thanh Toán";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.txbAdress);
+            this.panel3.Controls.Add(this.cbAddress);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(526, 57);
+            this.panel3.Location = new System.Drawing.Point(535, 66);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(361, 48);
-            this.panel3.TabIndex = 1;
+            this.panel3.TabIndex = 6;
             // 
-            // txbAdress
+            // cbAddress
             // 
-            this.txbAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbAdress.Location = new System.Drawing.Point(100, 11);
-            this.txbAdress.Name = "txbAdress";
-            this.txbAdress.ReadOnly = true;
-            this.txbAdress.Size = new System.Drawing.Size(234, 26);
-            this.txbAdress.TabIndex = 1;
-            this.txbAdress.TabStop = false;
+            this.cbAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbAddress.FormattingEnabled = true;
+            this.cbAddress.Location = new System.Drawing.Point(68, 11);
+            this.cbAddress.Name = "cbAddress";
+            this.cbAddress.Size = new System.Drawing.Size(282, 23);
+            this.cbAddress.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 14);
+            this.label3.Location = new System.Drawing.Point(3, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 20);
             this.label3.TabIndex = 0;
@@ -144,15 +146,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 179);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(911, 189);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btPayView);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Name = "fPayView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Thanh toán";
+            this.Text = "fPayView";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -170,10 +172,10 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txbCusName;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btPayView;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox txbAdress;
+        private System.Windows.Forms.ComboBox cbAddress;
         private System.Windows.Forms.Label label3;
     }
 }

@@ -72,6 +72,7 @@
     <Compile Include="DAO\BillInfoDAO.cs" />
     <Compile Include="DAO\ChangeRegulationDAO.cs" />
     <Compile Include="DAO\DataProvide.cs" />
+    <Compile Include="DAO\PayDAO.cs" />
     <Compile Include="DAO\ReportDAO.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
     <Compile Include="DTO\BillDTO.cs" />
@@ -140,18 +141,6 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fUpdateRoomPrice.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fUpdateRoomPrice.Designer.cs">
-      <DependentUpon>fUpdateRoomPrice.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fViewRoom.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fViewRoom.Designer.cs">
-      <DependentUpon>fViewRoom.cs</DependentUpon>
-    </Compile>
     <Compile Include="fPay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,6 +152,18 @@
     </Compile>
     <Compile Include="fPayView.Designer.cs">
       <DependentUpon>fPayView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fUpdateRoomPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUpdateRoomPrice.Designer.cs">
+      <DependentUpon>fUpdateRoomPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fViewRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fViewRoom.Designer.cs">
+      <DependentUpon>fViewRoom.cs</DependentUpon>
     </Compile>
     <Compile Include="fRent.cs">
       <SubType>Form</SubType>
