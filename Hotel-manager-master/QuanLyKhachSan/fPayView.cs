@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyKhachSan.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,5 +25,7 @@ namespace QuanLyKhachSan
             f.ShowDialog();
             this.Show();
         }
+
+      
     }
 }

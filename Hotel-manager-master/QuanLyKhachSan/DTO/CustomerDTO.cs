@@ -8,24 +8,10 @@ namespace QuanLyKhachSan.DTO
 {
     public class CustomerDTO
     {
-        private int customerCode;
         private string customerName;
         private int customerStyle;
         private int customerCMND;
         private string customerAddress;
-
-        public int CustomerCode
-        {
-            get
-            {
-                return customerCode;
-            }
-
-            set
-            {
-                customerCode = value;
-            }
-        }
 
         public string CustomerName
         {
@@ -79,9 +65,8 @@ namespace QuanLyKhachSan.DTO
             }
         }
         public CustomerDTO() { }
-        public CustomerDTO( string customerName  , int customerStyle , int customerCMND ,string customerAddress, int customerCode = 6)
+        public CustomerDTO( string customerName  , int customerStyle , int customerCMND ,string customerAddress)
         {
-            this.customerCode = customerCode;
             this.customerName = customerName;
             this.customerStyle = customerStyle;
             this.customerCMND = customerCMND;

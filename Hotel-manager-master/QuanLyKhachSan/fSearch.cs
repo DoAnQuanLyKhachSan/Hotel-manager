@@ -41,8 +41,8 @@ namespace QuanLyKhachSan
 
         private void setDataRoomStatus()//value combo box theo ma loai phong
         {
-            cbxRoomStatus.DisplayMember = "TenTrangThai";
-            cbxRoomStatus.ValueMember = "MaTrangThai";
+            cbxRoomStatus.DisplayMember = "TenTinhTrang";
+            cbxRoomStatus.ValueMember = "MaTinhTrang";
             cbxRoomStatus.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataRoomStatusQuery());
         }
         #endregion

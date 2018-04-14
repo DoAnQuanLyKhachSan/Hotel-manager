@@ -83,10 +83,10 @@ namespace QuanLyKhachSan
             {
                 if(ex is SqlException)
                 {
-                    MessageBox.Show("Mã phòng đã tồn tại , nhập lại");
+                    MessageBox.Show("Mã phòng đã tồn tại");
                 }else
                 {
-                    MessageBox.Show("Nhập mã phòng sai , nhập lại");
+                    MessageBox.Show("Nhập mã phòng sai");
                 }
             }
             

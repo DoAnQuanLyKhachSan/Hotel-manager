@@ -28,17 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnChartReport = new System.Windows.Forms.Panel();
-            this.chReport = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pnTime = new System.Windows.Forms.Panel();
             this.btViewReport = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtp = new System.Windows.Forms.DateTimePicker();
             this.pnTitles = new System.Windows.Forms.Panel();
             this.tbTitles = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -46,16 +45,17 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgvReport = new System.Windows.Forms.DataGridView();
+            this.chReport = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1.SuspendLayout();
             this.pnChartReport.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chReport)).BeginInit();
             this.pnTime.SuspendLayout();
             this.pnTitles.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvReport)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chReport)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,35 +76,10 @@
             this.pnChartReport.Size = new System.Drawing.Size(358, 141);
             this.pnChartReport.TabIndex = 3;
             // 
-            // chReport
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.chReport.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chReport.Legends.Add(legend2);
-            this.chReport.Location = new System.Drawing.Point(16, 10);
-            this.chReport.Name = "chReport";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Phòng loại A";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Phòng loại B";
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.Name = "Phòng loại C";
-            this.chReport.Series.Add(series4);
-            this.chReport.Series.Add(series5);
-            this.chReport.Series.Add(series6);
-            this.chReport.Size = new System.Drawing.Size(329, 117);
-            this.chReport.TabIndex = 0;
-            this.chReport.Text = "chart1";
-            this.chReport.Click += new System.EventHandler(this.chReport_Click);
-            // 
             // pnTime
             // 
             this.pnTime.Controls.Add(this.btViewReport);
-            this.pnTime.Controls.Add(this.dateTimePicker1);
+            this.pnTime.Controls.Add(this.dtp);
             this.pnTime.Location = new System.Drawing.Point(15, 73);
             this.pnTime.Name = "pnTime";
             this.pnTime.Size = new System.Drawing.Size(362, 82);
@@ -118,14 +93,16 @@
             this.btViewReport.TabIndex = 2;
             this.btViewReport.Text = "Xem Báo báo";
             this.btViewReport.UseVisualStyleBackColor = true;
+            this.btViewReport.Click += new System.EventHandler(this.btViewReport_Click);
             // 
-            // dateTimePicker1
+            // dtp
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 13);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(312, 20);
-            this.dateTimePicker1.TabIndex = 1;
+            this.dtp.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp.Location = new System.Drawing.Point(12, 13);
+            this.dtp.Name = "dtp";
+            this.dtp.Size = new System.Drawing.Size(312, 20);
+            this.dtp.TabIndex = 1;
+            this.dtp.Value = new System.DateTime(2018, 4, 14, 1, 19, 7, 0);
             // 
             // pnTitles
             // 
@@ -173,6 +150,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Trở Về";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -185,19 +163,44 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.dataGridView1);
+            this.panel4.Controls.Add(this.dtgvReport);
             this.panel4.Location = new System.Drawing.Point(3, 239);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(783, 256);
             this.panel4.TabIndex = 2;
             // 
-            // dataGridView1
+            // dtgvReport
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(739, 245);
-            this.dataGridView1.TabIndex = 0;
+            this.dtgvReport.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvReport.Location = new System.Drawing.Point(15, 3);
+            this.dtgvReport.Name = "dtgvReport";
+            this.dtgvReport.Size = new System.Drawing.Size(739, 245);
+            this.dtgvReport.TabIndex = 0;
+            // 
+            // chReport
+            // 
+            chartArea5.Name = "ChartArea1";
+            this.chReport.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chReport.Legends.Add(legend5);
+            this.chReport.Location = new System.Drawing.Point(16, 10);
+            this.chReport.Name = "chReport";
+            series13.ChartArea = "ChartArea1";
+            series13.Legend = "Legend1";
+            series13.Name = "Phòng loại A";
+            series14.ChartArea = "ChartArea1";
+            series14.Legend = "Legend1";
+            series14.Name = "Phòng loại B";
+            series15.ChartArea = "ChartArea1";
+            series15.Legend = "Legend1";
+            series15.Name = "Phòng loại C";
+            this.chReport.Series.Add(series13);
+            this.chReport.Series.Add(series14);
+            this.chReport.Series.Add(series15);
+            this.chReport.Size = new System.Drawing.Size(329, 117);
+            this.chReport.TabIndex = 0;
+            this.chReport.Text = "chart1";
             // 
             // fReport
             // 
@@ -211,14 +214,14 @@
             this.Activated += new System.EventHandler(this.fReport_Activated);
             this.panel1.ResumeLayout(false);
             this.pnChartReport.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chReport)).EndInit();
             this.pnTime.ResumeLayout(false);
             this.pnTitles.ResumeLayout(false);
             this.pnTitles.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvReport)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chReport)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -227,10 +230,9 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel pnChartReport;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chReport;
         private System.Windows.Forms.Panel pnTime;
         private System.Windows.Forms.Button btViewReport;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtp;
         private System.Windows.Forms.Panel pnTitles;
         private System.Windows.Forms.TextBox tbTitles;
         private System.Windows.Forms.Panel panel2;
@@ -238,6 +240,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgvReport;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chReport;
     }
 }

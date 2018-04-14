@@ -40,8 +40,8 @@ namespace QuanLyKhachSan
 
         private void setDataStatusRoomNew()
         {
-            cbxRoomStatusNew.DisplayMember = "TenTrangThai";
-            cbxRoomStatusNew.ValueMember = "MaTrangThai";
+            cbxRoomStatusNew.DisplayMember = "TenTinhTrang";
+            cbxRoomStatusNew.ValueMember = "MaTinhTrang";
             cbxRoomStatusNew.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataRoomStatusQuery());
         }
 
@@ -110,9 +110,10 @@ namespace QuanLyKhachSan
                     MessageBox.Show("Mã phòng cần sửa không tồn tại");
                 }
             }
-            catch 
+            catch (Exception ex) 
             {
-               MessageBox.Show("Nhập thông tin cần sửa");
+                if (ex is SqlException) MessageBox.Show("Lỗi dữ liệu");
+                 MessageBox.Show("Nhập thông tin cần sửa");
             }
             }
         }

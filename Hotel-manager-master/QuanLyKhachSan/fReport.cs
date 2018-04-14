@@ -18,14 +18,21 @@ namespace QuanLyKhachSan
             InitializeComponent();
         }
 
-        private void chReport_Click(object sender, EventArgs e)
+        private void fReport_Activated(object sender, EventArgs e)
         {
            
         }
 
-        private void fReport_Activated(object sender, EventArgs e)
+        private void btViewReport_Click(object sender, EventArgs e)
         {
-            chReport.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.setDataRoomStatusQuery());
+            int _month = dtp.Value.Month, _year = dtp.Value.Year;
+
+            dtgvReport.DataSource = ReportDAO.Instance.LoadReport(_year,_month);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

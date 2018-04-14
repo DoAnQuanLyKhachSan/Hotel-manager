@@ -29,7 +29,7 @@ namespace QuanLyKhachSan.DAO
 
         public DataTable LoadListRate()
         {
-            string query = "SELECT* FROM dbo.THAMSO WHERE TenThamSo <> N'KhachToiDa'";
+            string query = "SELECT * FROM dbo.THAMSO WHERE  TenThamSo=N'HeSoPhuThu' OR TenThamSo=N'TyLePhuThu'";
             return DataProvide.Instance.ExecuteQuery(query);
         }
         public DataTable LoadListRoomType()
@@ -135,15 +135,15 @@ namespace QuanLyKhachSan.DAO
             DataProvide.Instance.ExecuteQuery(query, new object[] {_max});
         }
 
-        public void UpdateRate1(double n)
+        public void UpdateRate1(float n)
         {
-            string query = "EXEC dbo.sp_CapNhatPhuThu @PhuThu ";
+            string query = "EXEC dbo.sp_CapNhatTyLePhuThu @TyLe ";
             DataProvide.Instance.ExecuteQuery(query, new object[] { n });
         }
 
-        public void UpdateRate2(double n)
+        public void UpdateRate2(float n)
         {
-            string query = "EXEC dbo.sp_CapNhatHeSo @HeSo ";
+            string query = "EXEC dbo.sp_CapNhatHeSoPhuThu @HeSo ";
             DataProvide.Instance.ExecuteQuery(query, new object[] { n });
         }
 
