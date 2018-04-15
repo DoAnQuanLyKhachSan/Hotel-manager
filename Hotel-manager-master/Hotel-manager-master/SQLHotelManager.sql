@@ -383,6 +383,35 @@ values(@RoomCode,@BeginDay)
 END
 GO
 
+create PROC sp_ChiTietThanhToan(@TenKH NVARCHAR(50), @DiaChi NVARCHAR(50))
+AS
+BEGIN
+
+	SELECT distinct p.MaLoaiPhong, ctd.SoNgayThue, ctd.DonGia, ctd.ThanhTien
+	 FROM  HOADON hd, CHITIET_HOADON ctd, PHIEUTHUEPHONG pt, CHITIET_PHIEUTHUE ctt, PHONG p, LOAI_PHONG lp
+	WHERE hd.MaHD=ctd.MaHD and ctd.MaPT=pt.MaPT AND pt.MaPT=ctt.MaPT AND pt.MaPhong=p.MaPhong
+		AND hd.TenKhachHang=@TenKH AND ctt.DiaChi=@DiaChi
+
+END
+GO
+
+
+CREATE PROC sp_LayDiaChi (@Name nvarchar(50))
+AS
+BEGIN 
+	SELECT DISTINCT DiaChi FROM dbo.CHITIET_PHIEUTHUE WHERE TenKhachHang=@Name
+END
+GO
+
+CREATE PROC sp_getTongTien(@TenKH NVARCHAR(50), @DiaChi NVARCHAR(50))
+AS 
+BEGIN
+	
+	SELECT DISTINCT hd.TongTien FROM dbo.HOADON hd, dbo.CHITIET_PHIEUTHUE ctt
+	WHERE hd.TenKhachHang=ctt.TenKhachHang AND hd.TenKhachHang=@TenKH AND ctt.DiaChi=@DiaChi
+
+END
+GO
 
 CREATE PROCEDURE dbo.CreateTenancyCardDetail
   @TenancyCardCode int,
