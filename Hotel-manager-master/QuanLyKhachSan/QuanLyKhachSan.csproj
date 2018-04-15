@@ -72,6 +72,7 @@
     <Compile Include="DAO\BillInfoDAO.cs" />
     <Compile Include="DAO\ChangeRegulationDAO.cs" />
     <Compile Include="DAO\DataProvide.cs" />
+    <Compile Include="DAO\PayDAO.cs" />
     <Compile Include="DAO\ReportDAO.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
     <Compile Include="DTO\BillDTO.cs" />
@@ -140,6 +141,24 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="fPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPay.Designer.cs">
+      <DependentUpon>fPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPay1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPay1.Designer.cs">
+      <DependentUpon>fPay1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPayView1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPayView1.Designer.cs">
+      <DependentUpon>fPayView1.cs</DependentUpon>
+    </Compile>
     <Compile Include="fUpdateRoomPrice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,18 +170,6 @@
     </Compile>
     <Compile Include="fViewRoom.Designer.cs">
       <DependentUpon>fViewRoom.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fPay.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fPay.Designer.cs">
-      <DependentUpon>fPay.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fPayView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fPayView.Designer.cs">
-      <DependentUpon>fPayView.cs</DependentUpon>
     </Compile>
     <Compile Include="fRent.cs">
       <SubType>Form</SubType>
@@ -232,8 +239,11 @@
     <EmbeddedResource Include="fPay.resx">
       <DependentUpon>fPay.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fPayView.resx">
-      <DependentUpon>fPayView.cs</DependentUpon>
+    <EmbeddedResource Include="fPay1.resx">
+      <DependentUpon>fPay1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPayView1.resx">
+      <DependentUpon>fPayView1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fRent.resx">
       <DependentUpon>fRent.cs</DependentUpon>

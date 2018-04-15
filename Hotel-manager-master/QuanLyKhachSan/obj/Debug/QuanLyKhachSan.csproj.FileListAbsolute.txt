@@ -176,7 +176,6 @@ C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
-C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
@@ -186,3 +185,5 @@ C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
 C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay1.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView1.resources
