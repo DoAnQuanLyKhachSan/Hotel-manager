@@ -17,9 +17,11 @@ namespace QuanLyKhachSan
     {
         CustomerDTO[] _customer = new CustomerDTO[5];
         fRoom f = new fRoom();
-        public fRent(fRoom room, string roomname)
+        MainMenu m = new MainMenu();
+        public fRent(fRoom room, string roomname,MainMenu mainMenu)
         {
             InitializeComponent();
+            m = mainMenu;
             this.txbRoomName.Text = roomname;
             f = room;
         }
@@ -78,6 +80,7 @@ namespace QuanLyKhachSan
                     RoomDAO.Instance.updateStatusRoom(getRoomCode()); //update status Room 
                     MessageBox.Show("Tạo phiếu thuê phòng thành công");
                     LoadListRoomAndCloseForm();
+                    m.ReLoadRoomStatus();
                 }
                 else   // phòng đang sửa chữa hoặc đang cho thuê
                 {

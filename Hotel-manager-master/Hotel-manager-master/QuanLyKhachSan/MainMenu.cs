@@ -16,7 +16,7 @@ namespace QuanLyKhachSan
     public partial class MainMenu : Form
     {
         private object resources;
-
+        List<Button> Buttonlist = new List<Button>();
         public MainMenu()
         {
             InitializeComponent();
@@ -25,6 +25,36 @@ namespace QuanLyKhachSan
             LoadListRoom();
         }
         #region Method
+        public void ReLoadRoomStatus()
+        {
+            List<RoomDTO> StatusRoomList = RoomDAO.Instance.LoadRoomList();
+
+            foreach (Button control in Buttonlist)
+            {
+                if (control.GetType() == typeof(Button))
+                {
+                    //all btn
+                    foreach (RoomDTO roomDTO in StatusRoomList)
+                    {
+                        if(control.Text==roomDTO.RoomName)
+                            switch (roomDTO.RoomStatus)
+                            {
+                                case 1:
+                                    control.BackColor = Color.LightPink;
+                                    break;
+                                case 2:
+                                    control.BackColor = Color.LightGray;
+                                    break;
+                                case 3:
+                                    control.BackColor = Color.OrangeRed;
+                                    break;
+                                default:
+                                    break;
+                            }
+                    }
+                }
+            }                             
+        }
         public void LoadRoom()
         {
             List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
@@ -68,6 +98,7 @@ namespace QuanLyKhachSan
                     default:
                         break;
                 }
+                Buttonlist.Add(btn);
                 flpRoom.Controls.Add(btn);
             }
         }
@@ -76,7 +107,7 @@ namespace QuanLyKhachSan
         {
             int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
             this.Hide();
-            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),RoomCode);
+            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),RoomCode,this);
             fView.ShowDialog();
             this.Show();
         }
@@ -115,14 +146,14 @@ namespace QuanLyKhachSan
             //Available
             Button btnAv = new Button() { Width = 100, Height = 25 };
             btnAv.Text = "Có Thể Thuê " + available.ToString();
-            btnAv.BackColor = Color.LightGray;
+            btnAv.BackColor = Color.LightPink;
             btnAv.Click += new EventHandler(btnAv_Click);
             btnAv.Width = 125;
             btnAv.Height = 50;
             //Inused
             Button btnIU = new Button() { Width = 100, Height = 25 };
             btnIU.Text = "Đã Thuê " + inused.ToString();
-            btnIU.BackColor = Color.LightPink;
+            btnIU.BackColor = Color.LightGray;
             btnIU.Click += new EventHandler(btnIU_Click);
             btnIU.Width = 125;
             btnIU.Height = 50;

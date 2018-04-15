@@ -13,7 +13,8 @@ namespace QuanLyKhachSan
 {
     public partial class fViewRoom : Form
     {
-        public fViewRoom(List<BillInfoDTO> ListBillInfo,int roomcode)
+        MainMenu mainMenu = new MainMenu();
+        public fViewRoom(List<BillInfoDTO> ListBillInfo,int roomcode, MainMenu mainmenu)
         {
             InitializeComponent();
             this.label1.Text = "Phòng " + roomcode.ToString();
@@ -21,6 +22,8 @@ namespace QuanLyKhachSan
                 this.RentButton.Visible = true;
             foreach (BillInfoDTO item in ListBillInfo)
                 {
+                if (item.RoomStatus1 ==1)
+                    break;
                         this.label13.Text = item.CustomerName1;
                         this.label12.Text = item.CustomerType1.ToString();
                         this.label11.Text = item.IdentityCard1.ToString();
@@ -30,6 +33,7 @@ namespace QuanLyKhachSan
                 if (item.RoomStatus1.ToString() == "1")
                     this.RentButton.Visible = true;
                 }
+            mainMenu = mainmenu;
             
         }
 
@@ -40,10 +44,10 @@ namespace QuanLyKhachSan
 
         private void RentButton_Click(object sender, EventArgs e)
         {
-            //fRent f = new fRent(new fRoom(), (this.label1.Text =? "Hiện Chưa Có Dữ Liệu") : this.label1.Text , null);
-            //this.Hide();
-            //f.ShowDialog();
-            //this.Show();
+            fRent f = new fRent(new fRoom(),this.label1.Text,mainMenu);
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }
