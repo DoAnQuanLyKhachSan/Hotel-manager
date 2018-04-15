@@ -26,7 +26,7 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-        public string connectionStr = @"Data Source=DESKTOP-32F0H4O;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
+        public string connectionStr = @"Data Source=MEREDITH;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
