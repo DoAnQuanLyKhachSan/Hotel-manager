@@ -69,7 +69,7 @@ namespace QuanLyKhachSan
 
         private void btnRent_Click(object sender, EventArgs e)
         {
-            fRent _rentRoom = new fRent();
+            fRent _rentRoom = new fRent(this);
             _rentRoom.Show();
         }
         

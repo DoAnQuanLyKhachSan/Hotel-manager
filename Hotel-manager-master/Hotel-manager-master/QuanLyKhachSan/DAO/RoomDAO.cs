@@ -94,9 +94,52 @@ namespace QuanLyKhachSan.DAO
             return int.Parse(data);
         }
 
-        public void CreateTenancyCard(int getCodeRoom,string getBeginDay,CustomerDTO[] _customer)
+        public int CreateTenancyCard(int getCodeRoom, DateTime getBeginDay)
         {
-           
+            
+            string createTenancyCardQuery = "EXEC dbo.CreateTenancyCard @RoomCode , @BeginDay ";
+            int rs = DataProvide.Instance.ExecuteNonQuery(createTenancyCardQuery, new object[] { getCodeRoom, getBeginDay });
+            return rs;
         }
+
+        public int ReturnTenancyCardCode(int getCodeRoom,DateTime getBeginDay)
+        {
+            string query = "select MaPT from PHIEUTHUEPHONG WHERE MaPhong = "+getCodeRoom+" AND NgayBatDau = '"+getBeginDay+"'";
+            string data = DataProvide.Instance.ExecuteReader(query);
+            return int.Parse(data);
+        }
+
+        public  void CreateTenancyCardDetail(CustomerDTO [] _ListCustomer,int getCodeRoom,DateTime getBeginDay)
+        {
+            foreach(CustomerDTO _customer in _ListCustomer)
+            {
+                if (_customer != null)
+                {
+                    string createTenancyCardDetailQuery = "EXEC dbo.CreateTenancyCardDetail @TenancyCardCode , @CustomerName , @CustomerStyleCode , @CustomerCMND , @CustomerAddress ";
+                     DataProvide.Instance.ExecuteNonQuery(createTenancyCardDetailQuery, new object[] { ReturnTenancyCardCode(getCodeRoom, getBeginDay), _customer.CustomerName, _customer.CustomerStyle, _customer.CustomerCMND, _customer.CustomerAddress });
+                } 
+            }
+        }
+        public void updateStatusRoom(int getRoomCode)
+        {
+            string query = "UPDATE dbo.PHONG set TinhTrangPhong = 2 WHERE MaPhong = " + getRoomCode;
+            DataProvide.Instance.ExecuteNonQuery(query);
+        }
+
+        public bool checkStatusRoomisRent(int getRoomCode)
+        {
+            string query = "select MaPhong from dbo.PHONG where TinhTrangPhong =1 AND MaPhong ="+getRoomCode;
+            string rs = DataProvide.Instance.ExecuteReader(query);
+            if (rs != null) return true;
+            return false;
+        }
+        public bool checkStatusRoomisRenting(int getRoomCode)
+        {
+            string query = "select MaPhong from dbo.PHONG where TinhTrangPhong =2 AND MaPhong =" + getRoomCode;
+            string rs = DataProvide.Instance.ExecuteReader(query);
+            if (rs != null) return true;
+            return false;
+        }
+
     }
 }

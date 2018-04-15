@@ -4,6 +4,8 @@ GO
 USE HOTEL_MANAGER
 GO
 
+
+
 CREATE TABLE LOAI_PHONG (
 	MaLoaiPhong int NOT NULL PRIMARY KEY,
 	TenLoaiPhong NVARCHAR(30) NOT NULL DEFAULT N'chua dat ten',
@@ -17,8 +19,8 @@ CREATE TABLE TINH_TRANG_PHONG (
 )
 GO
 
-INSERT INTO dbo.TINH_TRANG_PHONG( MaTinhTrang, TenTinhTrang ) VALUES(1, N'Đang cho thuê ')
-INSERT INTO dbo.TINH_TRANG_PHONG( MaTinhTrang, TenTinhTrang ) VALUES(2, N'Có thể cho thuê ')
+INSERT INTO dbo.TINH_TRANG_PHONG( MaTinhTrang, TenTinhTrang ) VALUES(1, N'Có thể cho thuê')
+INSERT INTO dbo.TINH_TRANG_PHONG( MaTinhTrang, TenTinhTrang ) VALUES(2, N'Đang cho thuê')
 INSERT INTO dbo.TINH_TRANG_PHONG( MaTinhTrang, TenTinhTrang ) VALUES(3, N'Đang sửa chữa ')
 GO
 
@@ -28,7 +30,7 @@ CREATE TABLE PHONG (
 	TenPhong NVARCHAR(30) NOT NULL DEFAULT N'chua dat ten',
 	MaLoaiPhong INT NOT NULL,
 	GhiChu NVARCHAR(100) DEFAULT N'chua co ghi chu',
-	TinhTrangPhong INT NOT NULL DEFAULT 1, -- 1: Có thể cho thuê || 0: Có ng thuê, đang sửa chữa
+	TinhTrangPhong INT NOT NULL DEFAULT 1,
 
 	FOREIGN KEY (MaLoaiPhong) REFERENCES dbo.LOAI_PHONG(MaLoaiPhong),
 	FOREIGN KEY (TinhTrangPhong) REFERENCES dbo.TINH_TRANG_PHONG(MaTinhTrang)
@@ -225,6 +227,7 @@ INSERT INTO dbo.HOADON( TenKhachHang,NgayThanhToan) VALUES ( N'Khách hàng 2' ,
 INSERT INTO dbo.HOADON( TenKhachHang,NgayThanhToan) VALUES ( N'Khách hàng 3' ,'4/9/2018')
 INSERT INTO dbo.HOADON( TenKhachHang,NgayThanhToan) VALUES ( N'Khách hàng 4' ,'4/11/2018')
 INSERT INTO dbo.HOADON( TenKhachHang,NgayThanhToan) VALUES ( N'Khách hàng 5' ,'4/13/2018')
+INSERT INTO dbo.HOADON( TenKhachHang,NgayThanhToan) VALUES ( N'Khách hàng 6' ,'4/8/2018' )
 GO
 
 INSERT INTO dbo.CHITIET_HOADON( MaHD,MaPT,SoNgayThue)VALUES  (1 , 1 ,9)
@@ -381,4 +384,50 @@ END
 GO
 
 
+CREATE PROCEDURE dbo.CreateTenancyCardDetail
+  @TenancyCardCode int,
+  @CustomerName nvarchar(50),
+  @CustomerStyleCode int,
+  @CustomerCMND int,
+  @CustomerAddress nvarchar(100)
+AS 
+BEGIN 
+ SET NOCOUNT ON; 
+  BEGIN 
+
+insert into HOTEL_MANAGER.dbo.CHITIET_PHIEUTHUE(MaPT,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)
+values(@TenancyCardCode,@CustomerName,@CustomerStyleCode,@CustomerCMND,@CustomerAddress)
+  END 
+END
+GO
+
+create PROC sp_ChiTietThanhToan(@TenKH NVARCHAR(50), @DiaChi NVARCHAR(50))
+AS
+BEGIN
+
+	SELECT distinct p.MaLoaiPhong, ctd.SoNgayThue, ctd.DonGia, ctd.ThanhTien
+	 FROM  HOADON hd, CHITIET_HOADON ctd, PHIEUTHUEPHONG pt, CHITIET_PHIEUTHUE ctt, PHONG p, LOAI_PHONG lp
+	WHERE hd.MaHD=ctd.MaHD and ctd.MaPT=pt.MaPT AND pt.MaPT=ctt.MaPT AND pt.MaPhong=p.MaPhong
+		AND hd.TenKhachHang=@TenKH AND ctt.DiaChi=@DiaChi
+
+END
+GO
+
+
+CREATE PROC sp_LayDiaChi (@Name nvarchar(50))
+AS
+BEGIN 
+	SELECT DISTINCT DiaChi FROM dbo.CHITIET_PHIEUTHUE WHERE TenKhachHang=@Name
+END
+GO
+
+CREATE PROC sp_getTongTien(@TenKH NVARCHAR(50), @DiaChi NVARCHAR(50))
+AS 
+BEGIN
+	
+	SELECT DISTINCT hd.TongTien FROM dbo.HOADON hd, dbo.CHITIET_PHIEUTHUE ctt
+	WHERE hd.TenKhachHang=ctt.TenKhachHang AND hd.TenKhachHang=@TenKH AND ctt.DiaChi=@DiaChi
+
+END
+GO
 

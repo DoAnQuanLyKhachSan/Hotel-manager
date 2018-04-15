@@ -179,7 +179,9 @@ namespace QuanLyKhachSan
             this.Hide();
             fRoom _room = new fRoom();
             _room.ShowDialog();
+            
             this.Show();
+          
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -203,8 +205,19 @@ namespace QuanLyKhachSan
             panel1.Height = PayButton.Height;
             panel1.Top = PayButton.Top;
             this.Hide();
-            fPayView _room = new fPayView();
-            _room.ShowDialog();
+            string mess = "Thanh toán phòng theo tên khách hàng ?";
+            string caption = "Hình thức thanh toán";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(mess, caption, buttons);
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                fPayView1 f = new fPayView1();
+                f.ShowDialog();
+            }else
+            {
+                fPay f = new fPay();
+                f.ShowDialog(); 
+            }
             this.Show();
         }
 
