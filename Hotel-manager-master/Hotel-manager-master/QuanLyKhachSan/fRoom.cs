@@ -18,8 +18,7 @@ namespace QuanLyKhachSan
         public fRoom()
         {
             InitializeComponent();
-            LoadRoomList();
-            
+            LoadRoomList();            
         }
         
         private void fRoom_Load(object sender, EventArgs e)

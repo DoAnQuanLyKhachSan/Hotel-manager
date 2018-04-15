@@ -57,13 +57,13 @@ namespace QuanLyKhachSan
                 switch (roomDTO.RoomStatus)
                 {
                     case 1:
-                        btn.BackColor = Color.Aqua;
+                        btn.BackColor = Color.LightPink;
                         break;
                     case 2:
-                        btn.BackColor = Color.Red;
+                        btn.BackColor = Color.LightGray;
                         break;
                     case 3:
-                        btn.BackColor = Color.HotPink;
+                        btn.BackColor = Color.OrangeRed;
                         break;
                     default:
                         break;
@@ -115,21 +115,21 @@ namespace QuanLyKhachSan
             //Available
             Button btnAv = new Button() { Width = 100, Height = 25 };
             btnAv.Text = "Có Thể Thuê " + available.ToString();
-            btnAv.BackColor = Color.SeaGreen;
+            btnAv.BackColor = Color.LightGray;
             btnAv.Click += new EventHandler(btnAv_Click);
             btnAv.Width = 125;
             btnAv.Height = 50;
             //Inused
             Button btnIU = new Button() { Width = 100, Height = 25 };
             btnIU.Text = "Đã Thuê " + inused.ToString();
-            btnIU.BackColor = Color.PaleVioletRed;
+            btnIU.BackColor = Color.LightPink;
             btnIU.Click += new EventHandler(btnIU_Click);
             btnIU.Width = 125;
             btnIU.Height = 50;
             //Undermaintainance
             Button btnMT = new Button() { Width = 100, Height = 25 };
             btnMT.Text = "Đang Sửa Chữa " + undermaintainance.ToString();
-            btnMT.BackColor = Color.Yellow;
+            btnMT.BackColor = Color.OrangeRed;
             btnMT.Click += new EventHandler(btnMT_Click);
             btnMT.Width = 125;
             btnMT.Height = 50;
@@ -178,10 +178,8 @@ namespace QuanLyKhachSan
             panel1.Top = RoomButton.Top;
             this.Hide();
             fRoom _room = new fRoom();
-            _room.ShowDialog();
-            
-            this.Show();
-          
+            _room.ShowDialog();            
+            this.Show();         
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

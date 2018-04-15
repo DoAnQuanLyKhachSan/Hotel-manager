@@ -17,13 +17,19 @@ namespace QuanLyKhachSan
     {
         CustomerDTO[] _customer = new CustomerDTO[5];
         fRoom f = new fRoom();
+        public fRent(fRoom room, string roomname)
+        {
+            InitializeComponent();
+            this.txbRoomName.Text = roomname;
+            f = room;
+        }
+
         public fRent(fRoom room)
         {
             InitializeComponent();
             f = room;
         }
 
-    
         private int getRoomCode()
         {
             return RoomDAO.Instance.ReturnRoomCode(txbRoomName.Text.ToString());

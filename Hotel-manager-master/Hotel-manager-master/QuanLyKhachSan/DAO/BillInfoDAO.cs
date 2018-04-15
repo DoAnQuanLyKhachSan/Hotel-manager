@@ -40,6 +40,6 @@ namespace QuanLyKhachSan.DAO
             }
             return ListBillInfo;
         }
-        private string GetlistBillInfoQuery = "select PHONG.MaPhong,MaLoaiPhong,NgayBatDau,CMND,TenKhachHang,MaLoaiKhachHang,GhiChu,TenPhong from((PHONG join PHIEUTHUEPHONG on PHONG.MaPhong= PHIEUTHUEPHONG.MaPhong) join CHITIET_PHIEUTHUE on PHIEUTHUEPHONG.MaPT=CHITIET_PHIEUTHUE.MaPT) join KHACHHANG on CHITIET_PHIEUTHUE.MaKhachHang=KHACHHANG.MaKhachHang where PHONG.MaPhong =";
+        private string GetlistBillInfoQuery = "select Phong.MaPhong,Phong.TinhTrangPhong,MaLoaiPhong,NgayBatDau,CMND,TenKhachHang,MaLoaiKhachHang,GhiChu,TenPhong from((PHONG join PHIEUTHUEPHONG on PHONG.MaPhong= PHIEUTHUEPHONG.MaPhong) join CHITIET_PHIEUTHUE on PHIEUTHUEPHONG.MaPT=CHITIET_PHIEUTHUE.MaPT) where PHONG.MaPhong =";
     }
 }

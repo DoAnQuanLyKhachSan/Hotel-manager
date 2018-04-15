@@ -9,7 +9,7 @@ namespace QuanLyKhachSan.DTO
 {
     public class BillInfoDTO
     {
-        public BillInfoDTO(int roomcode,int roomtype,DateTime daycheckin,string roomname,string customername,int customertype,int identitycard,string roomnote="")
+        public BillInfoDTO(int roomcode,int roomtype,DateTime daycheckin,string roomname,string customername,int customertype,int identitycard, int roomstatus, string roomnote="")
         {
             this.RoomCode1 = roomcode;
             this.RoomType1 = roomtype;
@@ -19,6 +19,7 @@ namespace QuanLyKhachSan.DTO
             this.IdentityCard1 = identitycard;
             this.RoomName1 = roomname;
             this.RoomNote1 = roomnote;
+            this.RoomStatus1 = roomstatus;
         }
 
         public BillInfoDTO(DataRow row)
@@ -31,7 +32,9 @@ namespace QuanLyKhachSan.DTO
             this.RoomNote1 = (String)row["GhiChu"];
             this.DayCheckIn1 = (DateTime)row["NgayBatDau"];
             this.RoomType1 = (int)row["MaLoaiPhong"];
+            this.RoomStatus1 = (int)row["TinhTrangPhong"];
         }
+        private int RoomStatus;
 
         private int RoomCode;
 
@@ -150,6 +153,18 @@ namespace QuanLyKhachSan.DTO
             set
             {
                 DayCheckIn = value;
+            }
+        }
+
+        public int RoomStatus1
+        {
+            get
+            {
+                return RoomStatus;
+            }
+            set
+            {
+                RoomStatus = value;
             }
         }
     }

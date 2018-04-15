@@ -17,6 +17,8 @@ namespace QuanLyKhachSan
         {
             InitializeComponent();
             this.label1.Text = "Phòng " + roomcode.ToString();
+            if(ListBillInfo.Capacity==0)
+                this.RentButton.Visible = true;
             foreach (BillInfoDTO item in ListBillInfo)
                 {
                         this.label13.Text = item.CustomerName1;
@@ -25,7 +27,23 @@ namespace QuanLyKhachSan
                         this.label10.Text = item.DayCheckIn1.ToString();
                         this.label9.Text = item.RoomType1.ToString();
                         this.label8.Text = item.RoomNote1;
+                if (item.RoomStatus1.ToString() == "1")
+                    this.RentButton.Visible = true;
                 }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void RentButton_Click(object sender, EventArgs e)
+        {
+            //fRent f = new fRent(new fRoom(), (this.label1.Text =? "Hiện Chưa Có Dữ Liệu") : this.label1.Text , null);
+            //this.Hide();
+            //f.ShowDialog();
+            //this.Show();
         }
     }
 }

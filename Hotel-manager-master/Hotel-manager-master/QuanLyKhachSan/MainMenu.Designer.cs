@@ -84,7 +84,7 @@ namespace QuanLyKhachSan
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(167)))), ((int)(((byte)(174)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(194)))), ((int)(((byte)(198)))));
             this.panel2.Controls.Add(this.ExitButton);
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.panel3);
@@ -256,11 +256,12 @@ namespace QuanLyKhachSan
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Yellow;
-            this.label1.Font = new System.Drawing.Font("Brush Script MT", 24.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 13);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(100)))), ((int)(((byte)(98)))));
+            this.label1.Font = new System.Drawing.Font("Brush Script MT", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(83, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 40);
+            this.label1.Size = new System.Drawing.Size(85, 43);
             this.label1.TabIndex = 14;
             this.label1.Text = "Hotel";
             // 
@@ -280,10 +281,10 @@ namespace QuanLyKhachSan
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(100)))), ((int)(((byte)(98)))));
             this.pictureBox1.Location = new System.Drawing.Point(56, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 45);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 49);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
