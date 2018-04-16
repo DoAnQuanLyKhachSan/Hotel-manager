@@ -16,8 +16,8 @@ namespace QuanLyKhachSan
     public partial class fAddRoom : Form
     {
         private fRoom _fRoom;
-      
-        RoomDTO _room = new RoomDTO(); 
+        RoomDTO _room = new RoomDTO();
+        MainMenu m = new MainMenu();
         public fAddRoom(fRoom form)
         {
             InitializeComponent();
@@ -25,7 +25,14 @@ namespace QuanLyKhachSan
             txbRoomCode.Select(); // focus cusor in textbox : CodeName
             setDataStyleRoom();
         }
-        
+        public fAddRoom(fRoom form, MainMenu main)
+        {
+            InitializeComponent();
+            _fRoom = form;
+            m = main;
+            txbRoomCode.Select(); // focus cusor in textbox : CodeName
+            setDataStyleRoom();
+        }
         #region set
         private void setDataStyleRoom() 
         {
@@ -53,6 +60,15 @@ namespace QuanLyKhachSan
             _room.RoomCode = int.Parse(txbRoomCode.Text.ToString());
             return _room;
         }
+        private int getCodeRoomint()
+        {
+            int roomcode;
+            if (Int32.TryParse(txbRoomCode.Text.ToString(), out roomcode))
+            {
+                _room.RoomCode = roomcode;
+            }
+            return _room.RoomCode;
+        }
         private RoomDTO getNameRoom()
         {
             _room.RoomName = txbRoomName.Text.ToString();
@@ -77,6 +93,14 @@ namespace QuanLyKhachSan
                 {
                     MessageBox.Show("Thêm phòng thành công");
                     _fRoom.LoadRoomList();
+                    Button button = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
+                    button.Text = getNameRoom().RoomName;
+                    button.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                    button.ImageAlign = ContentAlignment.MiddleCenter;
+                    button.TextAlign = ContentAlignment.BottomCenter;
+                    button.BackColor = Color.LightPink;
+                    button.Click += new EventHandler(button_Click);
+                    m.AddRoom(button);
                 }
             }
             catch(Exception ex)
@@ -89,9 +113,17 @@ namespace QuanLyKhachSan
                     MessageBox.Show("Nhập mã phòng sai");
                 }
             }
-            
-           
         }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            int RoomCode = getCodeRoomint();
+            this.Hide();
+            fViewRoom fView = new fViewRoom(m.LoadRoomInfo(RoomCode), RoomCode, m);
+            fView.ShowDialog();
+            m.Show();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

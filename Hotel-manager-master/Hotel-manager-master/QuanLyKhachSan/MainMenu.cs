@@ -25,6 +25,37 @@ namespace QuanLyKhachSan
             LoadListRoom();
         }
         #region Method
+        public void AddRoom(Button button)
+        {
+            SuspendLayout();
+            flpRoom.Controls.Add(button);
+            Buttonlist.Add(button);
+            ResumeLayout();
+        }
+        public void RemoveRoom(Button button)
+        {
+            SuspendLayout();
+            List<Control> listControls = flpRoom.Controls.Cast<Control>().ToList();
+
+            foreach (Control control in listControls)
+            {
+                if (button.Text == control.Text && control.GetType() == typeof(Button))
+                {
+                    flpRoom.Controls.Remove(control);
+                    control.Dispose();
+                    break;
+                }
+            }
+            foreach(Button btn in Buttonlist)
+            {
+                if(button.Text==btn.Text)
+                {
+                    Buttonlist.Remove(btn);
+                    break;
+                }
+            }
+            ResumeLayout();
+        }
         public void ReLoadRoomStatus()
         {
             List<RoomDTO> StatusRoomList = RoomDAO.Instance.LoadRoomList();
@@ -55,62 +86,65 @@ namespace QuanLyKhachSan
                 }
             }                             
         }
+
         public void LoadRoom()
         {
-            List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
-            foreach (RoomDTO roomDTO in RoomList)
-            {
-                Button btn = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
-                btn.Text = roomDTO.RoomName;
-                btn.Click += new EventHandler(btn_Click);
-                btn.Tag = roomDTO;
-                switch (roomDTO.RoomStyle)
+                List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
+                foreach (RoomDTO roomDTO in RoomList)
                 {
-                    case 1:
-                        btn.Image = global::QuanLyKhachSan.Properties.Resources.room1;
-                        btn.ImageAlign = ContentAlignment.MiddleCenter;
-                        btn.TextAlign = ContentAlignment.BottomCenter;
-                        break;
-                    case 2:
-                        btn.Image = global::QuanLyKhachSan.Properties.Resources.room2;
-                        btn.ImageAlign = ContentAlignment.MiddleCenter;
-                        btn.TextAlign = ContentAlignment.BottomCenter;
-                        break;
-                    case 3:
-                        btn.Image = global::QuanLyKhachSan.Properties.Resources.room3;
-                        btn.ImageAlign = ContentAlignment.MiddleCenter;
-                        btn.TextAlign = ContentAlignment.BottomCenter;
-                        break;
-                    default:
-                        break;
-                }
-                switch (roomDTO.RoomStatus)
-                {
-                    case 1:
-                        btn.BackColor = Color.LightPink;
-                        break;
-                    case 2:
-                        btn.BackColor = Color.LightGray;
-                        break;
-                    case 3:
-                        btn.BackColor = Color.OrangeRed;
-                        break;
-                    default:
-                        break;
-                }
-                Buttonlist.Add(btn);
-                flpRoom.Controls.Add(btn);
-            }
-        }
 
-        private void btn_Click(object sender, EventArgs e)
-        {
-            int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
-            this.Hide();
-            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),RoomCode,this);
-            fView.ShowDialog();
-            this.Show();
-        }
+                    Button btn = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
+                    btn.Text = roomDTO.RoomName;
+                    btn.Click += new EventHandler(btn_Click);
+                    btn.Tag = roomDTO;
+                    switch (roomDTO.RoomStyle)
+                    {
+                        case 1:
+                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                            btn.ImageAlign = ContentAlignment.MiddleCenter;
+                            btn.TextAlign = ContentAlignment.BottomCenter;
+                            break;
+                        case 2:
+                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room2;
+                            btn.ImageAlign = ContentAlignment.MiddleCenter;
+                            btn.TextAlign = ContentAlignment.BottomCenter;
+                            break;
+                        case 3:
+                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room3;
+                            btn.ImageAlign = ContentAlignment.MiddleCenter;
+                            btn.TextAlign = ContentAlignment.BottomCenter;
+                            break;
+                        default:
+                            break;
+                    }
+                    switch (roomDTO.RoomStatus)
+                    {
+                        case 1:
+                            btn.BackColor = Color.LightPink;
+                            break;
+                        case 2:
+                            btn.BackColor = Color.LightGray;
+                            break;
+                        case 3:
+                            btn.BackColor = Color.OrangeRed;
+                            break;
+                        default:
+                            break;
+                    }
+                    Buttonlist.Add(btn);
+                    flpRoom.Controls.Add(btn);
+                }
+            }
+        //public void ReleaseFlowlayoutPanel()
+        //{
+        //    List<Control> listControls = flpRoom.Controls.Cast<Control>().ToList();
+
+        //    foreach (Control control in listControls)
+        //    {
+        //        flpRoom.Controls.Remove(control);
+        //        control.Dispose();
+        //    }
+        //}
 
         public void LoadStatusOfRooms()
         {
@@ -177,6 +211,15 @@ namespace QuanLyKhachSan
         }
         #endregion
         #region Events
+        private void btn_Click(object sender, EventArgs e)
+        {
+            int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
+            this.Hide();
+            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode), RoomCode, this);
+            fView.ShowDialog();
+            this.Show();
+        }
+
         public List<BillInfoDTO> LoadRoomInfo(int roomcode)
         {
             List<BillInfoDTO> ListBillInfo = BillInfoDAO.Instance.GetListBillInfo(BillDAO.Instance.GetBillIDByRoomcode(roomcode));
@@ -208,7 +251,7 @@ namespace QuanLyKhachSan
             panel1.Height = RoomButton.Height;
             panel1.Top = RoomButton.Top;
             this.Hide();
-            fRoom _room = new fRoom();
+            fRoom _room = new fRoom(this);
             _room.ShowDialog();            
             this.Show();         
         }

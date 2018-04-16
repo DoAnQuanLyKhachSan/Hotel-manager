@@ -15,12 +15,18 @@ namespace QuanLyKhachSan
 {
     public partial class fRoom : Form
     {
+        MainMenu m = new MainMenu();
         public fRoom()
         {
             InitializeComponent();
             LoadRoomList();            
         }
-        
+        public fRoom(MainMenu main)
+        {
+            InitializeComponent();
+            LoadRoomList();
+            m = main;
+        }
         private void fRoom_Load(object sender, EventArgs e)
         {
 
@@ -44,7 +50,7 @@ namespace QuanLyKhachSan
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            fAddRoom _addRoom = new fAddRoom(this);
+            fAddRoom _addRoom = new fAddRoom(this,m);
           
             _addRoom.Show();
            
@@ -52,7 +58,7 @@ namespace QuanLyKhachSan
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            fDeleteRoom _deleteRoom = new fDeleteRoom(this);
+            fDeleteRoom _deleteRoom = new fDeleteRoom(this,m);
             this.Hide();
             _deleteRoom.ShowDialog();
             this.Show();

@@ -23,7 +23,7 @@ namespace QuanLyKhachSan
             InitializeComponent();
             m = mainMenu;
             this.txbRoomName.Text = roomname;
-            f = room;
+            //f = room;
         }
 
         public fRent(fRoom room)

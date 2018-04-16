@@ -14,6 +14,7 @@ namespace QuanLyKhachSan
 {
     public partial class fDeleteRoom : Form
     {
+        MainMenu m = new MainMenu();
         RoomDTO _room = new RoomDTO();
         fRoom _froom = new fRoom();
         public fDeleteRoom(fRoom f)
@@ -22,7 +23,13 @@ namespace QuanLyKhachSan
             _froom = f;
             LoadRoomList();
         }
-
+        public fDeleteRoom(fRoom f,MainMenu main)
+        {
+            InitializeComponent();
+            _froom = f;
+            m = main;
+            LoadRoomList();
+        }
         public void LoadRoomList()
         {
             dtgvPhong.DataSource = DataProvide.Instance.ExecuteQuery(RoomDAO.Instance.ExecuteLoadInforRoomQuery());
@@ -38,6 +45,7 @@ namespace QuanLyKhachSan
         {
             try
             {
+                m.RemoveRoom(getRoomInfo());
                 int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.deleteRoomDatabaseQuery() + _room.RoomCode);
                 //return data(int) > 0 is success
                 if (data > 0)
@@ -45,6 +53,7 @@ namespace QuanLyKhachSan
                     MessageBox.Show("Xóa phòng thành công");
                     _froom.LoadRoomList();
                     LoadRoomList();
+
                 }
             }
             catch (Exception)
@@ -52,7 +61,20 @@ namespace QuanLyKhachSan
                 MessageBox.Show("Xóa phòng thất bại ");
             }
         }
-
+        public Button getRoomInfo()
+        {
+            List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
+            Button btn = new Button();
+            foreach (RoomDTO roomDTO in RoomList)
+            {
+                if(_room.RoomCode==roomDTO.RoomCode)
+                {
+                    btn.Text = roomDTO.RoomName;
+                    break;
+                }
+            }
+            return btn;
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

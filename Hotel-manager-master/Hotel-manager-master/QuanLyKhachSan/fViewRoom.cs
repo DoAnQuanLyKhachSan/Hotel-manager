@@ -22,16 +22,17 @@ namespace QuanLyKhachSan
                 this.RentButton.Visible = true;
             foreach (BillInfoDTO item in ListBillInfo)
                 {
-                if (item.RoomStatus1 ==1)
-                    break;
+                    if (item.RoomStatus1 == 1)
+                        {
+                            this.RentButton.Visible = true;
+                            continue;
+                        }
                         this.label13.Text = item.CustomerName1;
                         this.label12.Text = item.CustomerType1.ToString();
                         this.label11.Text = item.IdentityCard1.ToString();
                         this.label10.Text = item.DayCheckIn1.ToString();
                         this.label9.Text = item.RoomType1.ToString();
-                        this.label8.Text = item.RoomNote1;
-                if (item.RoomStatus1.ToString() == "1")
-                    this.RentButton.Visible = true;
+                        this.label8.Text = item.RoomNote1;                        
                 }
             mainMenu = mainmenu;
             
