@@ -18,8 +18,6 @@ namespace QuanLyKhachSan
         {
             InitializeComponent();
             this.label1.Text = "Phòng " + roomcode.ToString();
-            if(ListBillInfo.Capacity==0)
-                this.RentButton.Visible = true;
             foreach (BillInfoDTO item in ListBillInfo)
                 {
                     if (item.RoomStatus1 == 1)
