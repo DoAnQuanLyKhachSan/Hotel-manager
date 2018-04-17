@@ -25,6 +25,46 @@ namespace QuanLyKhachSan
             LoadListRoom();
         }
         #region Method
+        public void ReloadRoom(string[] change)
+        {
+            SuspendLayout();                                //        0         1       2       3       4       5       6
+            /*String[] change = ChangedValue.Split('@');*/ //change{oldcode,oldname,newcode,newname,newnote,newstyle,newstatus}
+            foreach (Button btn in Buttonlist)
+            {
+                if (btn.Text==change[1])
+                {
+                    btn.Text = change[3];
+                }
+            }
+            ResumeLayout();
+        }
+        public void ReloadRoomImage(string[] change)
+        {
+            SuspendLayout();                            //        0         1       2       3       4       5       6
+            /*String[] change = ChangedValue.Split('@');*/ //change{oldcode,oldname,newcode,newname,newnote,newstyle,newstatus}
+            foreach (Button btn in Buttonlist)
+            {
+                if (btn.Text==change[3])
+                {
+                    switch (change[5])
+                    {
+                        case "1":
+                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                            break;
+                        case "2":
+                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room2;
+                            break;
+                        case "3":
+                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room3;
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                }
+            }
+            ResumeLayout();
+        }
         public void AddRoom(Button button)
         {
             SuspendLayout();
@@ -67,7 +107,8 @@ namespace QuanLyKhachSan
                     //all btn
                     foreach (RoomDTO roomDTO in StatusRoomList)
                     {
-                        if(control.Text==roomDTO.RoomName)
+                        if (control.Text == roomDTO.RoomName)
+                        {
                             switch (roomDTO.RoomStatus)
                             {
                                 case 1:
@@ -82,6 +123,8 @@ namespace QuanLyKhachSan
                                 default:
                                     break;
                             }
+                            break;
+                        }
                     }
                 }
             }                             

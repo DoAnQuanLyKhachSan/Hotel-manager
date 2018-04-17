@@ -15,6 +15,7 @@ namespace QuanLyKhachSan
 {
     public partial class fEditRoom : Form
     {
+        MainMenu m = new MainMenu();
         RoomDTO _room = new RoomDTO();
         fRoom _fRoom = new fRoom();
         public fEditRoom(fRoom f)
@@ -25,6 +26,16 @@ namespace QuanLyKhachSan
             setDataStatusRoomNew();
             setDataStyleRoomNew();
             loadRoomList();
+        }
+        public fEditRoom(fRoom f, MainMenu main)
+        {
+
+            InitializeComponent();
+            _fRoom = f;
+            setDataStatusRoomNew();
+            setDataStyleRoomNew();
+            loadRoomList();
+            m = main;
         }
 
         void loadRoomList()
@@ -66,8 +77,32 @@ namespace QuanLyKhachSan
             _room.RoomNote = txbRoomNoteNew.Text.ToString();
             return _room;
         }
-
-       
+        public string[] GetRoomChangedInfo(Button btn)
+        {
+            string ChangedValue = "";
+            ChangedValue += txbRoomCodeOld.Text.ToString() + '@';
+            ChangedValue += btn.Text + '@';
+            ChangedValue += txtRoomCodeNew.Text.ToString() + '@';
+            ChangedValue += txbRoomNameNew.Text.ToString() + '@';
+            ChangedValue += txbRoomNoteNew.Text.ToString() + '@';
+            ChangedValue += _room.RoomStyle.ToString() + '@';
+            ChangedValue += _room.RoomStatus.ToString();
+            return ChangedValue.Split('@');
+        }
+        public Button getRoomInfo()
+        {
+            List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
+            Button btn = new Button();
+            foreach (RoomDTO roomDTO in RoomList)
+            {
+                if (getRoomCodeOld() == roomDTO.RoomCode)
+                {
+                    btn.Text = roomDTO.RoomName;
+                    break;
+                }
+            }
+            return btn;
+        }
 
         private void cbxRoomStyleNew_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -92,6 +127,7 @@ namespace QuanLyKhachSan
 
             try
             {
+                Button btn = getRoomInfo();
                 string queryExits = "if EXISTS(SELECT * FROM PHONG Where MaPhong = "+getRoomCodeOld()+") select 1";
                 DataTable rs  = DataProvide.Instance.ExecuteQuery(queryExits);
                 if (rs.Rows.Count>0)
@@ -103,6 +139,9 @@ namespace QuanLyKhachSan
                         MessageBox.Show("Sửa phòng thành công");
                         _fRoom.LoadRoomList();
                         loadRoomList();
+                        m.ReloadRoom(GetRoomChangedInfo(btn));
+                        m.ReloadRoomImage(GetRoomChangedInfo(btn));
+                        m.ReLoadRoomStatus();
                     }
                 }
                 else
