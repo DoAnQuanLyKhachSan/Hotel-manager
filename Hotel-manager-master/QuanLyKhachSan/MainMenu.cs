@@ -258,7 +258,7 @@ namespace QuanLyKhachSan
         {
             int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
             this.Hide();
-            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode), RoomCode, this);
+            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),LoadRoomInfor(RoomCode), RoomCode, this);
             fView.ShowDialog();
             this.Show();
         }
@@ -268,13 +268,21 @@ namespace QuanLyKhachSan
             List<BillInfoDTO> ListBillInfo = BillInfoDAO.Instance.GetListBillInfo(BillDAO.Instance.GetBillIDByRoomcode(roomcode));
             return ListBillInfo;
         }
+        public RoomDTO LoadRoomInfor(int roomcode)
+        {
+            RoomDTO room = BillDAO.Instance.GetRoomInfoByRoomcode(roomcode);
+            return room;
+        }
         private void btnAll_Click(object sender,EventArgs args)
         {
             MessageBox.Show("btnAll");
         }
         private void btnAv_Click(object sender, EventArgs args)
         {
-            MessageBox.Show("btnAv");
+            this.Hide();
+            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(1);
+            _room.ShowDialog();
+            this.Show();
         }
         private void btnIU_Click(object sender, EventArgs args)
         {

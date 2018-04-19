@@ -18,6 +18,8 @@ namespace QuanLyKhachSan
         {
             InitializeComponent();
 
+            txbPayID.Text = PayDAO.Instance.getNewPayID().ToString();
+
             SetPayTable(PayRoomTable, PayCusTable);
 
         }
@@ -105,15 +107,34 @@ namespace QuanLyKhachSan
         private void btPayDetail_Click(object sender, EventArgs e)
         {
 
-            if (txtCusName.Text.Length == 0)
+            if (txtCusName.Text.Length == 0 || txtAddress.Text.Length==0)
             {
-                MessageBox.Show("Tên khách hàng không được để trống"); return;
+                MessageBox.Show("Chưa nhập tên người thanh toán hoặc địa chỉ!"); return;
             }
             if (dtgvPay.DataSource == null)
             {
                 MessageBox.Show("Chưa thêm dữ liệu để xem thanh toán"); return;
             }
 
+            PayDAO.Instance.AddPay(txtCusName.Text, dtpPay.Value.ToString("MM/dd/yyyy"));
+
+
+
+            if (int.Parse((cbPayType.SelectedIndex).ToString()) == 0)
+            {
+                List<string> list = new List<string>();
+                foreach(DataRow row in PayCusTable.Rows)
+                {
+                    string s = row["MaPhong"].ToString();
+                    if (list.Contains(s) == false)
+                        list.Add(s);
+                }
+                PayDAO.Instance.AddPayDetailByRoomID(list);
+            }
+            else
+            {
+                PayDAO.Instance.AddPayDetailByRoomID(getInfo.ListRoomPayed);
+            }
 
 
             getInfo.typePay = cbPayType.SelectedIndex;
@@ -122,12 +143,13 @@ namespace QuanLyKhachSan
 
             fPayDetail f = new fPayDetail();
             this.Hide();
+            dtgvPay.DataSource = null;
             f.ShowDialog();
 
             PayCusTable = new DataTable();
             PayRoomTable = new DataTable();
             SetPayTable(PayRoomTable, PayCusTable);
-
+            this.Close();
             this.Show();
 
         }
@@ -136,5 +158,13 @@ namespace QuanLyKhachSan
         {
             this.Close();
         }
+
+        private void fPayInfo_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            getInfo.ListCusPayed = new List<string>();
+            getInfo.ListRoomPayed = new List<string>();
+        }
+
+
     }
 }

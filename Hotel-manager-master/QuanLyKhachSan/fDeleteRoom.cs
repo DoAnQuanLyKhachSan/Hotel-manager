@@ -43,9 +43,9 @@ namespace QuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Button DeleteButton = getRoomInfo();
             try
             {
+                m.RemoveRoom(getRoomInfo());
                 int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.deleteRoomDatabaseQuery() + _room.RoomCode);
                 //return data(int) > 0 is success
                 if (data > 0)
@@ -53,7 +53,7 @@ namespace QuanLyKhachSan
                     MessageBox.Show("Xóa phòng thành công");
                     _froom.LoadRoomList();
                     LoadRoomList();
-                    m.RemoveRoom(DeleteButton);
+
                 }
             }
             catch (Exception)

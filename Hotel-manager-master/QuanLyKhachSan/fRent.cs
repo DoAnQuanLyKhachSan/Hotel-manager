@@ -85,7 +85,7 @@ namespace QuanLyKhachSan
                     getInforCustomer();// tạo một danh sách đối tượng khách hàng thuê phòng
                     RoomDAO.Instance.CreateTenancyCard(getRoomCode(), getBeginDay());//tao phieu thue phong
                     RoomDAO.Instance.CreateTenancyCardDetail(_customer, getRoomCode(), getBeginDay());//tao chitiet-thuephong
-                    RoomDAO.Instance.updateStatusRoom(getRoomCode()); //update status Room 
+                     
                     MessageBox.Show("Tạo phiếu thuê phòng thành công");
                     LoadListRoomAndCloseForm();
                     m.ReLoadRoomStatus();

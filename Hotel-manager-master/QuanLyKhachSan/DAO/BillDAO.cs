@@ -31,6 +31,16 @@ namespace QuanLyKhachSan.DAO
             }
             return -1;
         }
+        public RoomDTO GetRoomInfoByRoomcode(int roomcode)
+        {
+            DataTable data = DataProvide.Instance.ExecuteQuery("select * from phong where maphong =" + roomcode.ToString());
+            if (data.Rows.Count > 0)
+            {
+                RoomDTO bill = new RoomDTO(data.Rows[0]);
+                return bill;
+            }
+            return null;
+        }
 
     }
 }

@@ -26,11 +26,19 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-        public DataTable LoadReport(int _year, int _month)
+
+        public void CreateReport(int _month, int _year)
         {
-            string query = "SELECT dt.MaLoaiPhong,lp.TenLoaiPhong AS[Tên loại phòng], dt.DoanhThu, dt.TyLe FROM dbo.DOANHTHU dt JOIN dbo.LOAI_PHONG lp ON lp.MaLoaiPhong = dt.MaLoaiPhong WHERE dt.Nam=" + _year.ToString()+ " AND dt.Thang="+_month.ToString();
-            return DataProvide.Instance.ExecuteQuery(query);
+
+            string query = "EXEC dbo.sp_InsertIntoDoanhThu @month =" + _month.ToString() + " , @year =" + _year.ToString();
+            DataProvide.Instance.ExecuteQuery(query);
 
         }
+        public DataTable ViewReport(int _month, int _year)
+        {
+            string query = "SELECT dt.MaLoaiPhong,lp.TenLoaiPhong AS[Tên loại phòng], dt.DoanhThu, dt.TyLe FROM dbo.DOANHTHU dt JOIN dbo.LOAI_PHONG lp ON lp.MaLoaiPhong = dt.MaLoaiPhong WHERE dt.Nam=" + _year.ToString() + " AND dt.Thang=" + _month.ToString();
+            return DataProvide.Instance.ExecuteQuery(query);
+        }
+
     }
 }

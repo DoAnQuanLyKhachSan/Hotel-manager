@@ -102,9 +102,9 @@ namespace QuanLyKhachSan.DAO
             return rs;
         }
 
-        public int ReturnTenancyCardCode(int getCodeRoom,DateTime getBeginDay)
+        public int ReturnTenancyCardCode(int getCodeRoom)
         {
-            string query = "select MaPT from PHIEUTHUEPHONG WHERE MaPhong = "+getCodeRoom+" AND NgayBatDau = '"+getBeginDay+"'";
+            string query = "select MaPT from PHIEUTHUEPHONG WHERE MaPhong = "+getCodeRoom+" AND TinhTrangThanhToan = 0";
             string data = DataProvide.Instance.ExecuteReader(query);
             return int.Parse(data);
         }
@@ -116,15 +116,11 @@ namespace QuanLyKhachSan.DAO
                 if (_customer != null)
                 {
                     string createTenancyCardDetailQuery = "EXEC dbo.CreateTenancyCardDetail @TenancyCardCode , @CustomerName , @CustomerStyleCode , @CustomerCMND , @CustomerAddress ";
-                     DataProvide.Instance.ExecuteNonQuery(createTenancyCardDetailQuery, new object[] { ReturnTenancyCardCode(getCodeRoom, getBeginDay), _customer.CustomerName, _customer.CustomerStyle, _customer.CustomerCMND, _customer.CustomerAddress });
+                     DataProvide.Instance.ExecuteNonQuery(createTenancyCardDetailQuery, new object[] { ReturnTenancyCardCode(getCodeRoom), _customer.CustomerName, _customer.CustomerStyle, _customer.CustomerCMND, _customer.CustomerAddress });
                 } 
             }
         }
-        public void updateStatusRoom(int getRoomCode)
-        {
-            string query = "UPDATE dbo.PHONG set TinhTrangPhong = 2 WHERE MaPhong = " + getRoomCode;
-            DataProvide.Instance.ExecuteNonQuery(query);
-        }
+       
 
         public bool checkStatusRoomisRent(int getRoomCode)
         {

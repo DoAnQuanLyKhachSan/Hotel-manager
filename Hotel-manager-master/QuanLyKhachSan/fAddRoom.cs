@@ -95,7 +95,20 @@ namespace QuanLyKhachSan
                     _fRoom.LoadRoomList();
                     Button button = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
                     button.Text = getNameRoom().RoomName;
-                    button.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                    switch(getCodeRoom().RoomStyle)
+                    {
+                        case 1:
+                            button.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                            break;
+                        case 2:
+                            button.Image = global::QuanLyKhachSan.Properties.Resources.room2;
+                            break;
+                        case 3:
+                            button.Image = global::QuanLyKhachSan.Properties.Resources.room3;
+                            break;
+                        default:
+                            break;
+                    }
                     button.ImageAlign = ContentAlignment.MiddleCenter;
                     button.TextAlign = ContentAlignment.BottomCenter;
                     button.BackColor = Color.LightPink;

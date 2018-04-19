@@ -66,7 +66,7 @@ namespace QuanLyKhachSan
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            fEditRoom _editRoom = new fEditRoom(this,m);
+            fEditRoom _editRoom = new fEditRoom(this, m);
             this.Hide();
             _editRoom.ShowDialog();
             this.Show();

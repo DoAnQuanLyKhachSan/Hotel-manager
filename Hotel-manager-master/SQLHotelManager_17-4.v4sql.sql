@@ -115,6 +115,36 @@ CREATE TABLE THAMSO (
 )
 GO
 
+CREATE TABLE CHUC_NANG (
+	MaChucNang int not null primary key,
+	TenChucNang NVARCHAR(30) not null,
+	TenManHinhDuocLoad NVARCHAR(30) not null
+)
+GO
+
+CREATE TABLE NHOM_NGUOI_DUNG (
+	 MaNhom int not null primary key,
+	 TenNhom NVARCHAR(30) not null,	
+)
+GO
+
+CREATE TABLE PHAN_QUYEN (
+	MaNhom int not null ,
+	MaChucNang int not null,
+	PRIMARY KEY (MaNhom,MaChucNang),
+	FOREIGN KEY (MaNhom) REFERENCES dbo.NHOM_NGUOI_DUNG(MaNhom),
+	FOREIGN KEY (MaChucNang) REFERENCES dbo.CHUC_NANG(MaChucNang)
+)
+GO
+
+CREATE TABLE NGUOI_DUNG(
+	TenDangNhap NVARCHAR(30) not null primary key,
+	MatKhau NVARCHAR(30) not null,
+	MaNhom int not null,
+	FOREIGN KEY (MaNhom) REFERENCES dbo.NHOM_NGUOI_DUNG(MaNhom)
+)
+GO
+
 INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'KhachToiDa', 3)
 INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'SoKhachTinhDonGiaThuong', 2)
 INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'TyLePhuThu', 0.25)
@@ -122,7 +152,7 @@ INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'HeSoPhuThu', 1.5 )
 GO
 
 
-CREATE TRIGGER tg_InsertPhieuThue
+CREATE TRIGGER tg_InsertPhieuThue -- Khi tạo tạo phiếu thuê thành công, Trạng thái phòng tự cập nhật thành 2--đang cho thuê
 ON dbo.PHIEUTHUEPHONG
 FOR INSERT
 AS
@@ -145,7 +175,7 @@ END
 GO
 
 
-CREATE TRIGGER tg_CapNhatTinhTrangPhong
+CREATE TRIGGER tg_CapNhatTinhTrangPhong  ----Khi phiếu thuê phòng đã thanh toán, tự cập nhật TinhTrangPhong =0 -- có thể thuê
 ON dbo.PHIEUTHUEPHONG
 FOR UPDATE
 AS
@@ -164,7 +194,69 @@ END
 GO
 
 
-CREATE TRIGGER tg_Insert_DOANHTHU
+
+CREATE TRIGGER tg_TuCapNhatKhiThemMoi_CHITIET_HOADON  -- Khi thêm mới ChiTiet_HoaDon, Tự cập nhật:
+ON dbo.CHITIET_HOADON					--- số ngày thuê = Ngày bắt đầu - Ngày thanh toán
+FOR INSERT					----------Đơn Giá (theo các trường hợp số lượng khách và loại khách)
+AS						---------- Thành Tiền = Đơn giá x Số ngày thuê x Số người thuê(tùy theo thứ tự khách và loại khách)
+BEGIN				---------- Tổng tiền(trị giá)= Tổng tiền  + Thành Tiền 
+
+	DECLARE @MaHD INT, @MaCTHD INT, @DonGia MONEY, @GiaLoaiPhong MONEY, @Dem INT;
+	DECLARE @ThanhTien MONEY, @SoNgayThue INT;
+	DECLARE @HeSoPhuThu FLOAT, @TyLePhuThu FLOAT, @TinhGiaThuong INT; 
+
+	SELECT @MaCTHD=MaCTHD, @MaHD=MaHD, @SoNgayThue=SoNgayThue FROM Inserted
+
+	SELECT @GiaLoaiPhong=lp.DonGia FROM Inserted I,dbo.PHIEUTHUEPHONG pt, phong p, dbo.LOAI_PHONG lp
+	WHERE I.MaPT=pt.MaPT AND pt.MaPhong=p.MaPhong AND p.MaLoaiPhong=lp.MaLoaiPhong
+
+	SELECT @TylePhuThu=GiaTri FROM dbo.THAMSO WHERE TenThamSo=N'TyLePhuThu'
+	SELECT @HeSoPhuThu=GiaTri FROM dbo.THAMSO WHERE TenThamSo=N'HeSoPhuThu'
+	SELECT @TinhGiaThuong=GiaTri FROM dbo.THAMSO WHERE TenThamSo=N'SoKhachTinhDonGiaThuong'
+
+	SELECT @SoNgayThue = DATEDIFF(DAY,pt.NgayBatDau,hd.NgayThanhToan) FROM CHITIET_HOADON ctd, HOADON hd ,dbo.PHIEUTHUEPHONG pt
+	WHERE hd.MaHD=ctd.MaHD AND ctd.MaCTHD = @MaCTHD
+
+
+	UPDATE CHITIET_HOADON
+	SET SoNgayThue = @SoNgayThue
+	WHERE MaCTHD = @MaCTHD
+
+	SELECT @Dem = COUNT(*) FROM Inserted I JOIN dbo.CHITIET_PHIEUTHUE ctt ON ctt.MaPT = I.MaPT
+	
+	IF @Dem > @TinhGiaThuong
+		BEGIN
+			SET @DonGia = @GiaLoaiPhong*(1+@TyLePhuThu); 
+			SET @Thanhtien = @GiaLoaiPhong * @TinhGiaThuong * @SoNgayThue + @DonGia * (@Dem - @TinhGiaThuong) * @SoNgayThue;
+		END
+	ELSE 
+		BEGIN
+			SET @DonGia = @GiaLoaiPhong
+			SET @ThanhTien = @DonGia * @Dem * @SoNgayThue;
+		END
+
+
+	IF EXISTS (SELECT * FROM Inserted I, dbo.CHITIET_PHIEUTHUE ctt 
+					WHERE I.MaPT=ctt.MaPT AND ctt.MaLoaiKhachHang = 2 )
+		BEGIN
+			SET @ThanhTien *= @HeSoPhuThu;
+		END
+
+
+
+    UPDATE CHITIET_HOADON
+	SET DonGia=@DonGia, ThanhTien=@ThanhTien
+	WHERE MaCTHD=@MaCTHD
+
+	UPDATE HOADON
+	SET TongTien+=@ThanhTien
+	WHERE MaHD=@MaHD
+
+END
+GO
+
+
+CREATE TRIGGER tg_Insert_DOANHTHU 
 ON dbo.DOANHTHU
 FOR INSERT
 AS
@@ -184,66 +276,6 @@ BEGIN
 	SET DoanhThu=@DoanhThu, TyLe=@DoanhThu/ @TongDoanhThu
 	WHERE Nam=@Nam AND Thang = @Thang AND MaLoaiPhong= @MaLoaiPhong
 	
-END
-GO
-
-
-
-CREATE TRIGGER tg_TuCapNhatKhiThemMoi_CHITIET_HOADON
-ON dbo.CHITIET_HOADON
-FOR INSERT
-AS
-BEGIN
-
-	DECLARE @MaHD INT, @MaCTHD INT, @DonGia MONEY, @GiaLoaiPhong MONEY, @Dem INT;
-	DECLARE @ThanhTien MONEY, @SoNgayThue INT;
-	DECLARE @HeSoPhuThu FLOAT, @TyLePhuThu FLOAT, @TinhGiaThuong INT; 
-
-	SELECT @MaCTHD=MaCTHD, @MaHD=MaHD, @SoNgayThue=SoNgayThue FROM Inserted
-
-	SELECT @GiaLoaiPhong=lp.DonGia FROM Inserted I,dbo.PHIEUTHUEPHONG pt, phong p, dbo.LOAI_PHONG lp
-	WHERE I.MaPT=pt.MaPT AND pt.MaPhong=p.MaPhong AND p.MaLoaiPhong=lp.MaLoaiPhong
-
-	SELECT @TylePhuThu=GiaTri FROM dbo.THAMSO WHERE TenThamSo=N'TyLePhuThu'
-	SELECT @HeSoPhuThu=GiaTri FROM dbo.THAMSO WHERE TenThamSo=N'HeSoPhuThu'
-	SELECT @TinhGiaThuong=GiaTri FROM dbo.THAMSO WHERE TenThamSo=N'SoKhachTinhDonGiaThuong'
-
-	SELECT @SoNgayThue = DATEDIFF(DAY,pt.NgayBatDau,hd.NgayThanhToan) FROM CHITIET_HOADON ctd, HOADON hd ,dbo.PHIEUTHUEPHONG pt
-	WHERE hd.MaHD=ctd.MaHD AND ctd.MaCTHD = @MaCTHD
-
-	UPDATE CHITIET_HOADON
-	SET SoNgayThue = @SoNgayThue
-	WHERE MaCTHD = @MaCTHD
-
-	SELECT @Dem = COUNT(*) FROM Inserted I JOIN dbo.CHITIET_PHIEUTHUE ctt ON ctt.MaPT = I.MaPT
-	
-	IF @Dem > @TinhGiaThuong
-		BEGIN
-			SET @DonGia = @GiaLoaiPhong*(1+@TyLePhuThu); 
-			SET @Thanhtien = @GiaLoaiPhong * @TinhGiaThuong * @SoNgayThue + @DonGia * (@Dem - @TinhGiaThuong) * @SoNgayThue;
-		END
-	ELSE 
-		BEGIN
-			SET @DonGia = @GiaLoaiPhong
-			SET @ThanhTien = @DonGia * @Dem * @SoNgayThue;
-		END
-    
-
-	IF EXISTS (SELECT * FROM Inserted I, dbo.CHITIET_PHIEUTHUE ctt 
-					WHERE I.MaPT=ctt.MaPT AND ctt.MaLoaiKhachHang = 2 )
-		BEGIN
-			SET @ThanhTien *= @HeSoPhuThu;
-		END
-
-    UPDATE CHITIET_HOADON
-	SET DonGia=@DonGia, ThanhTien=@ThanhTien
-	WHERE MaCTHD=@MaCTHD
-
-	UPDATE HOADON
-	SET TongTien+=@ThanhTien
-	WHERE MaHD=@MaHD
-
-
 END
 GO
 
@@ -507,10 +539,11 @@ AS
 BEGIN
 	select pt.MaPhong,ctt.TenKhachHang, ctd.SoNgayThue,ctd.DonGia,ctd.ThanhTien
 	FROM dbo.CHITIET_HOADON ctd, dbo.PHIEUTHUEPHONG pt, dbo.CHITIET_PHIEUTHUE ctt
-	WHERE ctd.MaPT=pt.MaPT AND pt.MaPT=ctt.MaPT AND pt.TinhTrangThanhToan=0 AND pt.MaPhong= 1 @MaPhong
+	WHERE ctd.MaPT=pt.MaPT AND pt.MaPT=ctt.MaPT AND pt.TinhTrangThanhToan=0 AND pt.MaPhong= @MaPhong
 END
 GO
-SELECT * FROM dbo.PHIEUTHUEPHONG JOIN dbo.CHITIET_PHIEUTHUE ON CHITIET_PHIEUTHUE.MaPT = PHIEUTHUEPHONG.MaPT WHERE TinhTrangThanhToan=0
+
+
 CREATE PROC sp_ChiTietThanhToanTheoTenKhach(@TenKH NVARCHAR(50))
 AS
 BEGIN
@@ -583,4 +616,31 @@ BEGIN
 	WHERE MaPhong=@MaPhong AND TinhTrangThanhToan=0
 END
 GO
+
+
+CREATE PROC sp_InsertIntoDoanhThu(@month INT, @year INT )
+AS
+BEGIN
+	DECLARE MaLoaiPhong_Cursor CURSOR FOR SELECT MaLoaiPhong FROM dbo.LOAI_PHONG
+
+	OPEN MaLoaiPhong_Cursor
+
+	DECLARE @MaLoaiPhong INT
+	FETCH NEXT FROM MaLoaiPhong_Cursor INTO @MaLoaiPhong
+
+	WHILE @@FETCH_STATUS = 0
+		BEGIN
+
+			INSERT INTO dbo.DOANHTHU ( Thang,Nam,MaLoaiPhong)VALUES  (  @month ,@year , @MaLoaiPhong)
+			FETCH NEXT FROM MaLoaiPhong_Cursor INTO @MaLoaiPhong
+
+		END
+    
+	
+	CLOSE MaLoaiPhong_Cursor
+	DEALLOCATE MaLoaiPhong_Cursor
+
+END
+GO
+
 

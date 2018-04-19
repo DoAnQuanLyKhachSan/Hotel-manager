@@ -25,9 +25,6 @@ namespace QuanLyKhachSan
 
         private void button2_Click(object sender, EventArgs e)
         {
-
-            fPayInfo.getInfo.ListCusPayed = new List<string>();
-            fPayInfo.getInfo.ListRoomPayed = new List<string>();
             this.Close();
         }
 
@@ -46,7 +43,7 @@ namespace QuanLyKhachSan
         {
             txbReadNameCus.Text = fPayInfo.getInfo.nameCus;
             txbReadAddress.Text = fPayInfo.getInfo.addressCus;
-            double totalPrice = 0;
+
             if (fPayInfo.getInfo.typePay == 1)
             {
                 foreach (string item in fPayInfo.getInfo.ListRoomPayed)
@@ -55,9 +52,9 @@ namespace QuanLyKhachSan
 
                     PayDAO.Instance.ListPayDetailToTable(list, TablePayDetail);
 
-                    totalPrice += PayDAO.Instance.getTotalPrice(item);
                 }
             }
+
             else
             {
                 foreach (string item in fPayInfo.getInfo.ListCusPayed)
@@ -65,18 +62,26 @@ namespace QuanLyKhachSan
                     List<PayDTO> list = PayDAO.Instance.getListPayDetailByCusName(item.ToString());
 
                     PayDAO.Instance.ListPayDetailToTable(list, TablePayDetail);
-
-                    foreach (PayDTO roomID in list)
-                    {
-                        totalPrice += PayDAO.Instance.getTotalPrice(roomID.RoomID.ToString());
-                    }
                 }
             }
 
+
             dtgvPayDetail.DataSource = TablePayDetail;
 
-            txbTotalPrice.Text = totalPrice.ToString() + "   đ";
+            txbTotalPrice.Text = PayDAO.Instance.getTotalPrice() + "   đ";
         }
 
+        private void fPayDetail_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            foreach(DataRow row in TablePayDetail.Rows)
+            {
+                PayDAO.Instance.UpdateStatusPay((int)row["MaPhong"]);
+            }
+
+            TablePayDetail = new DataTable();
+            fPayInfo.getInfo.ListCusPayed = new List<string>();
+            fPayInfo.getInfo.ListRoomPayed = new List<string>();
+
+        }
     }
 }

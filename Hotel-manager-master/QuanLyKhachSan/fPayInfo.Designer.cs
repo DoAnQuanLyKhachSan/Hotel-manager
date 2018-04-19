@@ -45,6 +45,9 @@
             this.dtgvPay = new System.Windows.Forms.DataGridView();
             this.btPayDetail = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.txbPayID = new System.Windows.Forms.TextBox();
+            this.lbPayID = new System.Windows.Forms.Label();
+            this.dtpPay = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel7.SuspendLayout();
@@ -203,9 +206,9 @@
             // 
             this.dtgvPay.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvPay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvPay.Location = new System.Drawing.Point(3, 12);
+            this.dtgvPay.Location = new System.Drawing.Point(3, 46);
             this.dtgvPay.Name = "dtgvPay";
-            this.dtgvPay.Size = new System.Drawing.Size(476, 245);
+            this.dtgvPay.Size = new System.Drawing.Size(476, 211);
             this.dtgvPay.TabIndex = 0;
             // 
             // btPayDetail
@@ -223,11 +226,39 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.txbPayID);
+            this.panel5.Controls.Add(this.lbPayID);
             this.panel5.Controls.Add(this.dtgvPay);
+            this.panel5.Controls.Add(this.dtpPay);
             this.panel5.Location = new System.Drawing.Point(479, 6);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(494, 266);
             this.panel5.TabIndex = 3;
+            // 
+            // txbPayID
+            // 
+            this.txbPayID.Location = new System.Drawing.Point(73, 13);
+            this.txbPayID.Name = "txbPayID";
+            this.txbPayID.ReadOnly = true;
+            this.txbPayID.Size = new System.Drawing.Size(100, 20);
+            this.txbPayID.TabIndex = 9;
+            // 
+            // lbPayID
+            // 
+            this.lbPayID.AutoSize = true;
+            this.lbPayID.Location = new System.Drawing.Point(23, 16);
+            this.lbPayID.Name = "lbPayID";
+            this.lbPayID.Size = new System.Drawing.Size(44, 13);
+            this.lbPayID.TabIndex = 8;
+            this.lbPayID.Text = "Mã HD:";
+            // 
+            // dtpPay
+            // 
+            this.dtpPay.Location = new System.Drawing.Point(185, 13);
+            this.dtpPay.Name = "dtpPay";
+            this.dtpPay.Size = new System.Drawing.Size(279, 20);
+            this.dtpPay.TabIndex = 7;
+            this.dtpPay.Value = new System.DateTime(2018, 4, 18, 0, 0, 0, 0);
             // 
             // panel1
             // 
@@ -263,6 +294,7 @@
             this.Name = "fPayInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fPayInfo";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fPayInfo_FormClosed);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -274,6 +306,7 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPay)).EndInit();
             this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -300,5 +333,8 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DateTimePicker dtpPay;
+        private System.Windows.Forms.TextBox txbPayID;
+        private System.Windows.Forms.Label lbPayID;
     }
 }

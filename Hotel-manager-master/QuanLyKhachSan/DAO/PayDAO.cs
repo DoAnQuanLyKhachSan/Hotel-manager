@@ -27,23 +27,7 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-       
-
-
-        //public float getTotalPrice(string _name, string _diachi)
-        //{
-        //    float _Price = new float();
-        //    string query = "EXEC dbo.sp_getTongTien @TenKH , @DiaChi ";
-
-        //    DataTable data = DataProvide.Instance.ExecuteQuery(query, new object[] {_name, _diachi });
-
-        //    foreach (DataRow item in data.Rows)
-        //    {
-        //        _Price = float.Parse(item["TongTien"].ToString());
-        //        break;
-        //    }
-        //    return _Price;
-        //}
+      
 
         public List<PayDTO> getListPayDetailByRoom(int MaPhong)
         {
@@ -72,7 +56,6 @@ namespace QuanLyKhachSan.DAO
 
             foreach (DataRow item in data.Rows)
             {
-
                 PayDTO pay = new PayDTO(item, 2);
                 list.Add(pay);
             }
@@ -119,13 +102,6 @@ namespace QuanLyKhachSan.DAO
             return list;
         }
 
-
-
-
-
-
-
-       
 
         public List<string> getPayData(int n)
         {
@@ -206,18 +182,60 @@ namespace QuanLyKhachSan.DAO
             }
         }
 
-        public double getTotalPrice(string RoomID)
+        public string getTotalPrice()
         {
-            double totalPrice = new int();
-            string query = "EXEC dbo.sp_getTongTien @MaPhong ";
-            DataTable data = DataProvide.Instance.ExecuteQuery(query, new object[] { int.Parse(RoomID) });
+            string totalPrice = null;
+            string query = "SELECT TongTien FROM dbo.HOADON WHERE MaHD = (SELECT MAX(MaHD) FROM dbo.HOADON)";
+            DataTable data = DataProvide.Instance.ExecuteQuery(query);
             foreach (DataRow row in data.Rows)
             {
-
-                totalPrice = float.Parse(row["TongTien"].ToString());
+                totalPrice = row["TongTien"].ToString();
             }
 
             return totalPrice;
+        }
+
+
+        public string getNewPayID()
+        {
+            string query = "SELECT MAX(MaHD)+1 AS MaHDMoi FROM dbo.HOADON";
+            string id = "1";
+            DataTable data = DataProvide.Instance.ExecuteQuery(query);
+          
+            foreach (DataRow row in data.Rows)
+            {
+                if (row["MaHDMoi"].ToString()=="")
+                    break; 
+
+                id = row["MaHDMoi"].ToString();
+            }
+
+            return id;
+
+        }
+
+        public void AddPayDetailByRoomID(List<string> strList)
+        {
+            string query = "EXEC dbo.sp_ThemChiTietHoaDonTheoPhong @MaPhong ";
+
+            foreach (string item in strList)
+            { 
+                    DataProvide.Instance.ExecuteQuery(query, new object[] { int.Parse(item) });
+            }
+
+        }
+
+        public void AddPay(string name, string date)
+        {
+            string query = "EXEC dbo.sp_ThemHoaDon @TenKH , @Ngay ";
+            DataProvide.Instance.ExecuteQuery(query, new object[] { name, date });
+        }
+
+
+        public void UpdateStatusPay(int MaPhong)
+        {
+            string query = "EXEC dbo.sp_CapNhatTinhTrangThanhToan @MaPhong ";
+            DataProvide.Instance.ExecuteQuery(query, new object[] { MaPhong });
         }
 
     }
