@@ -81,25 +81,26 @@ namespace QuanLyKhachSan
             try
             {
                 if (RoomDAO.Instance.checkStatusRoomisRent(getRoomCode()) == true)  // nếu phòng có thể cho thuê thì trả về true
+            {
+                getInforCustomer();// tạo một danh sách đối tượng khách hàng thuê phòng
+                RoomDAO.Instance.CreateTenancyCard(getRoomCode(), getBeginDay());//tao phieu thue phong
+                RoomDAO.Instance.CreateTenancyCardDetail(_customer, getRoomCode(), getBeginDay());//tao chitiet-thuephong
+
+                MessageBox.Show("Tạo phiếu thuê phòng thành công");
+                LoadListRoomAndCloseForm();
+                m.ReLoadRoomStatus();
+            }
+            else   // phòng đang sửa chữa hoặc đang cho thuê
+            {
+                if (RoomDAO.Instance.checkStatusRoomisRenting(getRoomCode()) == true) MessageBox.Show("Phòng này đang được cho thuê");
+                else
                 {
-                    getInforCustomer();// tạo một danh sách đối tượng khách hàng thuê phòng
-                    RoomDAO.Instance.CreateTenancyCard(getRoomCode(), getBeginDay());//tao phieu thue phong
-                    RoomDAO.Instance.CreateTenancyCardDetail(_customer, getRoomCode(), getBeginDay());//tao chitiet-thuephong
-                     
-                    MessageBox.Show("Tạo phiếu thuê phòng thành công");
-                    LoadListRoomAndCloseForm();
-                    m.ReLoadRoomStatus();
-                }
-                else   // phòng đang sửa chữa hoặc đang cho thuê
-                {
-                    if (RoomDAO.Instance.checkStatusRoomisRenting(getRoomCode()) == true) MessageBox.Show("Phòng này đang được cho thuê");
-                    else
-                    {
-                        MessageBox.Show("Phòng này đang được sửa chữa");
-                    }
+                    MessageBox.Show("Phòng này đang được sửa chữa");
                 }
             }
-            catch(Exception)
+
+        }
+            catch (Exception)
             {
                 MessageBox.Show("Nhập đúng định dạng : Tên Phòng , CMND kiểu số , Loại khách hàng(nội địa,nước ngoài)");
             }

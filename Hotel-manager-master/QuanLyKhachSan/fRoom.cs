@@ -56,14 +56,6 @@ namespace QuanLyKhachSan
            
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-            fDeleteRoom _deleteRoom = new fDeleteRoom(this,m);
-            this.Hide();
-            _deleteRoom.ShowDialog();
-            this.Show();
-        }
-
         private void btnEdit_Click(object sender, EventArgs e)
         {
             fEditRoom _editRoom = new fEditRoom(this, m);

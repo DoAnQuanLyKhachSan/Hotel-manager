@@ -36,7 +36,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnRent = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -101,7 +100,6 @@
             // 
             this.panel3.Controls.Add(this.btnRent);
             this.panel3.Controls.Add(this.btnEdit);
-            this.panel3.Controls.Add(this.btnDelete);
             this.panel3.Controls.Add(this.btnAdd);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Location = new System.Drawing.Point(12, 1);
@@ -113,7 +111,7 @@
             // 
             this.btnRent.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnRent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRent.Location = new System.Drawing.Point(788, 3);
+            this.btnRent.Location = new System.Drawing.Point(779, 3);
             this.btnRent.Name = "btnRent";
             this.btnRent.Size = new System.Drawing.Size(119, 49);
             this.btnRent.TabIndex = 0;
@@ -125,7 +123,7 @@
             // 
             this.btnEdit.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEdit.Location = new System.Drawing.Point(614, 3);
+            this.btnEdit.Location = new System.Drawing.Point(542, 2);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(119, 49);
             this.btnEdit.TabIndex = 0;
@@ -133,23 +131,11 @@
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Location = new System.Drawing.Point(432, 3);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(119, 49);
-            this.btnDelete.TabIndex = 0;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Location = new System.Drawing.Point(226, 3);
+            this.btnAdd.Location = new System.Drawing.Point(285, 3);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(119, 49);
             this.btnAdd.TabIndex = 0;
@@ -241,7 +227,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnRent;
         private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;

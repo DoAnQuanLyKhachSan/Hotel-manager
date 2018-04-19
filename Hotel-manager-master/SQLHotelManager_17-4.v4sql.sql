@@ -102,7 +102,6 @@ CREATE TABLE DOANHTHU (
 
 )
 GO
-
 CREATE TABLE THAMSO (
 	TenThamSo NVARCHAR(30) NOT NULL PRIMARY KEY,
 	GiaTri FLOAT NOT NULL
@@ -115,18 +114,37 @@ CREATE TABLE THAMSO (
 )
 GO
 
+INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'KhachToiDa', 3)
+INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'SoKhachTinhDonGiaThuong', 2)
+INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'TyLePhuThu', 0.25)
+INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'HeSoPhuThu', 1.5 )
+GO
+
 CREATE TABLE CHUC_NANG (
-	MaChucNang int not null primary key,
+	MaChucNang int identity not null primary key,
 	TenChucNang NVARCHAR(30) not null,
 	TenManHinhDuocLoad NVARCHAR(30) not null
 )
 GO
+
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Tìm phòng',N'fSearch')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thêm phòng',N'fAddRoom')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Sửa phòng',N'fEditRoom')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thuê phòng',N'fRent')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thanh toán',N'fPayInfo')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thống kê',N'fReport')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thay đổi quy định',N'fChangeRegulations')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Về chúng tôi',N'AboutUs')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Quản lý tài khoản',N'fAccountManagement')
+
 
 CREATE TABLE NHOM_NGUOI_DUNG (
 	 MaNhom int not null primary key,
 	 TenNhom NVARCHAR(30) not null,	
 )
 GO
+insert into dbo.NHOM_NGUOI_DUNG(MaNhom,TenNhom) values(1,N'Admin')
+insert into dbo.NHOM_NGUOI_DUNG(MaNhom,TenNhom) values(2,N'staff')
 
 CREATE TABLE PHAN_QUYEN (
 	MaNhom int not null ,
@@ -136,6 +154,20 @@ CREATE TABLE PHAN_QUYEN (
 	FOREIGN KEY (MaChucNang) REFERENCES dbo.CHUC_NANG(MaChucNang)
 )
 GO
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,1)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,2)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,3)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,4)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,5)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,6)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,7)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,8)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,9)
+
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,1)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,4)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,5)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,8)
 
 CREATE TABLE NGUOI_DUNG(
 	TenDangNhap NVARCHAR(30) not null primary key,
@@ -144,13 +176,9 @@ CREATE TABLE NGUOI_DUNG(
 	FOREIGN KEY (MaNhom) REFERENCES dbo.NHOM_NGUOI_DUNG(MaNhom)
 )
 GO
-
-INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'KhachToiDa', 3)
-INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'SoKhachTinhDonGiaThuong', 2)
-INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'TyLePhuThu', 0.25)
-INSERT INTO dbo.THAMSO( TenThamSo, GiaTri ) VALUES  ( 'HeSoPhuThu', 1.5 )
-GO
-
+insert into dbo.NGUOI_DUNG(TenDangNhap,MatKhau,MaNhom) values('admin','admin',1)
+insert into dbo.NGUOI_DUNG(TenDangNhap,MatKhau,MaNhom) values('staff1','staff1',2)
+GO 
 
 CREATE TRIGGER tg_InsertPhieuThue -- Khi tạo tạo phiếu thuê thành công, Trạng thái phòng tự cập nhật thành 2--đang cho thuê
 ON dbo.PHIEUTHUEPHONG

@@ -68,6 +68,7 @@
     <Compile Include="AboutUs.Designer.cs">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\AccountManagementDAO.cs" />
     <Compile Include="DAO\BillDAO.cs" />
     <Compile Include="DAO\BillInfoDAO.cs" />
     <Compile Include="DAO\ChangeRegulationDAO.cs" />
@@ -129,12 +130,6 @@
     </Compile>
     <Compile Include="fChangeRoomType.Designer.cs">
       <DependentUpon>fChangeRoomType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fDeleteRoom.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fDeleteRoom.Designer.cs">
-      <DependentUpon>fDeleteRoom.cs</DependentUpon>
     </Compile>
     <Compile Include="fEditRoom.cs">
       <SubType>Form</SubType>
@@ -239,9 +234,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fChangeRoomType.resx">
       <DependentUpon>fChangeRoomType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fDeleteRoom.resx">
-      <DependentUpon>fDeleteRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fEditRoom.resx">
       <DependentUpon>fEditRoom.cs</DependentUpon>
