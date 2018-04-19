@@ -89,6 +89,7 @@ namespace QuanLyKhachSan
                 MessageBox.Show("Tạo phiếu thuê phòng thành công");
                 LoadListRoomAndCloseForm();
                 m.ReLoadRoomStatus();
+                m.ReLoadStatusOfRooms();
             }
             else   // phòng đang sửa chữa hoặc đang cho thuê
             {

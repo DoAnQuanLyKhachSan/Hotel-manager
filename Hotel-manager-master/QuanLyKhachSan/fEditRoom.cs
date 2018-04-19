@@ -143,6 +143,7 @@ namespace QuanLyKhachSan
                         m.ReloadRoom(GetRoomChangedInfo(btn));
                         m.ReloadRoomImage(GetRoomChangedInfo(btn));
                         m.ReLoadRoomStatus();
+                        m.ReLoadStatusOfRooms();
                     }
                 }
                 else

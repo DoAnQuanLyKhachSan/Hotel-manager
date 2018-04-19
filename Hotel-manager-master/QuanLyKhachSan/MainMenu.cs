@@ -17,6 +17,7 @@ namespace QuanLyKhachSan
     {
         private object resources;
         List<Button> Buttonlist = new List<Button>();
+        List<Button> InfoButtonlist = new List<Button>();
         public MainMenu()
         {
             InitializeComponent();
@@ -188,7 +189,37 @@ namespace QuanLyKhachSan
         //        control.Dispose();
         //    }
         //}
+        public void ReLoadStatusOfRooms()
+        {
+            SuspendLayout();
+            int Total = 0, available = 0, inused = 0, undermaintainance = 0;
+            List<RoomDTO> StatusRoomList = RoomDAO.Instance.LoadRoomList();
+            foreach (RoomDTO roomDTO in StatusRoomList)
+            {
+                //btn.Text = roomDTO.RoomName;               
+                switch (roomDTO.RoomStatus)
+                {
+                    case 1:
+                        available += 1;
+                        break;
+                    case 2:
+                        inused += 1;
+                        break;
+                    case 3:
+                        undermaintainance += 1;
+                        break;
+                    default:
+                        break;
+                }
 
+            }
+            Total = available + inused + undermaintainance;
+            InfoButtonlist[0].Text = "Tất Cả " + Total.ToString();
+            InfoButtonlist[1].Text = "Có Thể Thuê " + available.ToString();
+            InfoButtonlist[2].Text = "Đã Thuê " + inused.ToString();
+            InfoButtonlist[3].Text = "Đang Sửa Chữa " + undermaintainance.ToString();
+            ResumeLayout();
+        }
         public void LoadStatusOfRooms()
         {
             int Total = 0, available = 0, inused = 0, undermaintainance = 0;
@@ -219,7 +250,7 @@ namespace QuanLyKhachSan
             btnAll.BackColor = Color.White;
             btnAll.Click += new EventHandler(btnAll_Click);
             btnAll.Width = 125;
-            btnAll.Height = 50;
+            btnAll.Height = 50;           
             //Available
             Button btnAv = new Button() { Width = 100, Height = 25 };
             btnAv.Text = "Có Thể Thuê " + available.ToString();
@@ -241,6 +272,10 @@ namespace QuanLyKhachSan
             btnMT.Click += new EventHandler(btnMT_Click);
             btnMT.Width = 125;
             btnMT.Height = 50;
+            InfoButtonlist.Add(btnAll);
+            InfoButtonlist.Add(btnAv);
+            InfoButtonlist.Add(btnIU);
+            InfoButtonlist.Add(btnMT);
             flpStatus.Controls.Add(btnAll);
             flpStatus.Controls.Add(btnAv);
             flpStatus.Controls.Add(btnIU);
