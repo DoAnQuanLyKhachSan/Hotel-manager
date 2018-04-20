@@ -113,7 +113,7 @@ namespace QuanLyKhachSan.DAO
                 SqlCommand Comm1 = new SqlCommand(query, connection);
                 connection.Open();
                  SqlDataReader DR1 = Comm1.ExecuteReader();
-                while (DR1.Read())
+                if (DR1.Read())
                 {
                     data = DR1.GetValue(0).ToString();
                 }
