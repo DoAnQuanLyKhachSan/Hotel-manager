@@ -150,6 +150,15 @@ namespace QuanLyKhachSan.DAO
             string query = "UPDATE dbo.NGUOI_DUNG SET TenDangNhap = N'" + _userName + "',MatKhau=N'" + _userPass + "',MaNhom =" + _groupCode + "WHERE TenDangNhap = N'" + _userNameIndex+"'";
             return DataProvide.Instance.ExecuteNonQuery(query);
         }
+
+        public bool checkShowForm(int groupCode,string nameForm)
+        {
+            string query = "select MaChucNang from CHUC_NANG where TenManHinhDuocLoad = N'" + nameForm + "'";
+            int rs = int.Parse(DataProvide.Instance.ExecuteReader(query));
+            if (CheckExitsPhanQuyen(groupCode, rs) == true) return true;
+            return false;
+        }
+
     }
 
 }

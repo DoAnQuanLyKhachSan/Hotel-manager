@@ -57,9 +57,10 @@ namespace QuanLyKhachSan
             // 
             this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.textBox1.Location = new System.Drawing.Point(254, 27);
+            this.textBox1.Location = new System.Drawing.Point(254, 19);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(479, 20);
+            this.textBox1.Size = new System.Drawing.Size(479, 33);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 

@@ -19,7 +19,7 @@ namespace QuanLyKhachSan
         fRoom f = new fRoom();
         MainMenu m = new MainMenu();
         fViewRoom fview;
-        public fRent(fRoom room, string roomname,MainMenu mainMenu)
+        public fRent(fRoom room, string roomname, MainMenu mainMenu)
         {
             InitializeComponent();
             m = mainMenu;
@@ -36,7 +36,7 @@ namespace QuanLyKhachSan
         public fRent(fRoom room)
         {
             InitializeComponent();
-           // f = room;
+            // f = room;
             loadComboBoxInDataGridView();
         }
 
@@ -87,29 +87,29 @@ namespace QuanLyKhachSan
             try
             {
                 if (RoomDAO.Instance.checkStatusRoomisRent(getRoomCode()) == true)  // nếu phòng có thể cho thuê thì trả về true
-            {
-                getInforCustomer();// tạo một danh sách đối tượng khách hàng thuê phòng
-                RoomDAO.Instance.CreateTenancyCard(getRoomCode(), getBeginDay());//tao phieu thue phong
-                RoomDAO.Instance.CreateTenancyCardDetail(_customer, getRoomCode(), getBeginDay());//tao chitiet-thuephong
-
-                MessageBox.Show("Tạo phiếu thuê phòng thành công");
-                LoadListRoomAndCloseForm();
-                m.ReLoadRoomStatus();
-                m.ReLoadStatusOfRooms();
-                m.AddCustomerToBox(_customer[0].CustomerName);
-                fViewRoom t = new fViewRoom(m.LoadRoomInfo(getRoomCode()), m.LoadRoomInfor(getRoomCode()), getRoomCode(), m);
-                fview = new fViewRoom(t);
-            }
-            else   // phòng đang sửa chữa hoặc đang cho thuê
-            {
-                if (RoomDAO.Instance.checkStatusRoomisRenting(getRoomCode()) == true) MessageBox.Show("Phòng này đang được cho thuê");
-                else
                 {
-                    MessageBox.Show("Phòng này đang được sửa chữa");
-                }
-            }
+                    getInforCustomer();// tạo một danh sách đối tượng khách hàng thuê phòng
+                    RoomDAO.Instance.CreateTenancyCard(getRoomCode(), getBeginDay());//tao phieu thue phong
+                    RoomDAO.Instance.CreateTenancyCardDetail(_customer, getRoomCode(), getBeginDay());//tao chitiet-thuephong
 
-        }
+                    MessageBox.Show("Tạo phiếu thuê phòng thành công");
+                    LoadListRoomAndCloseForm();
+                    m.ReLoadRoomStatus();
+                    m.ReLoadStatusOfRooms();
+                    m.AddCustomerToBox(_customer[0].CustomerName);
+                    fViewRoom t = new fViewRoom(m.LoadRoomInfo(getRoomCode()), m.LoadRoomInfor(getRoomCode()), getRoomCode(), m);
+                    fview = new fViewRoom(t);
+                }
+                else   // phòng đang sửa chữa hoặc đang cho thuê
+                {
+                    if (RoomDAO.Instance.checkStatusRoomisRenting(getRoomCode()) == true) MessageBox.Show("Phòng này đang được cho thuê");
+                    else
+                    {
+                        MessageBox.Show("Phòng này đang được sửa chữa");
+                    }
+                }
+
+            }
             catch (Exception)
             {
                 MessageBox.Show("Nhập đúng định dạng : Tên Phòng , CMND kiểu số , Loại khách hàng(nội địa,nước ngoài)");
@@ -122,5 +122,5 @@ namespace QuanLyKhachSan
         }
     }
 
-   
+
 }

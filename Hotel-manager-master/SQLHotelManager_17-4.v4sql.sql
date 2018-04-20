@@ -127,6 +127,7 @@ CREATE TABLE CHUC_NANG (
 )
 GO
 
+
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Tìm phòng',N'fSearch')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thêm phòng',N'fAddRoom')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Sửa phòng',N'fEditRoom')
@@ -136,6 +137,7 @@ insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thống kê',
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thay đổi quy định',N'fChangeRegulations')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Về chúng tôi',N'AboutUs')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Quản lý tài khoản',N'fAccountManagement')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Phòng',N'fRoom')
 
 
 CREATE TABLE NHOM_NGUOI_DUNG (
@@ -163,7 +165,9 @@ insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,6)
 insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,7)
 insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,8)
 insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,9)
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(1,10)
 
+insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,10)
 insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,1)
 insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,4)
 insert into dbo.PHAN_QUYEN(MaNhom,MaChucNang) values(2,5)

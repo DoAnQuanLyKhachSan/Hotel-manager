@@ -108,6 +108,7 @@
             this.txbPass.Name = "txbPass";
             this.txbPass.Size = new System.Drawing.Size(191, 20);
             this.txbPass.TabIndex = 1;
+            this.txbPass.Text = "admin";
             this.txbPass.UseSystemPasswordChar = true;
             // 
             // label2
@@ -136,6 +137,7 @@
             this.txbUser.Name = "txbUser";
             this.txbUser.Size = new System.Drawing.Size(191, 20);
             this.txbUser.TabIndex = 0;
+            this.txbUser.Text = "admin";
             // 
             // label1
             // 
@@ -150,6 +152,7 @@
             // 
             // fLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 187);

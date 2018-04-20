@@ -16,16 +16,23 @@ namespace QuanLyKhachSan
     public partial class fRoom : Form
     {
         MainMenu m = new MainMenu();
+        fLogin fLoginCurrent = new fLogin();
         public fRoom()
         {
             InitializeComponent();
             LoadRoomList();            
         }
-        public fRoom(MainMenu main)
+        private int getGroupCode()
+        {
+            string query = "select MaNhom from NGUOI_DUNG where TenDangNhap = N'" + fLoginCurrent.getUser().UserName + "'";
+            return int.Parse(DataProvide.Instance.ExecuteReader(query));
+        }
+        public fRoom(MainMenu main,fLogin login)
         {
             InitializeComponent();
             LoadRoomList();
             m = main;
+            fLoginCurrent = login;
         }
         private void fRoom_Load(object sender, EventArgs e)
         {
@@ -44,30 +51,46 @@ namespace QuanLyKhachSan
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            fSearch _searchRoom = new fSearch();
-            _searchRoom.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fSearch") == true)
+            {
+                fSearch _searchRoom = new fSearch();
+                _searchRoom.Show();
+            } else MessageBox.Show("Bạn không có quyền truy cập");
+           
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            fAddRoom _addRoom = new fAddRoom(this,m);
-          
-            _addRoom.Show();
-           
+            
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fAddRoom") == true)
+            {
+                fAddRoom _addRoom = new fAddRoom(this, m);
+
+                _addRoom.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            fEditRoom _editRoom = new fEditRoom(this, m);
-            this.Hide();
-            _editRoom.ShowDialog();
-            this.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fEditRoom") == true)
+            {
+                fEditRoom _editRoom = new fEditRoom(this, m);
+                this.Hide();
+                _editRoom.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void btnRent_Click(object sender, EventArgs e)
         {
-            fRent _rentRoom = new fRent(this);
-            _rentRoom.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fRent") == true)
+            {
+                fRent _rentRoom = new fRent(this);
+                _rentRoom.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
         }
         
     }

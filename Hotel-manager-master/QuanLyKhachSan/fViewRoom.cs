@@ -14,11 +14,11 @@ namespace QuanLyKhachSan
     public partial class fViewRoom : Form
     {
         MainMenu mainMenu = new MainMenu();
-        public fViewRoom(List<BillInfoDTO> ListBillInfo,RoomDTO roominfo,int roomcode, MainMenu mainmenu)
+        public fViewRoom(List<BillInfoDTO> ListBillInfo, RoomDTO roominfo, int roomcode, MainMenu mainmenu)
         {
             InitializeComponent();
             this.label1.Text = "Phòng " + roomcode.ToString();
-            if (ListBillInfo.Count !=0)
+            if (ListBillInfo.Count != 0)
             {
                 BillInfoDTO item = ListBillInfo.First();
                 if (item.RoomStatus1 == 1)
@@ -34,13 +34,13 @@ namespace QuanLyKhachSan
             }
             else
             {
-                if(roominfo.RoomStatus==1)
+                if (roominfo.RoomStatus == 1)
                     this.RentButton.Visible = true;
                 this.label9.Text = roominfo.RoomStyle.ToString();
-                if(roominfo.RoomNote!="")
+                if (roominfo.RoomNote != "")
                     this.label8.Text = roominfo.RoomNote;
             }
-            mainMenu = mainmenu;            
+            mainMenu = mainmenu;
         }
         public fViewRoom(List<BillInfoDTO> ListBillInfo, int roomcode, MainMenu mainmenu)
         {

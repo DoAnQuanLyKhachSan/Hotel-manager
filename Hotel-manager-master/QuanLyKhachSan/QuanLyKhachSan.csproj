@@ -73,6 +73,7 @@
     <Compile Include="DAO\BillInfoDAO.cs" />
     <Compile Include="DAO\ChangeRegulationDAO.cs" />
     <Compile Include="DAO\DataProvide.cs" />
+    <Compile Include="DAO\LoginDAO.cs" />
     <Compile Include="DAO\PayDAO.cs" />
     <Compile Include="DAO\ReportDAO.cs" />
     <Compile Include="DAO\RoomDAO.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="DTO\PayDTO.cs" />
     <Compile Include="DTO\RoomDTO.cs" />
     <Compile Include="DTO\RoomStyleDTO.cs" />
+    <Compile Include="DTO\UserDTO.cs" />
     <Compile Include="fAccountManagement.cs">
       <SubType>Form</SubType>
     </Compile>

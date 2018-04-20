@@ -18,21 +18,28 @@ namespace QuanLyKhachSan
         private object resources;
         List<Button> Buttonlist = new List<Button>();
         List<Button> InfoButtonlist = new List<Button>();
-        public MainMenu()
+        fLogin fLoginCurrent = new fLogin();
+        public MainMenu(fLogin f=null)
         {
             InitializeComponent();
             LoadRoom();
             LoadStatusOfRooms();
             LoadListRoom();
+            fLoginCurrent = f;
         }
         #region Method
+        private int getGroupCode()
+        {
+            string query = "select MaNhom from NGUOI_DUNG where TenDangNhap = N'" + fLoginCurrent.getUser().UserName + "'";
+            return int.Parse(DataProvide.Instance.ExecuteReader(query));
+        }
         public void ReloadRoom(string[] change)
         {
             SuspendLayout();                                //        0         1       2       3       4       5       6
             /*String[] change = ChangedValue.Split('@');*/ //change{oldcode,oldname,newcode,newname,newnote,newstyle,newstatus}
             foreach (Button btn in Buttonlist)
             {
-                if (btn.Text==change[1])
+                if (btn.Text == change[1])
                 {
                     btn.Text = change[3];
                 }
@@ -45,7 +52,7 @@ namespace QuanLyKhachSan
             /*String[] change = ChangedValue.Split('@');*/ //change{oldcode,oldname,newcode,newname,newnote,newstyle,newstatus}
             foreach (Button btn in Buttonlist)
             {
-                if (btn.Text==change[3])
+                if (btn.Text == change[3])
                 {
                     switch (change[5])
                     {
@@ -87,9 +94,9 @@ namespace QuanLyKhachSan
                     break;
                 }
             }
-            foreach(Button btn in Buttonlist)
+            foreach (Button btn in Buttonlist)
             {
-                if(button.Text==btn.Text)
+                if (button.Text == btn.Text)
                 {
                     Buttonlist.Remove(btn);
                     break;
@@ -128,57 +135,57 @@ namespace QuanLyKhachSan
                         }
                     }
                 }
-            }                             
+            }
         }
 
         public void LoadRoom()
         {
-                List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
-                foreach (RoomDTO roomDTO in RoomList)
-                {
+            List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
+            foreach (RoomDTO roomDTO in RoomList)
+            {
 
-                    Button btn = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
-                    btn.Text = roomDTO.RoomName;
-                    btn.Click += new EventHandler(btn_Click);
-                    btn.Tag = roomDTO;
-                    switch (roomDTO.RoomStyle)
-                    {
-                        case 1:
-                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room1;
-                            btn.ImageAlign = ContentAlignment.MiddleCenter;
-                            btn.TextAlign = ContentAlignment.BottomCenter;
-                            break;
-                        case 2:
-                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room2;
-                            btn.ImageAlign = ContentAlignment.MiddleCenter;
-                            btn.TextAlign = ContentAlignment.BottomCenter;
-                            break;
-                        case 3:
-                            btn.Image = global::QuanLyKhachSan.Properties.Resources.room3;
-                            btn.ImageAlign = ContentAlignment.MiddleCenter;
-                            btn.TextAlign = ContentAlignment.BottomCenter;
-                            break;
-                        default:
-                            break;
-                    }
-                    switch (roomDTO.RoomStatus)
-                    {
-                        case 1:
-                            btn.BackColor = Color.LightPink;
-                            break;
-                        case 2:
-                            btn.BackColor = Color.LightGray;
-                            break;
-                        case 3:
-                            btn.BackColor = Color.OrangeRed;
-                            break;
-                        default:
-                            break;
-                    }
-                    Buttonlist.Add(btn);
-                    flpRoom.Controls.Add(btn);
+                Button btn = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
+                btn.Text = roomDTO.RoomName;
+                btn.Click += new EventHandler(btn_Click);
+                btn.Tag = roomDTO;
+                switch (roomDTO.RoomStyle)
+                {
+                    case 1:
+                        btn.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                        btn.ImageAlign = ContentAlignment.MiddleCenter;
+                        btn.TextAlign = ContentAlignment.BottomCenter;
+                        break;
+                    case 2:
+                        btn.Image = global::QuanLyKhachSan.Properties.Resources.room2;
+                        btn.ImageAlign = ContentAlignment.MiddleCenter;
+                        btn.TextAlign = ContentAlignment.BottomCenter;
+                        break;
+                    case 3:
+                        btn.Image = global::QuanLyKhachSan.Properties.Resources.room3;
+                        btn.ImageAlign = ContentAlignment.MiddleCenter;
+                        btn.TextAlign = ContentAlignment.BottomCenter;
+                        break;
+                    default:
+                        break;
                 }
+                switch (roomDTO.RoomStatus)
+                {
+                    case 1:
+                        btn.BackColor = Color.LightPink;
+                        break;
+                    case 2:
+                        btn.BackColor = Color.LightGray;
+                        break;
+                    case 3:
+                        btn.BackColor = Color.OrangeRed;
+                        break;
+                    default:
+                        break;
+                }
+                Buttonlist.Add(btn);
+                flpRoom.Controls.Add(btn);
             }
+        }
         //public void ReleaseFlowlayoutPanel()
         //{
         //    List<Control> listControls = flpRoom.Controls.Cast<Control>().ToList();
@@ -225,7 +232,7 @@ namespace QuanLyKhachSan
             int Total = 0, available = 0, inused = 0, undermaintainance = 0;
             List<RoomDTO> StatusRoomList = RoomDAO.Instance.LoadRoomList();
             foreach (RoomDTO roomDTO in StatusRoomList)
-            {               
+            {
                 //btn.Text = roomDTO.RoomName;               
                 switch (roomDTO.RoomStatus)
                 {
@@ -241,7 +248,7 @@ namespace QuanLyKhachSan
                     default:
                         break;
                 }
-                
+
             }
             Total = available + inused + undermaintainance;
             //All
@@ -250,7 +257,7 @@ namespace QuanLyKhachSan
             btnAll.BackColor = Color.White;
             btnAll.Click += new EventHandler(btnAll_Click);
             btnAll.Width = 125;
-            btnAll.Height = 50;           
+            btnAll.Height = 50;
             //Available
             Button btnAv = new Button() { Width = 100, Height = 25 };
             btnAv.Text = "Có Thể Thuê " + available.ToString();
@@ -302,7 +309,7 @@ namespace QuanLyKhachSan
         {
             int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
             this.Hide();
-            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode),LoadRoomInfor(RoomCode), RoomCode, this);
+            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode), LoadRoomInfor(RoomCode), RoomCode, this);
             fView.ShowDialog();
             this.Show();
         }
@@ -317,21 +324,21 @@ namespace QuanLyKhachSan
             RoomDTO room = BillDAO.Instance.GetRoomInfoByRoomcode(roomcode);
             return room;
         }
-        private void btnAll_Click(object sender,EventArgs args)
+        private void btnAll_Click(object sender, EventArgs args)
         {
             MessageBox.Show("btnAll");
         }
         private void btnAv_Click(object sender, EventArgs args)
         {
             this.Hide();
-            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this,1);
+            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this, 1);
             _room.ShowDialog();
             this.Show();
         }
         private void btnIU_Click(object sender, EventArgs args)
         {
             this.Hide();
-            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this,2);
+            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this, 2);
             _room.ShowDialog();
             this.Show();
         }
@@ -349,17 +356,21 @@ namespace QuanLyKhachSan
 
         private void button3_Click(object sender, EventArgs e)
         {
-            panel1.Height = RoomButton.Height;
-            panel1.Top = RoomButton.Top;
-            this.Hide();
-            fRoom _room = new fRoom(this);
-            _room.ShowDialog();            
-            this.Show();         
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fRoom") == true)
+            {
+                panel1.Height = RoomButton.Height;
+                panel1.Top = RoomButton.Top;
+                this.Hide();
+                fRoom _room = new fRoom(this, fLoginCurrent);
+                _room.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -375,32 +386,47 @@ namespace QuanLyKhachSan
 
         private void button4_Click(object sender, EventArgs e)
         {
-            panel1.Height = PayButton.Height;
-            panel1.Top = PayButton.Top;
-            this.Hide();
-            fPayInfo f = new fPayInfo();
-            f.ShowDialog();
-            this.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fPayInfo") == true)
+            {
+                panel1.Height = PayButton.Height;
+                panel1.Top = PayButton.Top;
+                this.Hide();
+                fPayInfo f = new fPayInfo();
+                f.ShowDialog();
+                this.Show();
+            }
+            else
+                MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            panel1.Height = ReportButton.Height;
-            panel1.Top = ReportButton.Height;
-            this.Hide();
-            fReport _room = new fReport();
-            _room.ShowDialog();
-            this.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fReport") == true)
+            {
+                panel1.Height = ReportButton.Height;
+                panel1.Top = ReportButton.Height;
+                this.Hide();
+                fReport _room = new fReport();
+                _room.ShowDialog();
+                this.Show();
+            }
+            else
+                MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            panel1.Height = AboutUsButton.Height;
-            panel1.Height = AboutUsButton.Top;
-            this.Hide();
-            WindowsFormsApp5.Form1 _room = new WindowsFormsApp5.Form1();
-            _room.ShowDialog();
-            this.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "AboutUs") == true)
+            {
+                panel1.Height = AboutUsButton.Height;
+                panel1.Height = AboutUsButton.Top;
+                this.Hide();
+                WindowsFormsApp5.Form1 _room = new WindowsFormsApp5.Form1();
+                _room.ShowDialog();
+                this.Show();
+            }
+            else
+                MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -412,7 +438,7 @@ namespace QuanLyKhachSan
         {
 
         }
-        
+
 
         private void flpRoom_Paint(object sender, PaintEventArgs e)
         {
@@ -421,21 +447,30 @@ namespace QuanLyKhachSan
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            fLogin _room = new fLogin();
-            this.Show();
-            _room.ShowDialog();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fAccountManagement") == true)
+            {
+                this.Hide();
+                fAccountManagement f = new fAccountManagement();
+                f.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
 
         }
+      
 
         private void ChangeRegulationButton_Click(object sender, EventArgs e)
         {
-            panel1.Height = ChangeRegulationButton.Height;
-            panel1.Height = ChangeRegulationButton.Top;
-            fChangeRegulations f = new fChangeRegulations();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fChangeRegulations") == true)
+            {
+                panel1.Height = ChangeRegulationButton.Height;
+                panel1.Height = ChangeRegulationButton.Top;
+                fChangeRegulations f = new fChangeRegulations();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -447,7 +482,9 @@ namespace QuanLyKhachSan
         {
 
         }
-        #endregion
+ 
+
+#endregion
     }
 }
 

@@ -18,16 +18,8 @@ namespace QuanLyKhachSan
         RoomDTO _room = new RoomDTO();
         fRoom _fRoom = new fRoom();
         MainMenu m = new MainMenu();
-        public fEditRoom(fRoom f)
-        {
-
-            InitializeComponent();
-            _fRoom = f;
-            setDataStatusRoomNew();
-            setDataStyleRoomNew();
-            loadRoomList();
-        }
-        public fEditRoom(fRoom f, MainMenu main)
+       
+        public fEditRoom(fRoom f=null,MainMenu main=null)
         {
 
             InitializeComponent();
@@ -143,7 +135,6 @@ namespace QuanLyKhachSan
                         m.ReloadRoom(GetRoomChangedInfo(btn));
                         m.ReloadRoomImage(GetRoomChangedInfo(btn));
                         m.ReLoadRoomStatus();
-                        m.ReLoadStatusOfRooms();
                     }
                 }
                 else

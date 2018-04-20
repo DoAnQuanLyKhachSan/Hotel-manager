@@ -17,7 +17,7 @@ namespace QuanLyKhachSan
         MainMenu m = new MainMenu();
         int style;
         List<Button> buttonlist = new List<Button>();
-        public fRoomClassifiedByStyle(MainMenu main,int RoomStyle)
+        public fRoomClassifiedByStyle(MainMenu main, int RoomStyle)
         {
             InitializeComponent();
             m = main;
@@ -30,7 +30,7 @@ namespace QuanLyKhachSan
             this.label1.Text = "Danh Sách Phòng Đang Sửa Chữa";
             foreach (RoomDTO roomDTO in RoomList)
             {
-                switch(style)
+                switch (style)
                 {
                     case 1:
                         this.label1.Text = "Danh Sách Phòng Có Thể Thuê";
