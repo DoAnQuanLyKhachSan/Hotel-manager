@@ -14,17 +14,31 @@ namespace QuanLyKhachSan
 {
     public partial class fRoomClassifiedByStyle : Form
     {
+        MainMenu m = new MainMenu();
+        int style;
         List<Button> buttonlist = new List<Button>();
-        public fRoomClassifiedByStyle(int RoomStyle)
+        public fRoomClassifiedByStyle(MainMenu main,int RoomStyle)
         {
             InitializeComponent();
+            m = main;
+            style = RoomStyle;
+            LoadRoom();
         }
         public void LoadRoom()
         {
-            List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomList();
+            List<RoomDTO> RoomList = RoomDAO.Instance.LoadRoomListByStyle(style);
+            this.label1.Text = "Danh Sách Phòng Đang Sửa Chữa";
             foreach (RoomDTO roomDTO in RoomList)
             {
-
+                switch(style)
+                {
+                    case 1:
+                        this.label1.Text = "Danh Sách Phòng Có Thể Thuê";
+                        break;
+                    case 2:
+                        this.label1.Text = "Danh Sách Phòng Đã Được Thuê";
+                        break;
+                }
                 Button btn = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
                 btn.Text = roomDTO.RoomName;
                 btn.Click += new EventHandler(btn_Click);
@@ -70,7 +84,12 @@ namespace QuanLyKhachSan
 
         private void btn_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
+            this.Hide();
+            fViewRoom fView = new fViewRoom(m.LoadRoomInfo(RoomCode), m.LoadRoomInfor(RoomCode), RoomCode, m);
+            fView.ShowDialog();
+            this.Show();
         }
+
     }
 }

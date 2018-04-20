@@ -62,6 +62,17 @@ namespace QuanLyKhachSan
             }
             mainMenu = mainmenu;
         }
+        public fViewRoom(fViewRoom fview)
+        {
+            InitializeComponent();
+            this.label13.Text = fview.label13.Text;
+            this.label12.Text = fview.label12.Text;
+            this.label11.Text = fview.label11.Text;
+            this.label10.Text = fview.label10.Text;
+            this.label9.Text = fview.label9.Text;
+            this.label8.Text = fview.label8.Text;
+            this.RentButton.Visible = false;
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -74,6 +85,10 @@ namespace QuanLyKhachSan
             this.Hide();
             f.ShowDialog();
             this.Show();
+        }
+        public void Reload()
+        {
+
         }
     }
 }

@@ -113,9 +113,25 @@ namespace QuanLyKhachSan.DAO
                 SqlCommand Comm1 = new SqlCommand(query, connection);
                 connection.Open();
                  SqlDataReader DR1 = Comm1.ExecuteReader();
-                if (DR1.Read())
+                while (DR1.Read())
                 {
-                     data = DR1.GetValue(0).ToString();
+                    data = DR1.GetValue(0).ToString();
+                }
+                connection.Close();
+            }
+            return data;
+        }
+        public string ExecuteReaderString(string query)
+        {
+            string data = null;
+            using (SqlConnection connection = new SqlConnection(connectionStr))
+            {
+                SqlCommand Comm1 = new SqlCommand(query, connection);
+                connection.Open();
+                SqlDataReader DR1 = Comm1.ExecuteReader();
+                while (DR1.Read())
+                {
+                    data += DR1.GetValue(0).ToString() + "@";
                 }
                 connection.Close();
             }

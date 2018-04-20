@@ -39,6 +39,17 @@ namespace QuanLyKhachSan.DAO
             }
             return RoomList;
         }
+        public List<RoomDTO> LoadRoomListByStyle(int style)
+        {
+            List<RoomDTO> RoomList = new List<RoomDTO>();
+            DataTable data = DataProvide.Instance.ExecuteQuery("select * from PHONG where TinhTrangPhong=" + style.ToString());
+            foreach (DataRow item in data.Rows)
+            {
+                RoomDTO roomDTO = new RoomDTO(item);
+                RoomList.Add(roomDTO);
+            }
+            return RoomList;
+        }
         public List<RoomDTO> LoadStatusRoomList()
         {
             List<RoomDTO> RoomList = new List<RoomDTO>();

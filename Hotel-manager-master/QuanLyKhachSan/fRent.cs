@@ -18,6 +18,7 @@ namespace QuanLyKhachSan
         CustomerDTO[] _customer = new CustomerDTO[5];
         fRoom f = new fRoom();
         MainMenu m = new MainMenu();
+        fViewRoom fview;
         public fRent(fRoom room, string roomname,MainMenu mainMenu)
         {
             InitializeComponent();
@@ -26,7 +27,12 @@ namespace QuanLyKhachSan
             f = room;
             loadComboBoxInDataGridView();
         }
-
+        public fRent(fViewRoom fv)
+        {
+            InitializeComponent();
+            fview = fv;
+            loadComboBoxInDataGridView();
+        }
         public fRent(fRoom room)
         {
             InitializeComponent();
@@ -90,6 +96,9 @@ namespace QuanLyKhachSan
                 LoadListRoomAndCloseForm();
                 m.ReLoadRoomStatus();
                 m.ReLoadStatusOfRooms();
+                m.AddCustomerToBox(_customer[0].CustomerName);
+                fViewRoom t = new fViewRoom(m.LoadRoomInfo(getRoomCode()), m.LoadRoomInfor(getRoomCode()), getRoomCode(), m);
+                fview = new fViewRoom(t);
             }
             else   // phòng đang sửa chữa hoặc đang cho thuê
             {

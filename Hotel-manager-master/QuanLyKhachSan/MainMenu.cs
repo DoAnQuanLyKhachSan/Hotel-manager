@@ -283,9 +283,18 @@ namespace QuanLyKhachSan
         }
         public void LoadListRoom()
         {
-            string query = "select PHONG.MaPhong from PHONG";
-            string[] data = DataProvide.Instance.ExecuteReader(query).Split(' ');
-            this.textBox1.AutoCompleteCustomSource.AddRange(data);
+            string roomquery = "select PHONG.MaPhong from PHONG";
+
+            string[] roomdata = DataProvide.Instance.ExecuteReaderString(roomquery).Split('@');
+
+            this.textBox1.AutoCompleteCustomSource.AddRange(roomdata);
+
+        }
+        public void AddCustomerToBox(string namedata)
+        {
+            //string namequery = "select Tenkhachhang from CHITIET_PHIEUTHUE";
+            //string[] namedata = DataProvide.Instance.ExecuteReader(namequery).Split('@');
+            this.textBox1.AutoCompleteCustomSource.Add(namedata);
         }
         #endregion
         #region Events
@@ -315,17 +324,23 @@ namespace QuanLyKhachSan
         private void btnAv_Click(object sender, EventArgs args)
         {
             this.Hide();
-            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(1);
+            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this,1);
             _room.ShowDialog();
             this.Show();
         }
         private void btnIU_Click(object sender, EventArgs args)
         {
-            MessageBox.Show("btnIU");
+            this.Hide();
+            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this,2);
+            _room.ShowDialog();
+            this.Show();
         }
         private void btnMT_Click(object sender, EventArgs args)
         {
-            MessageBox.Show("btnMT");
+            this.Hide();
+            fRoomClassifiedByStyle _room = new fRoomClassifiedByStyle(this, 3);
+            _room.ShowDialog();
+            this.Show();
         }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -412,7 +427,6 @@ namespace QuanLyKhachSan
             _room.ShowDialog();
 
         }
-        #endregion
 
         private void ChangeRegulationButton_Click(object sender, EventArgs e)
         {
@@ -433,7 +447,7 @@ namespace QuanLyKhachSan
         {
 
         }
-
+        #endregion
     }
 }
 

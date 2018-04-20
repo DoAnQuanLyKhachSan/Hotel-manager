@@ -93,27 +93,9 @@ namespace QuanLyKhachSan
                 {
                     MessageBox.Show("Thêm phòng thành công");
                     _fRoom.LoadRoomList();
-                    Button button = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
-                    button.Text = getNameRoom().RoomName;
-                    switch(getCodeRoom().RoomStyle)
-                    {
-                        case 1:
-                            button.Image = global::QuanLyKhachSan.Properties.Resources.room1;
-                            break;
-                        case 2:
-                            button.Image = global::QuanLyKhachSan.Properties.Resources.room2;
-                            break;
-                        case 3:
-                            button.Image = global::QuanLyKhachSan.Properties.Resources.room3;
-                            break;
-                        default:
-                            break;
-                    }
-                    button.ImageAlign = ContentAlignment.MiddleCenter;
-                    button.TextAlign = ContentAlignment.BottomCenter;
-                    button.BackColor = Color.LightPink;
-                    button.Click += new EventHandler(button_Click);
+                    Button button = addbutton();
                     m.AddRoom(button);
+                    m.ReLoadStatusOfRooms();
                 }
             }
             catch(Exception ex)
@@ -127,12 +109,35 @@ namespace QuanLyKhachSan
                 }
             }
         }
-
+        private Button addbutton()
+        {
+            Button button = new Button() { Width = RoomDAO.RoomWidth, Height = RoomDAO.RoomHeigh };
+            button.Text = getNameRoom().RoomName;
+            switch (getCodeRoom().RoomStyle)
+            {
+                case 1:
+                    button.Image = global::QuanLyKhachSan.Properties.Resources.room1;
+                    break;
+                case 2:
+                    button.Image = global::QuanLyKhachSan.Properties.Resources.room2;
+                    break;
+                case 3:
+                    button.Image = global::QuanLyKhachSan.Properties.Resources.room3;
+                    break;
+                default:
+                    break;
+            }
+            button.ImageAlign = ContentAlignment.MiddleCenter;
+            button.TextAlign = ContentAlignment.BottomCenter;
+            button.BackColor = Color.LightPink;
+            button.Click += new EventHandler(button_Click);
+            return button;
+        }
         private void button_Click(object sender, EventArgs e)
         {
             int RoomCode = getCodeRoomint();
             this.Hide();
-            fViewRoom fView = new fViewRoom(m.LoadRoomInfo(RoomCode), RoomCode, m);
+            fViewRoom fView = new fViewRoom(m.LoadRoomInfo(RoomCode), m.LoadRoomInfor(RoomCode), RoomCode, m);
             fView.ShowDialog();
             m.Show();
         }
