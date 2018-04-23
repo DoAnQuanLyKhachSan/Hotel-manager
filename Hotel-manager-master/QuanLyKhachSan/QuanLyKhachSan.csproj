@@ -328,6 +328,7 @@
     <None Include="Resources\PayButton.png" />
     <None Include="Resources\ReportButton.png" />
     <None Include="Resources\Loggin.png" />
+    <None Include="Resources\icons8-food-26.png" />
     <Content Include="Resources\room1.png" />
     <None Include="Resources\icon.png" />
     <None Include="Resources\room3.png" />
