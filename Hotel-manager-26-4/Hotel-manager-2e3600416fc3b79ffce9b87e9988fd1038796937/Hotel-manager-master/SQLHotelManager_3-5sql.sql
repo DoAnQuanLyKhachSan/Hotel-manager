@@ -238,18 +238,21 @@ CREATE TABLE CHUC_NANG (
 )
 GO
 
-
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Phòng',N'fRoom')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Tìm phòng',N'fSearch')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thêm phòng',N'fAddRoom')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Xóa phòng',N'fDeleteRoom')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Sửa phòng',N'fEditRoom')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thuê phòng',N'fRent')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thanh toán',N'fPayInfo')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Dịch vụ',N'fService')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thống kê',N'fReport')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Thay đổi quy định',N'fChangeRegulations')
+insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Nhân viên',N'fStaff')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Về chúng tôi',N'AboutUs')
 insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Quản lý tài khoản',N'fAccountManagement')
-insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Phòng',N'fRoom')
-insert into dbo.CHUC_NANG(TenChucNang,TenManHinhDuocLoad) values(N'Xóa',N'fDeleteRoom')
+
+
 
 
 CREATE TABLE NHOM_NGUOI_DUNG (
@@ -339,10 +342,12 @@ GO
 
 
 CREATE TRIGGER tg_TuCapNhatKhiThemMoi_CHITIET_HOADON  -- Khi thêm mới ChiTiet_HoaDon, Tự cập nhật:
-ON dbo.CHITIET_HOADON					--- số ngày thuê = Ngày bắt đầu - Ngày thanh toán
+ON dbo.CHITIET_HOADON					--- SoLuongThue = (tùy trường hợp thuê theo ngày hay thuê theo giờ --- sử dụng hàm DateDiff( ngày hoặc giờ ) )
 FOR INSERT					----------Đơn Giá (theo các trường hợp số lượng khách và loại khách)
-AS						---------- Thành Tiền = Đơn giá x Số ngày thuê x Số người thuê(tùy theo thứ tự khách và loại khách)
-BEGIN				---------- Tổng tiền(trị giá)= Tổng tiền  + Thành Tiền 
+AS						 ---------- Tổng tiền thuê phòng = Đơn giá x SoLuongThue
+					   ------------Tổng tiền dịch vụ = tổng của các thành tiền trong bảng ChiTiet_SuDung_DV có trùng MaPT
+					  ------------Tổng tiền = Tổng tiền thuê phòng + Tổng tiền dịch vụ
+BEGIN				---------- Tổng tiền(trị giá bên table HOADON)= Tổng tiền(HOADON) + Tổng tiền(ChiTiet_HOADON)
 
 	DECLARE @MaHD INT, @MaPT INT, @DonGia MONEY, @GiaLoaiPhong MONEY, @SoKhach INT;
 	DECLARE @TongTienPhong MONEY, @SoLuongThue INT, @MaHinhThucThue INT, @TyLeDonGia FLOAT;
@@ -381,25 +386,25 @@ BEGIN				---------- Tổng tiền(trị giá)= Tổng tiền  + Thành Tiền
 
 	IF @SoKhach > @KhachKhongPhuThu
 		BEGIN
-			SET @DonGia = @GiaLoaiPhong*(1+@TyLePhuThu); 
-			SET @TongTienPhong = @GiaLoaiPhong * @KhachKhongPhuThu * @SoLuongThue + @DonGia * (@SoKhach - @KhachKhongPhuThu) * @SoLuongThue;
+			SET @DonGia = @GiaLoaiPhong + @GiaLoaiPhong* @TyLePhuThu * (@SoKhach - @KhachKhongPhuThu) ;
 		END
+	
 	ELSE 
 		BEGIN
 			SET @DonGia = @GiaLoaiPhong
-			SET @TongTienPhong = @DonGia * @SoKhach * @SoLuongThue;
 		END
 
+	IF EXISTS (SELECT * FROM Inserted I, dbo.CHITIET_PHIEUTHUE ctt WHERE I.MaPT=ctt.MaPT AND ctt.MaLoaiKhachHang = 2 )
+			BEGIN
+					SET @DonGia *= @HeSoPhuThu;
+			END
+			 
+	SET @TongTienPhong = @DonGia * @SoLuongThue
 
-	IF EXISTS (SELECT * FROM Inserted I, dbo.CHITIET_PHIEUTHUE ctt 
-					WHERE I.MaPT=ctt.MaPT AND ctt.MaLoaiKhachHang = 2 )
-		BEGIN
-			SET @TongTienPhong *= @HeSoPhuThu;
-		END
 
 	DECLARE @TongTienDichVu MONEY
 	SELECT @TongTienDichVu=SUM(ThanhTien) FROM dbo.CHITIET_SUDUNGDV WHERE MaPT=@MaPT
-	if (@TongTienDichVu is null)
+	IF (@TongTienDichVu is null)
 		set @TongTienDichVu = 0
 
 
@@ -496,6 +501,7 @@ GO
 
 INSERT INTO dbo.NHAN_VIEN( HoTen,NgaySinh,NgayKyHopDong,SoHopDong,MaBacLuong,MaPhongBan,MaChucVu )VALUES  (N'DuyAnhStaff','09/22/1998','04/20/2018',1,1,1,1)
 GO
+
 --INSERT INTO dbo.PHIEUTHUEPHONG( MaPhong,MaHinhThucThue, NgayGioBatDauThue,SoKhach) VALUES ( 1 , 1 ,'3/23/2018 1:1:1', 3)
 --INSERT INTO dbo.PHIEUTHUEPHONG( MaPhong,MaHinhThucThue, NgayGioBatDauThue,SoKhach) VALUES ( 2 , 2 ,'3/23/2018 1:1:1', 2)
 --INSERT INTO dbo.PHIEUTHUEPHONG( MaPhong,MaHinhThucThue, NgayGioBatDauThue,SoKhach) VALUES ( 3 , 1 ,'3/23/2018 1:1:1', 3)
@@ -654,39 +660,6 @@ END
 GO
 
 
-CREATE PROCEDURE dbo.CreateTenancyCard
-  @RoomCode int,
-  @FormalityCode int,
-  @BeginDay datetime,
-  @GuestNum int
-AS 
-BEGIN 
- SET NOCOUNT ON; 
-  BEGIN 
-
-insert INTO dbo.PHIEUTHUEPHONG(MaPhong,MaHinhThucThue,NgayGioBatDauThue,SoKhach,TinhTrangThanhToan)
-values(@RoomCode,@FormalityCode,@BeginDay,@GuestNum,0)
-  END 
-END
-GO
-
-CREATE PROCEDURE dbo.CreateTenancyCardDetail
-  @TenancyCardCode int,
-  @CustomerName nvarchar(50),
-  @CustomerStyleCode int,
-  @CustomerCMND int,
-  @CustomerAddress nvarchar(100) 
-AS 
-BEGIN 
- SET NOCOUNT ON; 
-  BEGIN 
-
-insert into dbo.CHITIET_PHIEUTHUE(MaPT,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)
-values(@TenancyCardCode,@CustomerName,@CustomerStyleCode,@CustomerCMND,@CustomerAddress)
-  END 
-END
-GO
-
 
 CREATE PROC sp_ThemChiTiet_SuDungDV(@MaPT INT, @MaDV INT, @TenKH NVARCHAR(50), @NgayGio DATETIME, @SoLuong int)
 AS
@@ -802,3 +775,70 @@ BEGIN
   END 
 END
 GO
+
+
+CREATE PROCEDURE dbo.CreateTenancyCard
+  @RoomCode int,
+  @FormalityCode int,
+  @BeginDay datetime,
+  @GuestNum int
+AS 
+BEGIN 
+ SET NOCOUNT ON; 
+  BEGIN 
+
+insert INTO dbo.PHIEUTHUEPHONG(MaPhong,MaHinhThucThue,NgayGioBatDauThue,SoKhach,TinhTrangThanhToan)
+values(@RoomCode,@FormalityCode,@BeginDay,@GuestNum,0)
+  END 
+END
+GO
+
+CREATE PROCEDURE dbo.CreateTenancyCardDetail
+  @TenancyCardCode int,
+  @CustomerName nvarchar(50),
+  @CustomerStyleCode int,
+  @CustomerCMND int,
+  @CustomerAddress nvarchar(100) 
+AS 
+BEGIN 
+ SET NOCOUNT ON; 
+  BEGIN 
+
+insert into dbo.CHITIET_PHIEUTHUE(MaPT,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)
+values(@TenancyCardCode,@CustomerName,@CustomerStyleCode,@CustomerCMND,@CustomerAddress)
+  END 
+END
+GO
+
+CREATE PROC capNhatNhomNguoiDung(@MaNhomIndex int,@MaNhom int = null,@TenNhom nvarchar(30) = null)
+AS
+BEGIN
+	if(@MaNhom is null) UPDATE dbo.NHOM_NGUOI_DUNG SET TenNhom=@TenNhom WHERE MaNhom=@MaNhomIndex 
+	else
+	begin
+		ALTER TABLE PHAN_QUYEN
+		DROP Constraint FK__PHAN_QUYE__MaNho__7A672E12
+		ALTER TABLE NGUOI_DUNG
+		DROP Constraint FK__NGUOI_DUN__MaNho__7E37BEF6
+
+		if(@TenNhom is not null) UPDATE dbo.NHOM_NGUOI_DUNG SET TenNhom=@TenNhom WHERE MaNhom=@MaNhomIndex
+		UPDATE dbo.PHAN_QUYEN SET MaNhom =@MaNhom WHERE MaNhom =@MaNhomIndex
+		UPDATE dbo.NGUOI_DUNG SET MaNhom =@MaNhom WHERE MaNhom =@MaNhomIndex
+		UPDATE dbo.NHOM_NGUOI_DUNG SET MaNhom = @MaNhom WHERE MaNhom = @MaNhomIndex
+		 
+
+		ALTER TABLE NGUOI_DUNG
+		ADD CONSTRAINT FK__NGUOI_DUN__MaNho__7E37BEF6
+		FOREIGN KEY (MaNhom) REFERENCES NHOM_NGUOI_DUNG(MaNhom)
+		ON UPDATE CASCADE
+		ALTER TABLE PHAN_QUYEN
+		ADD CONSTRAINT FK__PHAN_QUYE__MaNho__7A672E12
+		FOREIGN KEY (MaNhom) REFERENCES NHOM_NGUOI_DUNG(MaNhom)
+		ON UPDATE CASCADE
+	end
+END
+GO
+
+
+
+

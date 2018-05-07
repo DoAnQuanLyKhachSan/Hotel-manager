@@ -507,13 +507,29 @@ namespace QuanLyKhachSan
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            fService f = new fService();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fService") == true)
+            {
+                fService f = new fService(); 
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
         }
 
         #endregion
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (AccountManagementDAO.Instance.checkShowForm(getGroupCode(), "fStaff") == true)
+            {
+                fStaff f = new fStaff();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else MessageBox.Show("Bạn không có quyền truy cập");
+        }
     }
 }
 

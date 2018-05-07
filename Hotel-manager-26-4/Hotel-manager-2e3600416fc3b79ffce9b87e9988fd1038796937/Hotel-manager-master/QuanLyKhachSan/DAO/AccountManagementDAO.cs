@@ -101,6 +101,17 @@ namespace QuanLyKhachSan.DAO
             return "DELETE FROM dbo.NHOM_NGUOI_DUNG WHERE MaNhom =" + GroupCode;
         }
 
+        public string deletePhanQuyenVoiMaNhom(int GroupCode)
+        {
+            return "DELETE FROM dbo.PHAN_QUYEN WHERE MaNhom =" + GroupCode;
+        }
+
+        public string deleteUserVoiMaNhom(int GroupCode)
+        {
+            return "DELETE FROM dbo.NGUOI_DUNG WHERE MaNhom = " + GroupCode;
+        }
+
+
         public string deletePhanQuyen(int GroupCode,int FunctionCode)
         {
             return "DELETE FROM dbo.PHAN_QUYEN WHERE MaNhom =" + GroupCode + " AND MaChucNang =" + FunctionCode;
@@ -114,7 +125,7 @@ namespace QuanLyKhachSan.DAO
         public bool CheckExitsGroupEdit(int _groupCode, string _groupName)
         {
 
-            string query = "if exists (select MaNhom from NHOM_NGUOI_DUNG where MaNhom =" + _groupCode + " AND TenNhom=N'" + _groupName + ") select 1";
+            string query = "if exists (select MaNhom from NHOM_NGUOI_DUNG where MaNhom =" + _groupCode + " AND TenNhom=N'" + _groupName + "') select 1";
             DataTable rs = DataProvide.Instance.ExecuteQuery(query);
             //rs tra ve gia tri 1 neu ma nhom da co trong database
             if (rs.Rows.Count > 0) return true;
@@ -134,12 +145,31 @@ namespace QuanLyKhachSan.DAO
                 return false;
             }
         }
-
-        public int UpdateGroupUser(int _groupCode, string _groupName,int _groupCodeIndex)
+        public int UpdateGroupUser( int _groupCodeInDex, string _groupCode = null,string _groupName = null)
         {
-            string query = "UPDATE dbo.NHOM_NGUOI_DUNG SET MaNhom = "+_groupCode+",TenNhom=N'"+_groupName+"' WHERE MaNhom = "+_groupCodeIndex;
-            return DataProvide.Instance.ExecuteNonQuery(query);
+            string query = null;
+            if (_groupCode == null)
+            {
+                query = "EXEC capNhatNhomNguoiDung @MaNhomIndex , null , @TenNhom ";
+                return DataProvide.Instance.ExecuteNonQuery(query, new object[] { _groupCodeInDex, _groupName });
+            }
+            else
+            {
+                if (_groupName == null)
+                {
+                    query = "EXEC capNhatNhomNguoiDung @MaNhomIndex , @MaNhom ";
+                    return DataProvide.Instance.ExecuteNonQuery(query, new object[] { _groupCodeInDex, _groupCode });
+                }
+                else
+                {
+                    query = "EXEC capNhatNhomNguoiDung @MaNhomIndex , @MaNhom , @TenNhom ";
+                    return DataProvide.Instance.ExecuteNonQuery(query, new object[] { _groupCodeInDex, _groupCode, _groupName });
+                }
+            }
+            
         }
+
+       
         public int UpdatePhanQuyen(int _groupCode, int _functionCode,int _groupCodeInDex,int _functionCodeIndex)
         {
             string query = "UPDATE dbo.PHAN_QUYEN SET MaNhom =" + _groupCode + ",MaChucNang =" + _functionCode + " WHERE MaNhom = " + _groupCodeInDex + " AND MaChucNang = " + _functionCodeIndex;
@@ -158,6 +188,13 @@ namespace QuanLyKhachSan.DAO
             if (CheckExitsPhanQuyen(groupCode, rs) == true) return true;
             return false;
         }
+        public DataTable getListChucNang()
+        {
+            string query = "select MaChucNang as 'Mã chức năng',TenChucNang as 'Tên chức năng' from dbo.CHUC_NANG";
+            return DataProvide.Instance.ExecuteQuery(query);
+        }
+
+
 
     }
 
