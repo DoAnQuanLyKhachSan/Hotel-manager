@@ -25,6 +25,7 @@ namespace QuanLyKhachSan
             InitializeComponent();
             //m = mainMenu;
             this.txbRoomName.Text = roomname;
+            this.txbRoomName.ReadOnly = true;
             f = room;
             loadComboBoxInDataGridView();
             setComboBoxFormality();

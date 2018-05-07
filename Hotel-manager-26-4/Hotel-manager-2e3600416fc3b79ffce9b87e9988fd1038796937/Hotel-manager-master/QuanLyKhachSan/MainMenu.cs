@@ -25,6 +25,7 @@ namespace QuanLyKhachSan
             LoadStatusOfRooms();
             LoadListRoom();
             fLoginCurrent = f;
+            AddCustomerToBox();
         }
         public MainMenu()
         {
@@ -323,11 +324,12 @@ namespace QuanLyKhachSan
             this.textBox1.AutoCompleteCustomSource.AddRange(roomdata);
 
         }
-        public void AddCustomerToBox(string namedata)
+        public void AddCustomerToBox()
         {
-            //string namequery = "select Tenkhachhang from CHITIET_PHIEUTHUE";
-            //string[] namedata = DataProvide.Instance.ExecuteReader(namequery).Split('@');
-            this.textBox1.AutoCompleteCustomSource.Add(namedata);
+            string namequery = "select Tenkhachhang from CHITIET_PHIEUTHUE";
+            string[] namedata = DataProvide.Instance.ExecuteReaderString(namequery).Split('@');
+            this.textBox1.AutoCompleteCustomSource.Clear();
+            this.textBox1.AutoCompleteCustomSource.AddRange(namedata);
         }
         #endregion
         #region Events
@@ -335,9 +337,11 @@ namespace QuanLyKhachSan
         {
             int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
             this.Hide();
+
             fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode), LoadRoomInfor(RoomCode), RoomCode, this);
             fView.ShowDialog();
             this.Show();
+            this.AddCustomerToBox();
         }
 
         public List<BillInfoDTO> LoadRoomInfo(int roomcode)
@@ -345,9 +349,19 @@ namespace QuanLyKhachSan
             List<BillInfoDTO> ListBillInfo = BillInfoDAO.Instance.GetListBillInfo(BillDAO.Instance.GetBillIDByRoomcode(roomcode));
             return ListBillInfo;
         }
+        public List<BillInfoDTO> LoadRoomInfo(string customername)
+        {
+            List<BillInfoDTO> ListBillInfo = BillInfoDAO.Instance.GetListBillInfo(BillDAO.Instance.GetBillIDByCustomerName(customername));
+            return ListBillInfo;
+        }
         public RoomDTO LoadRoomInfor(int roomcode)
         {
             RoomDTO room = BillDAO.Instance.GetRoomInfoByRoomcode(roomcode);
+            return room;
+        }
+        public CustomerDTO LoadRoomInfor(string customername)
+        {
+            CustomerDTO room = BillDAO.Instance.GetRoomInfoByCustomerName(customername);
             return room;
         }
         private void btnAll_Click(object sender, EventArgs args)
@@ -403,7 +417,19 @@ namespace QuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            CustomerDTO Temp = LoadRoomInfor(this.textBox1.Text);
+            if (Temp != null)
+            {
+                this.Hide();
+                fViewRoom fView = new fViewRoom(LoadRoomInfo(Temp.Roomcode), LoadRoomInfor(Temp.Roomcode), this);
+                fView.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Không Tìm Thấy Khách Hàng");
+            }
+            this.Show();
+            this.AddCustomerToBox();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -517,7 +543,7 @@ namespace QuanLyKhachSan
             else MessageBox.Show("Bạn không có quyền truy cập");
         }
 
-        #endregion
+
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -530,6 +556,7 @@ namespace QuanLyKhachSan
             }
             else MessageBox.Show("Bạn không có quyền truy cập");
         }
+        #endregion
     }
 }
 

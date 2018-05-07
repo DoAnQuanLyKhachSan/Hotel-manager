@@ -31,6 +31,16 @@ namespace QuanLyKhachSan.DAO
             }
             return -1;
         }
+        public int GetBillIDByCustomerName(string customername)
+        {
+            DataTable data = DataProvide.Instance.ExecuteQuery("select p.MaPT,p.MaPhong,p.MaHinhThucThue,p.NgayGioBatDauThue,p.SoKhach,p.TinhTrangThanhToan from CHITIET_PHIEUTHUE c join PHIEUTHUEPHONG p on c.MaPT=p.MaPT where TenKhachHang=" + customername);
+            if (data.Rows.Count > 0)
+            {
+                BillDTO bill = new BillDTO(data.Rows[0]);
+                return bill.RoomCode1;
+            }
+            return -1;
+        }
         public RoomDTO GetRoomInfoByRoomcode(int roomcode)
         {
             DataTable data = DataProvide.Instance.ExecuteQuery("select * from phong where maphong =" + roomcode.ToString());
@@ -41,6 +51,15 @@ namespace QuanLyKhachSan.DAO
             }
             return null;
         }
-
+        public CustomerDTO GetRoomInfoByCustomerName(string customername)
+        {
+            DataTable data = DataProvide.Instance.ExecuteQuery("select * from CHITIET_PHIEUTHUE c join PHIEUTHUEPHONG p on c.MaPT=p.MaPT  where TenKhachHang = " + "'"+ customername + "'");
+            if (data.Rows.Count > 0)
+            {
+                CustomerDTO bill = new CustomerDTO(data.Rows[0]);
+                return bill;
+            }
+            return null;
+        }
     }
 }

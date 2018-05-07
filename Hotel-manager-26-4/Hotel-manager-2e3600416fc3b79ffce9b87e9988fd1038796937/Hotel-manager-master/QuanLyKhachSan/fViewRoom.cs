@@ -44,6 +44,34 @@ namespace QuanLyKhachSan
             }
             mainMenu = mainmenu;
         }
+        public fViewRoom(List<BillInfoDTO> ListBillInfo, RoomDTO roominfo, MainMenu mainmenu)
+        {
+            InitializeComponent();            
+            if (ListBillInfo.Count != 0)
+            {
+                BillInfoDTO item = ListBillInfo.First();
+                if (item.RoomStatus1 == 1)
+                {
+                    this.RentButton.Visible = true;
+                }
+                this.label1.Text  =  item.RoomName1;
+                this.label13.Text = item.CustomerName1;
+                this.label12.Text = item.CustomerType1.ToString();
+                this.label11.Text = item.IdentityCard1.ToString();
+                this.label10.Text = item.DayCheckIn1.ToString();
+                this.label9.Text  = item.RoomType1.ToString();
+                this.label8.Text  = item.RoomNote1;
+            }
+            else
+            {
+                if (roominfo.RoomStatus == 1)
+                    this.RentButton.Visible = true;
+                this.label9.Text = roominfo.RoomStyle.ToString();
+                if (roominfo.RoomNote != "")
+                    this.label8.Text = roominfo.RoomNote;
+            }
+            mainMenu = mainmenu;
+        }
         public fViewRoom(List<BillInfoDTO> ListBillInfo, RoomDTO roominfo, int roomcode)
         {
             InitializeComponent();
@@ -122,7 +150,10 @@ namespace QuanLyKhachSan
         }
         public void Reload(List<BillInfoDTO> ListBillInfo, int roomcode)
         {
+            if (ListBillInfo.Count != 0)
+            {
                 BillInfoDTO item = ListBillInfo.First();
+
                 if (item.RoomStatus1 == 1)
                 {
                     this.RentButton.Visible = true;
@@ -134,6 +165,11 @@ namespace QuanLyKhachSan
                 this.label9.Text = item.RoomType1.ToString();
                 this.label8.Text = item.RoomNote1;
                 this.RentButton.Visible = false;
+            }
+        }
+        public string GetCustomerName()
+        {
+            return label13.ToString();
         }
     }
 }
