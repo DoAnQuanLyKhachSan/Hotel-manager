@@ -620,7 +620,6 @@ C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b8
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
-C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
@@ -653,3 +652,4 @@ C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
