@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QuanLyKhachSan
 {
@@ -44,16 +45,24 @@ namespace QuanLyKhachSan
 
         private void btnLogin_Click(object sender, EventArgs e) //button Login
         {
-            
+            //SqlConnection conn =new SqlConnection (@"Data Source=DESKTOP-OAVL1J3;Initial Catalog=HOTEL_MANAGER;Integrated Security=True");
             if (LoginDAO.Instance.Login(getUser().UserName,getUser().UserPass) == true)
             {
-                this.Hide();
-                MainMenu main = new MainMenu(this);
-                main.ShowDialog();
-                txbUser.ResetText();
-                txbPass.ResetText();
-                this.txbUser.Select();
-                this.Show();
+                //try
+                //{
+                    //conn.Open();
+                    this.Hide();
+                    MainMenu main = new MainMenu(this);
+                    main.ShowDialog();
+                    txbUser.ResetText();
+                    txbPass.ResetText();
+                    this.txbUser.Select();
+                    this.Show();
+                //}
+                //catch(Exception ex)
+                //{
+                //    MessageBox.Show("Lỗi kết nối với cơ sở dữ liệu");
+                //}
             }
             else
             {

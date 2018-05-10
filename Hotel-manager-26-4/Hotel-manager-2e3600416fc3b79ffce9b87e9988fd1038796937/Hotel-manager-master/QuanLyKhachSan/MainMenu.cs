@@ -447,6 +447,7 @@ namespace QuanLyKhachSan
                 this.LoadRoom();
                 f.ShowDialog();
                 this.Show();
+                this.ReLoadRoomStatus();
             }
             else
                 MessageBox.Show("Bạn không có quyền truy cập");
