@@ -57,7 +57,9 @@ namespace QuanLyKhachSan
 
         private void loadSOHD()
         {
-            txbSoHopDong.Text = (int.Parse(StaffDAO.Instance.soHDLonNhat())+1).ToString();
+            
+            
+            txbSoHopDong.Text = (StaffDAO.Instance.soHDLonNhat() + 1).ToString();
         }
 
 

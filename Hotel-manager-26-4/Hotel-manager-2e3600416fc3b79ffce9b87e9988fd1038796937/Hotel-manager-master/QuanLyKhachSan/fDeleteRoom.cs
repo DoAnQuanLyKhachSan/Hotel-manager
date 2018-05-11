@@ -46,14 +46,18 @@ namespace QuanLyKhachSan
             Button DeleteButton = getRoomInfo();
             try
             {
-                int data = DataProvide.Instance.ExecuteNonQuery(RoomDAO.Instance.deleteRoomDatabaseQuery() + _room.RoomCode);
-                //return data(int) > 0 is success
-                if (data > 0)
+               DialogResult result = MessageBox.Show("Bạn có muốn xóa hết dữ liệu liên quan đến phòng không ?", "Thông báo", MessageBoxButtons.YesNo);
+                if (result==DialogResult.Yes)
                 {
-                    MessageBox.Show("Xóa phòng thành công");
-                    _froom.LoadRoomList();
-                    LoadRoomList();
-                    m.RemoveRoom(DeleteButton);
+                    int data = RoomDAO.Instance.deleteRoomDatabaseQuery(_room.RoomCode);
+                    //return data(int) > 0 is success
+                    if (data > 0)
+                    {
+                        MessageBox.Show("Xóa phòng thành công");
+                        _froom.LoadRoomList();
+                        LoadRoomList();
+                      
+                    }
                 }
             }
             catch (Exception)

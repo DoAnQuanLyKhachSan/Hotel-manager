@@ -47,10 +47,10 @@ namespace QuanLyKhachSan.DAO
             return DataProvide.Instance.ExecuteQuery(query);
         }
 
-        public string soHDLonNhat()
+        public int soHDLonNhat()
         {
-            string query = "select MAX(SoHopDong) from NHAN_VIEN ";
-            return DataProvide.Instance.ExecuteReader(query);
+            string query = "exec TraVeSoHDLonNhat";
+            return DataProvide.Instance.ExecuteNonQuery(query);
         }
         public int AddStaffToDataBase(string hoTen,DateTime ntns,DateTime nkhd,int soHD,int MaBacLuong,int MaPhongBan,int MaChucVu)
         {

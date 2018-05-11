@@ -87,7 +87,11 @@ namespace QuanLyKhachSan.DAO
         public string cbxstyleRoom_SelectIndexQuery() { return "select DonGia from dbo.LOAI_PHONG where MaLoaiPhong = ";}
         public string addRoomDatabaseQuery() { /*use PROC in SQL SEVER */return "EXEC dbo.AddRoomToDataBase @RoomCode , @RoomName , @RoomStyle , @RoomNote "; }
 
-        public string deleteRoomDatabaseQuery() { return "DELETE FROM dbo.PHONG WHERE MaPhong ="; }
+        public int deleteRoomDatabaseQuery(int maPhong) {
+            string query = "exec XoaPhong @MaPhong ";
+            int rs = DataProvide.Instance.ExecuteNonQuery(query, new object[] { maPhong });
+            return rs;
+        }
 
         public string UpdateRoomDatabaseQuery() { /*use PROC in SQL SEVER */return "EXEC dbo.UpdateRoomToDataBase @RoomCodeNew , @RoomName , @RoomStyle , @RoomNote , @RoomStatus , @RoomCodeOld "; }
 

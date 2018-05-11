@@ -326,10 +326,11 @@ namespace QuanLyKhachSan
         }
         public void AddCustomerToBox()
         {
+            string[] namedata = { };
             string namequery = "select Tenkhachhang from CHITIET_PHIEUTHUE";
-            string[] namedata = DataProvide.Instance.ExecuteReaderString(namequery).Split('@');
+            if (DataProvide.Instance.ExecuteReaderString(namequery) != null)
+                namedata = DataProvide.Instance.ExecuteReaderString(namequery).Split('@');
             this.textBox1.AutoCompleteCustomSource.Clear();
-            if(namedata!=null)
             this.textBox1.AutoCompleteCustomSource.AddRange(namedata);
         }
         #endregion

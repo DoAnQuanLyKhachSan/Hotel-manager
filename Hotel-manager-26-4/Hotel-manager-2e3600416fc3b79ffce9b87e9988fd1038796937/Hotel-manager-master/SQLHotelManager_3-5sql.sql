@@ -509,7 +509,7 @@ GO
 
 
 --INSERT INTO dbo.CHITIET_PHIEUTHUE( MaPT, TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)VALUES ( 1 ,N'Khách hàng 1' ,1 ,1111 ,N'address 1')
---INSERT INTO dbo.CHITIET_PHIEUTHUE( MaPT,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)VALUES ( 1 ,N'Khách hàng 2' ,2 ,2222 ,N'address 2')
+--INSERT INTO dbo.CHITIET_PHIEUTHUE( MaPT,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)VALUES ( 2 ,N'Khách hàng 2' ,2 ,2222 ,N'address 2')
 --INSERT INTO dbo.CHITIET_PHIEUTHUE( MaPT, TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)VALUES ( 1 ,N'Khách hàng 3' ,1 ,3333 ,N'address 3')
 --INSERT INTO dbo.CHITIET_PHIEUTHUE( MaPT,TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)VALUES ( 3 ,N'Khách hàng 4' ,2 ,4444 ,N'address 4')
 --INSERT INTO dbo.CHITIET_PHIEUTHUE( MaPT, TenKhachHang,MaLoaiKhachHang,CMND,DiaChi)VALUES ( 3 ,N'Khách hàng 5' ,2 ,5555 ,N'address 5')
@@ -839,6 +839,80 @@ BEGIN
 END
 GO
 
+CREATE PROC XoaPhong(@MaPhong INT)
+AS
+BEGIN
+	declare @kiemTraRong int
+	declare @maPhieuThue int
+	declare @maPhongBan int
+	declare @dem int
+	declare @LanLayPhieuThue bigint
+	
 
+
+	select @kiemTraRong = COUNT(*) from PHIEUTHUEPHONG where MaPhong=@MaPhong 
+	if(@kiemTraRong>0) 
+	begin
+		select @dem = COUNT(*) from PHIEUTHUEPHONG where MaPhong=@MaPhong
+		while(@dem>0)
+		begin
+			select @maPhieuThue =  MaPT from PHIEUTHUEPHONG where MaPhong=@MaPhong 
+
+			select @kiemTraRong = count(*) from CHITIET_SUDUNGDV where MaPT=@maPhieuThue
+			if(@kiemTraRong>0)
+			begin
+				DELETE FROM CHITIET_SUDUNGDV where MaPT=@maPhieuThue
+			end
+
+			select @kiemTraRong = COUNT(*) from CHITIET_PHIEUTHUE where MaPT=@maPhieuThue
+			if(@kiemTraRong>0) 
+			begin
+				DELETE FROM CHITIET_PHIEUTHUE where MaPT=@maPhieuThue
+			end
+
+			select @kiemTraRong = count(*) from CHITIET_HOADON where MaPT=@maPhieuThue
+			if(@kiemTraRong>0)
+			begin
+				DELETE FROM CHITIET_HOADON where MaPT=@maPhieuThue
+			end
+
+			Delete from PHIEUTHUEPHONG where MaPhong=@MaPhong AND MaPT=@maPhieuThue
+			select @dem = @dem -1
+		end
+	end
+
+	
+	select @kiemTraRong=COUNT(*) from PHONG_BAN where MaPhong=@MaPhong
+	if(@kiemTraRong>0)
+	begin
+		select @maPhongBan = MaPhongBan from PHONG_BAN where MaPhong=@MaPhong
+		select @kiemTraRong = count(*) from NHAN_VIEN where MaPhongBan=@maPhongBan
+		if(@kiemTraRong>0)
+		begin
+			DELETE FROM NHAN_VIEN where MaPhongBan=@maPhongBan
+		end
+		DELETE FROM PHONG_BAN where MaPhong=@MaPhong
+	end
+	DELETE FROM PHONG where MaPhong=@MaPhong
+END
+GO
+
+CREATE PROCEDURE TraVeSoHDLonNhat
+AS 
+BEGIN 
+	declare @soHoaDonLonNhat int
+	declare @rs int
+	select @rs = COUNT(*) from NHAN_VIEN 
+	if(@rs>0) 
+		begin
+			select @rs = MAX(SoHopDong) from NHAN_VIEN
+		end
+	else
+		begin
+			select @rs = 0
+	    end
+		return @rs
+END
+GO
 
 
