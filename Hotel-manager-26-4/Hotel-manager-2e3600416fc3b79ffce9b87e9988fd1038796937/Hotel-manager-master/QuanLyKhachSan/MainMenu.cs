@@ -339,8 +339,17 @@ namespace QuanLyKhachSan
         {
             int RoomCode = ((sender as Button).Tag as RoomDTO).RoomCode;
             this.Hide();
-
-            fViewRoom fView = new fViewRoom(LoadRoomInfo(RoomCode), LoadRoomInfor(RoomCode), RoomCode, this);
+            BillDTO billDTO;
+            fViewRoom fView;
+            if (LoadRoomDTO(RoomCode).Count != 0)
+            {
+                billDTO = LoadRoomDTO(RoomCode).First();
+                fView = new fViewRoom(LoadRoomInfo(RoomCode), LoadRoomInfor(RoomCode), RoomCode, this, billDTO.PayStatus1);
+            }
+            else
+            {
+                fView = new fViewRoom(LoadRoomInfo(RoomCode), LoadRoomInfor(RoomCode), RoomCode, this);
+            }
             fView.ShowDialog();
             this.Show();
             this.AddCustomerToBox();
@@ -354,6 +363,11 @@ namespace QuanLyKhachSan
         public List<BillInfoDTO> LoadRoomInfo(string customername)
         {
             List<BillInfoDTO> ListBillInfo = BillInfoDAO.Instance.GetListBillInfo(BillDAO.Instance.GetBillIDByCustomerName(customername));
+            return ListBillInfo;
+        }
+        public List<BillDTO> LoadRoomDTO(int roomcode)
+        {
+            List<BillDTO> ListBillInfo = BillDAO.Instance.GetListBillInfo(roomcode);
             return ListBillInfo;
         }
         public RoomDTO LoadRoomInfor(int roomcode)

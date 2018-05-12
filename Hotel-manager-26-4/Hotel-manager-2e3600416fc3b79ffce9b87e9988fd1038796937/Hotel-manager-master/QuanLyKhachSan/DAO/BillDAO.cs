@@ -61,5 +61,17 @@ namespace QuanLyKhachSan.DAO
             }
             return null;
         }
+        public List<BillDTO> GetListBillInfo(int roomcode)
+        {
+            List<BillDTO> ListBill = new List<BillDTO>();
+            DataTable data = DataProvide.Instance.ExecuteQuery(GetlistBillInfoQuery + roomcode.ToString());
+            foreach (DataRow item in data.Rows)
+            {
+                BillDTO info = new BillDTO(item);
+                ListBill.Add(info);
+            }
+            return ListBill;
+        }
+        public string GetlistBillInfoQuery = "select MaPhong,NgayGioBatDauThue,TinhTrangThanhToan from PHIEUTHUEPHONG where MaPhong =";
     }
 }

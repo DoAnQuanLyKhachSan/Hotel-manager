@@ -7,18 +7,20 @@ using System.Threading.Tasks;
 
 namespace QuanLyKhachSan.DTO
 {
-    class BillDTO
+    public class BillDTO
     {
 
-        public BillDTO(int roomcode,DateTime daycheckin)
+        public BillDTO(int roomcode,DateTime daycheckin,int paystatus)
         {
             this.RoomCode1 = roomcode;
             this.DayCheckIn1 = daycheckin;
+            this.PayStatus = paystatus;
         }
         public BillDTO(DataRow row)
         {
             this.RoomCode1 = (int)row["MaPhong"];
             this.DayCheckIn1 = (DateTime)row["NgayGioBatDauThue"];
+            this.PayStatus1 = (int)row["TinhTrangThanhToan"];
         }
 
         private String CustomerName;
@@ -75,10 +77,23 @@ namespace QuanLyKhachSan.DTO
             }
         }
 
+        public int PayStatus1
+        {
+            get
+            {
+                return PayStatus;
+            }
+            set
+            {
+                PayStatus = value;
+            }
+        }
+
         private DateTime DayCheckIn;
 
         private int RoomCode;
 
         private int RoomType;
+        private int PayStatus;
     }
 }
