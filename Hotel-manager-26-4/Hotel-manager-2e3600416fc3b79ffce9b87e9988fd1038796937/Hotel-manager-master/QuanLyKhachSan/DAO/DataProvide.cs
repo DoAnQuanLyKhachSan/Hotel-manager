@@ -25,10 +25,10 @@ namespace QuanLyKhachSan.DAO
                 instance = value;
             }
         }
-
-        public string connectionStr = @"Data Source=DESKTOP-OAVL1J3;Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
+        public string connectionStr = @"Data Source=";
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
+            connectionStr +=Environment.MachineName + ";Initial Catalog=HOTEL_MANAGER;Integrated Security=True";
             DataTable data = new DataTable();
             using (SqlConnection connection = new SqlConnection(connectionStr))
             {
