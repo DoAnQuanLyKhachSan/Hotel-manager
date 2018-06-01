@@ -1,0 +1,937 @@
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-965c107373ef48a27814dfbd109b3baecc95cad7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-51f716a26a8e76e41f4bd771426adf52691bc296\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Documents\GitHub\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay1.resources
+C:\Users\danhy\Downloads\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView1.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay1.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView1.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPay1.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayView1.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager-master_16-4\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager-master_17-4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager-master_17-4v2\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager-master_17-4v3\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Desktop\Hotel-manager-master_17-4v4\Hotel-manager-master_16-4 - Copy\Hotel-manager-master\Hotel-manager-master\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-5d3ddee4a4ab1d2e6fc173c82909472ffcc4498e\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\QLKS\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\NM CNPM\Hotel-manager-25-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fService.resources
+D:\NM CNPM\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\NM CNPM\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\NM CNPM\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fService.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fService.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fService.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Documents\GitHub\Hotel-manager\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fService.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraReports.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraReports.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\danhy\Downloads\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe.licenses
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAccountManagement.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddRoomType.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fAddStaff.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeMaxCus.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeNumOfCus.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRate.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRegulations.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fChangeRoomType.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fDeleteStaff.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fEditStaff.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fLogin.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayDetail.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fPayInfo.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRent.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fReport.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fRoomClassifiedByStyle.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fSearch.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fService.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fStaff.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fUpdateRoomPrice.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.fViewRoom.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainMenu.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe.licenses
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CopyComplete
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\NTD\Desktop\Hotel-manager-master\Hotel-manager-26-4\Hotel-manager-2e3600416fc3b79ffce9b87e9988fd1038796937\Hotel-manager-master\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache

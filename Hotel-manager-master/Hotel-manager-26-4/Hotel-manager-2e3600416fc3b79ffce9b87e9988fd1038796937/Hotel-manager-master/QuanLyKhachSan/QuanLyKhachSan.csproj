@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E526E91D-D1D1-4ABA-B695-2DA131B2B1D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLyKhachSan</RootNamespace>
+    <AssemblyName>QuanLyKhachSan</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.1.UI, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Extensions, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\AccountManagementDAO.cs" />
+    <Compile Include="DAO\BillDAO.cs" />
+    <Compile Include="DAO\BillInfoDAO.cs" />
+    <Compile Include="DAO\ChangeRegulationDAO.cs" />
+    <Compile Include="DAO\DataProvide.cs" />
+    <Compile Include="DAO\LoginDAO.cs" />
+    <Compile Include="DAO\PayDAO.cs" />
+    <Compile Include="DAO\ReportDAO.cs" />
+    <Compile Include="DAO\RoomDAO.cs" />
+    <Compile Include="DAO\ServiceDAO.cs" />
+    <Compile Include="DAO\StaffDAO.cs" />
+    <Compile Include="DTO\BillDTO.cs" />
+    <Compile Include="DTO\BillInfoDTO.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\CustomerStyleDTO.cs" />
+    <Compile Include="DTO\PayDTO.cs" />
+    <Compile Include="DTO\RoomDTO.cs" />
+    <Compile Include="DTO\RoomStyleDTO.cs" />
+    <Compile Include="DTO\StaffDTO.cs" />
+    <Compile Include="DTO\UserDTO.cs" />
+    <Compile Include="fAccountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAccountManagement.Designer.cs">
+      <DependentUpon>fAccountManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAddRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddRoom.Designer.cs">
+      <DependentUpon>fAddRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAddRoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddRoomType.Designer.cs">
+      <DependentUpon>fAddRoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddStaff.Designer.cs">
+      <DependentUpon>fAddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangeMaxCus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangeMaxCus.Designer.cs">
+      <DependentUpon>fChangeMaxCus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangeNumOfCus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangeNumOfCus.Designer.cs">
+      <DependentUpon>fChangeNumOfCus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangeRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangeRate.Designer.cs">
+      <DependentUpon>fChangeRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangeRegulations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangeRegulations.Designer.cs">
+      <DependentUpon>fChangeRegulations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChangeRoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangeRoomType.Designer.cs">
+      <DependentUpon>fChangeRoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDeleteRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDeleteRoom.Designer.cs">
+      <DependentUpon>fDeleteRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDeleteStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDeleteStaff.Designer.cs">
+      <DependentUpon>fDeleteStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fEditRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fEditRoom.Designer.cs">
+      <DependentUpon>fEditRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fEditStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fEditStaff.Designer.cs">
+      <DependentUpon>fEditStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPayDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPayDetail.Designer.cs">
+      <DependentUpon>fPayDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPayInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPayInfo.Designer.cs">
+      <DependentUpon>fPayInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fReport.Designer.cs">
+      <DependentUpon>fReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRoomClassifiedByStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRoomClassifiedByStyle.Designer.cs">
+      <DependentUpon>fRoomClassifiedByStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fService.Designer.cs">
+      <DependentUpon>fService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fUpdateRoomPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUpdateRoomPrice.Designer.cs">
+      <DependentUpon>fUpdateRoomPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fViewRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fViewRoom.Designer.cs">
+      <DependentUpon>fViewRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRent.Designer.cs">
+      <DependentUpon>fRent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRoom.Designer.cs">
+      <DependentUpon>fRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSearch.Designer.cs">
+      <DependentUpon>fSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="fStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStaff.Designer.cs">
+      <DependentUpon>fStaff.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAccountManagement.resx">
+      <DependentUpon>fAccountManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddRoom.resx">
+      <DependentUpon>fAddRoom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddRoomType.resx">
+      <DependentUpon>fAddRoomType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddStaff.resx">
+      <DependentUpon>fAddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangeMaxCus.resx">
+      <DependentUpon>fChangeMaxCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangeNumOfCus.resx">
+      <DependentUpon>fChangeNumOfCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangeRate.resx">
+      <DependentUpon>fChangeRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangeRegulations.resx">
+      <DependentUpon>fChangeRegulations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChangeRoomType.resx">
+      <DependentUpon>fChangeRoomType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDeleteRoom.resx">
+      <DependentUpon>fDeleteRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDeleteStaff.resx">
+      <DependentUpon>fDeleteStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fEditRoom.resx">
+      <DependentUpon>fEditRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fEditStaff.resx">
+      <DependentUpon>fEditStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPayDetail.resx">
+      <DependentUpon>fPayDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPayInfo.resx">
+      <DependentUpon>fPayInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRent.resx">
+      <DependentUpon>fRent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fReport.resx">
+      <DependentUpon>fReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRoom.resx">
+      <DependentUpon>fRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRoomClassifiedByStyle.resx">
+      <DependentUpon>fRoomClassifiedByStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearch.resx">
+      <DependentUpon>fSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fService.resx">
+      <DependentUpon>fService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStaff.resx">
+      <DependentUpon>fStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fUpdateRoomPrice.resx">
+      <DependentUpon>fUpdateRoomPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fViewRoom.resx">
+      <DependentUpon>fViewRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include=".vs\QuanLyKhachSan\v15\.suo" />
+    <None Include="bin\Debug\QuanLyKhachSan.exe.config" />
+    <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.config" />
+    <None Include="bin\Debug\QuanLyKhachSan.vshost.exe.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\QuanLyKhachSan.exe" />
+    <Content Include="bin\Debug\QuanLyKhachSan.pdb" />
+    <Content Include="bin\Debug\QuanLyKhachSan.vshost.exe" />
+    <None Include="Resources\search.gif" />
+    <None Include="Resources\RoomButton.png" />
+    <None Include="Resources\AboutUsButton.png" />
+    <None Include="Resources\ChangeRegulationButton.png" />
+    <None Include="Resources\ExitButton.png" />
+    <None Include="Resources\PayButton.png" />
+    <None Include="Resources\ReportButton.png" />
+    <None Include="Resources\Loggin.png" />
+    <None Include="Resources\icons8-food-26.png" />
+    <None Include="Resources\person.png" />
+    <Content Include="Resources\room1.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\room3.png" />
+    <None Include="Resources\room2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
